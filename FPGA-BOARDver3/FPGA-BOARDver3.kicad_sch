@@ -158,6 +158,44 @@
 		)
 	)
 	(sheet
+		(at 148.59 19.05)
+		(size 21.59 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a9925ef-674c-4958-88af-e33ebdc9aaaa")
+		(property "Sheetname" "PMOD, LED, SWITCHES"
+			(at 148.59 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 148.59 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 116.84 19.05)
 		(size 22.86 25.4)
 		(fields_autoplaced yes)

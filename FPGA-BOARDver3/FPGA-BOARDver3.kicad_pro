@@ -438,6 +438,10 @@
     [
       "7cfbc6d8-beac-4666-a6c2-a47fa6b8ce28",
       "PAGE14_power"
+    ],
+    [
+      "5a9925ef-674c-4958-88af-e33ebdc9aaaa",
+      "PMOD, LED, SWITCHES"
     ]
   ],
   "text_variables": {}
