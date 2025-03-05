@@ -234,6 +234,44 @@
 		)
 	)
 	(sheet
+		(at 148.59 58.42)
+		(size 22.86 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f1e02ad-76ee-4ea2-a502-887476bcc94b")
+		(property "Sheetname" "POWER_REGULATION"
+			(at 148.59 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_regulation.kicad_sch"
+			(at 148.59 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 19.05 96.52)
 		(size 21.59 35.56)
 		(fields_autoplaced yes)

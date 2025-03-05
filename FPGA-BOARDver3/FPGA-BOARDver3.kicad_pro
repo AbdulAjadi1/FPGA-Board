@@ -335,11 +335,275 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "01 IPN",
+          "name": "01 IPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "02 DESC",
+          "name": "02 DESC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "03 MAN",
+          "name": "03 MAN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "04 MPN",
+          "name": "04 MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADD INTO BOM",
+          "name": "ADD INTO BOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AP",
+          "name": "AP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CODE",
+          "name": "CODE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPTYPE",
+          "name": "COMPTYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONVERT TO PCB",
+          "name": "CONVERT TO PCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE",
+          "name": "DEVICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DFM",
+          "name": "DFM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FULL_LEAD_TIME",
+          "name": "FULL_LEAD_TIME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ID",
+          "name": "ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMPLEMENTATION TYPE",
+          "name": "IMPLEMENTATION TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ITEM_PRIORITY",
+          "name": "ITEM_PRIORITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIFE_CYCLE_FLAG",
+          "name": "LIFE_CYCLE_FLAG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER'S PART NUMBER",
+          "name": "MANUFACTURER'S PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG PN",
+          "name": "MFG PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDERING P/N",
+          "name": "ORDERING P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDER_SEQ",
+          "name": "ORDER_SEQ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORIGIN FOOTPRINT",
+          "name": "ORIGIN FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE TYPE",
+          "name": "PACKAGE TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PANGO PART NUMBER",
+          "name": "PANGO PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART NUMBER",
+          "name": "PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART TYPE",
+          "name": "PART TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PCB FOOTPRINT",
+          "name": "PCB FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PEGATRON_PART_NUMBER",
+          "name": "PEGATRON_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH",
+          "name": "PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER PINS VISIBLE",
+          "name": "POWER PINS VISIBLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PPL_FLAG",
+          "name": "PPL_FLAG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRIMITIVE",
+          "name": "PRIMITIVE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOURCE PACKAGE",
+          "name": "SOURCE PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOL",
+          "name": "SYMBOL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VA",
+          "name": "VA",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VALUE1",
+          "name": "VALUE1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VALUE2",
+          "name": "VALUE2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VENDOR",
+          "name": "VENDOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VENDOR P/N",
+          "name": "VENDOR P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -442,6 +706,10 @@
     [
       "5a9925ef-674c-4958-88af-e33ebdc9aaaa",
       "PMOD, LED, SWITCHES"
+    ],
+    [
+      "8f1e02ad-76ee-4ea2-a502-887476bcc94b",
+      "POWER_REGULATION"
     ]
   ],
   "text_variables": {}
