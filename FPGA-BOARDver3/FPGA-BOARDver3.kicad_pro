@@ -910,6 +910,10 @@
     [
       "fde6fc46-317b-4234-bd09-93bac36f032a",
       "DDR3"
+    ],
+    [
+      "3f46cb45-eb17-47b3-80fe-652bae208432",
+      "FPGA_POWER"
     ]
   ],
   "text_variables": {}

@@ -120,6 +120,44 @@
 		)
 	)
 	(sheet
+		(at 181.61 17.78)
+		(size 25.4 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f46cb45-eb17-47b3-80fe-652bae208432")
+		(property "Sheetname" "FPGA_POWER"
+			(at 181.61 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_POWER.kicad_sch"
+			(at 181.61 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 85.09 144.78)
 		(size 21.59 34.29)
 		(fields_autoplaced yes)
