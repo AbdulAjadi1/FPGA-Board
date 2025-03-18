@@ -6,121 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 85.09 96.52)
-		(size 22.86 31.75)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "192fb595-9851-44d6-8dbc-1db27325a894")
-		(property "Sheetname" "PAGE12_KEY_and_LED"
-			(at 85.09 95.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE12_KEY_and_LED.kicad_sch"
-			(at 85.09 128.8546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 50.8 144.78)
-		(size 25.4 36.83)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "297a78ef-8809-4f7c-81d0-71823db621a3")
-		(property "Sheetname" "PAGE09_PL_ethernet3"
-			(at 50.8 144.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE09_PL_ethernet3.kicad_sch"
-			(at 50.8 182.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 144.78)
-		(size 21.59 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3a658cd9-70e7-4678-9325-5aa33bddf2ad")
-		(property "Sheetname" "PAGE05_ps_ethernet"
-			(at 19.05 144.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE05_ps_ethernet.kicad_sch"
-			(at 19.05 183.4646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 181.61 17.78)
+		(at 22.86 58.42)
 		(size 25.4 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -132,7 +18,7 @@
 		)
 		(uuid "3f46cb45-eb17-47b3-80fe-652bae208432")
 		(property "Sheetname" "FPGA_POWER"
-			(at 181.61 17.0684 0)
+			(at 22.86 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,311 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA_POWER.kicad_sch"
-			(at 181.61 46.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "19")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 85.09 144.78)
-		(size 21.59 34.29)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "559cf0a1-9f8e-4f5d-8849-7bb6733aadb6")
-		(property "Sheetname" "PAGE13_EX_connector"
-			(at 85.09 144.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE13_EX_connector.kicad_sch"
-			(at 85.09 179.6546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 148.59 19.05)
-		(size 21.59 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5a9925ef-674c-4958-88af-e33ebdc9aaaa")
-		(property "Sheetname" "PMOD, LED, SWITCHES"
-			(at 148.59 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PMOD,LED,SWITCHES.kicad_sch"
-			(at 148.59 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 116.84 19.05)
-		(size 22.86 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7cfbc6d8-beac-4666-a6c2-a47fa6b8ce28")
-		(property "Sheetname" "PAGE14_power"
-			(at 116.84 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE14_Power.kicad_sch"
-			(at 116.84 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 148.59 58.42)
-		(size 22.86 29.21)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8f1e02ad-76ee-4ea2-a502-887476bcc94b")
-		(property "Sheetname" "POWER_REGULATION"
-			(at 148.59 57.7084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "POWER_REGULATION.kicad_sch"
-			(at 148.59 88.2146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 96.52)
-		(size 21.59 35.56)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "906709dd-23a7-48f8-ba09-8ec6a7866c56")
-		(property "Sheetname" "PAGE04_sd_card_uart"
-			(at 19.05 95.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE04_sd_card_uart.kicad_sch"
-			(at 19.05 132.6646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 19.05)
-		(size 21.59 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "91bc3450-0610-4b1e-b1ee-26e556e4cc49")
-		(property "Sheetname" "PAGE06_HOST_USB"
-			(at 53.34 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE06_HOST_USB.kicad_sch"
-			(at 53.34 46.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 87.63 20.32)
-		(size 21.59 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9526f974-ed22-4a38-a452-dbf5b67a079f")
-		(property "Sheetname" "PAGE10_PL_ethernet5"
-			(at 87.63 19.6084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE10_PL_ethernet4.kicad_sch"
-			(at 87.63 46.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 55.88)
-		(size 21.59 30.48)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "95f17191-eb5c-4494-bb9c-75edfd894719")
-		(property "Sheetname" "PAGE03_JTAG"
-			(at 19.05 55.1684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE03_jtag.kicad_sch"
-			(at 19.05 86.9446 0)
+			(at 22.86 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +44,83 @@
 		)
 	)
 	(sheet
-		(at 149.86 97.79)
+		(at 22.86 21.59)
+		(size 21.59 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a9925ef-674c-4958-88af-e33ebdc9aaaa")
+		(property "Sheetname" "PMOD, LED, SWITCHES"
+			(at 22.86 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMOD,LED,SWITCHES.kicad_sch"
+			(at 22.86 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 99.06)
+		(size 22.86 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f1e02ad-76ee-4ea2-a502-887476bcc94b")
+		(property "Sheetname" "POWER_REGULATION"
+			(at 25.4 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_REGULATION.kicad_sch"
+			(at 25.4 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 143.51)
 		(size 24.13 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -474,7 +132,7 @@
 		)
 		(uuid "96f87610-c13d-493b-977a-68dc2191f3d9")
 		(property "Sheetname" "POWER_REGULATION2"
-			(at 149.86 97.0784 0)
+			(at 24.13 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,121 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_REGULATION2.kicad_sch"
-			(at 149.86 128.8546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 86.36 57.15)
-		(size 20.32 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "99217f78-074a-45b3-baeb-48d7b7e7e5d0")
-		(property "Sheetname" "PAGE11_PL_ethernet5"
-			(at 86.36 56.4384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE11_PL_ethernet5.kicad_sch"
-			(at 86.36 84.4046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 96.52)
-		(size 22.86 33.02)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c007a241-9f35-49d4-9039-648378cef77c")
-		(property "Sheetname" "PAGE08_PL_ethernet2"
-			(at 53.34 95.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE08_PL_ethernet2.kicad_sch"
-			(at 53.34 130.1246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 19.05)
-		(size 20.32 27.94)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c9c64d97-53f7-463d-92f2-e2ff558e9d74")
-		(property "Sheetname" "PAGE02_board_connector"
-			(at 19.05 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE02_board_connector.kicad_sch"
-			(at 19.05 47.5746 0)
+			(at 24.13 174.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,45 +158,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 57.15)
-		(size 17.78 27.94)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f58770c3-d5eb-41dd-bd15-5192a598745c")
-		(property "Sheetname" "PAGE07_HDMI_OUT"
-			(at 57.15 56.4384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PAGE07_HDMI_OUT.kicad_sch"
-			(at 57.15 85.6746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 121.92 144.78)
+		(at 54.61 19.05)
 		(size 26.67 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -664,7 +170,7 @@
 		)
 		(uuid "fde6fc46-317b-4234-bd09-93bac36f032a")
 		(property "Sheetname" "DDR3"
-			(at 121.92 144.0684 0)
+			(at 54.61 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "DDR3.kicad_sch"
-			(at 121.92 175.8446 0)
+			(at 54.61 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +190,7 @@
 		(instances
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
-					(page "18")
+					(page "4")
 				)
 			)
 		)

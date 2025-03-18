@@ -844,62 +844,6 @@
       "Root"
     ],
     [
-      "c9c64d97-53f7-463d-92f2-e2ff558e9d74",
-      "PAGE02_board_connector"
-    ],
-    [
-      "95f17191-eb5c-4494-bb9c-75edfd894719",
-      "PAGE03_JTAG"
-    ],
-    [
-      "906709dd-23a7-48f8-ba09-8ec6a7866c56",
-      "PAGE04_sd_card_uart"
-    ],
-    [
-      "3a658cd9-70e7-4678-9325-5aa33bddf2ad",
-      "PAGE05_ps_ethernet"
-    ],
-    [
-      "91bc3450-0610-4b1e-b1ee-26e556e4cc49",
-      "PAGE06_HOST_USB"
-    ],
-    [
-      "f58770c3-d5eb-41dd-bd15-5192a598745c",
-      "PAGE07_HDMI_OUT"
-    ],
-    [
-      "c007a241-9f35-49d4-9039-648378cef77c",
-      "PAGE08_PL_ethernet2"
-    ],
-    [
-      "297a78ef-8809-4f7c-81d0-71823db621a3",
-      "PAGE09_PL_ethernet3"
-    ],
-    [
-      "9526f974-ed22-4a38-a452-dbf5b67a079f",
-      "PAGE10_PL_ethernet5"
-    ],
-    [
-      "99217f78-074a-45b3-baeb-48d7b7e7e5d0",
-      "PAGE11_PL_ethernet5"
-    ],
-    [
-      "192fb595-9851-44d6-8dbc-1db27325a894",
-      "PAGE12_KEY_and_LED"
-    ],
-    [
-      "559cf0a1-9f8e-4f5d-8849-7bb6733aadb6",
-      "PAGE13_EX_connector"
-    ],
-    [
-      "7cfbc6d8-beac-4666-a6c2-a47fa6b8ce28",
-      "PAGE14_power"
-    ],
-    [
-      "5a9925ef-674c-4958-88af-e33ebdc9aaaa",
-      "PMOD, LED, SWITCHES"
-    ],
-    [
       "8f1e02ad-76ee-4ea2-a502-887476bcc94b",
       "POWER_REGULATION"
     ],
@@ -908,12 +852,16 @@
       "POWER_REGULATION2"
     ],
     [
-      "fde6fc46-317b-4234-bd09-93bac36f032a",
-      "DDR3"
-    ],
-    [
       "3f46cb45-eb17-47b3-80fe-652bae208432",
       "FPGA_POWER"
+    ],
+    [
+      "5a9925ef-674c-4958-88af-e33ebdc9aaaa",
+      "PMOD, LED, SWITCHES"
+    ],
+    [
+      "fde6fc46-317b-4234-bd09-93bac36f032a",
+      "DDR3"
     ]
   ],
   "text_variables": {}
