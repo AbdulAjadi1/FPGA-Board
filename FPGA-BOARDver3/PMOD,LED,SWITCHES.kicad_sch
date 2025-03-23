@@ -5268,7 +5268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 139.954 162.814 90)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 105.156 32.004 90)
 			(effects
 				(font
@@ -7055,7 +7055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 214.884 58.166 90)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 156.464 24.384 90)
 			(effects
 				(font
@@ -7931,7 +7931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 214.884 108.966 90)
 			(effects
 				(font
@@ -8370,7 +8370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -9683,7 +9683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 90.17 44.45 0)
 			(effects
 				(font
@@ -10120,7 +10120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 38.354 157.734 90)
 			(effects
 				(font
@@ -11061,7 +11061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 105.156 35.814 90)
 			(effects
 				(font
@@ -11500,7 +11500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 152.0952 44.45 0)
 			(effects
 				(font
@@ -11938,7 +11938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 41.91 92.71 0)
 			(effects
 				(font
@@ -12441,7 +12441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMLVN6RBG1U1:LED_SMLV56_ROM"
+		(property "Footprint" "footprints:LED_SMLV56_ROM"
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -12956,7 +12956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 105.156 28.194 90)
 			(effects
 				(font
@@ -13393,7 +13393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 29.464 24.384 90)
 			(effects
 				(font
@@ -13832,7 +13832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 236.474 58.166 90)
 			(effects
 				(font
@@ -14336,7 +14336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 156.464 80.264 90)
 			(effects
 				(font
@@ -14839,7 +14839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 200.914 85.344 90)
 			(effects
 				(font
@@ -16624,7 +16624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 200.914 19.304 90)
 			(effects
 				(font
@@ -17061,7 +17061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 33.274 72.644 90)
 			(effects
 				(font
@@ -17500,7 +17500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 121.666 170.434 90)
 			(effects
 				(font
@@ -19270,7 +19270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 157.734 34.544 90)
 			(effects
 				(font
@@ -19773,7 +19773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 139.954 142.494 90)
 			(effects
 				(font
@@ -20647,7 +20647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 200.914 70.104 90)
 			(effects
 				(font
@@ -21150,7 +21150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 29.464 32.004 90)
 			(effects
 				(font
@@ -21587,7 +21587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 139.954 152.654 90)
 			(effects
 				(font
@@ -22528,7 +22528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -22965,7 +22965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 38.354 146.304 90)
 			(effects
 				(font
@@ -23402,7 +23402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 221.234 145.034 90)
 			(effects
 				(font
@@ -23839,7 +23839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 37.084 169.164 90)
 			(effects
 				(font
@@ -24342,7 +24342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 29.464 35.814 90)
 			(effects
 				(font
@@ -24778,7 +24778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 33.274 80.264 90)
 			(effects
 				(font
@@ -25215,7 +25215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 108.966 84.074 90)
 			(effects
 				(font
@@ -25654,7 +25654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 82.55 44.45 0)
 			(effects
 				(font
@@ -26594,7 +26594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 200.914 49.784 90)
 			(effects
 				(font
@@ -27033,7 +27033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 103.886 170.434 90)
 			(effects
 				(font
@@ -27473,7 +27473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 86.36 44.45 0)
 			(effects
 				(font
@@ -27912,7 +27912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -28349,7 +28349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 156.464 75.184 90)
 			(effects
 				(font
@@ -28788,7 +28788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 97.79 92.71 0)
 			(effects
 				(font
@@ -29227,7 +29227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 93.98 44.45 0)
 			(effects
 				(font
@@ -30234,7 +30234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 200.914 34.544 90)
 			(effects
 				(font
@@ -30673,7 +30673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 152.0952 95.25 0)
 			(effects
 				(font
@@ -31177,7 +31177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 108.966 72.644 90)
 			(effects
 				(font
@@ -31616,7 +31616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -32120,7 +32120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 108.966 80.264 90)
 			(effects
 				(font
@@ -32556,7 +32556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 33.274 76.454 90)
 			(effects
 				(font
@@ -32993,7 +32993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 216.154 136.144 90)
 			(effects
 				(font
@@ -33432,7 +33432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 236.474 108.966 90)
 			(effects
 				(font
@@ -34315,7 +34315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 49.53 44.45 0)
 			(effects
 				(font
@@ -34751,7 +34751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 33.274 84.074 90)
 			(effects
 				(font
@@ -35323,7 +35323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 49.53 92.71 0)
 			(effects
 				(font
@@ -35760,7 +35760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 156.464 29.464 90)
 			(effects
 				(font
@@ -36265,7 +36265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 45.72 92.71 0)
 			(effects
 				(font
@@ -36702,7 +36702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 38.354 134.874 90)
 			(effects
 				(font
@@ -37208,7 +37208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 112.776 170.434 90)
 			(effects
 				(font
@@ -37647,7 +37647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 129.286 170.434 90)
 			(effects
 				(font
@@ -38151,7 +38151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 105.156 24.384 90)
 			(effects
 				(font
@@ -38588,7 +38588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 200.914 100.584 90)
 			(effects
 				(font
@@ -39025,7 +39025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 108.966 76.454 90)
 			(effects
 				(font
@@ -39464,7 +39464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 226.314 108.966 90)
 			(effects
 				(font
@@ -39902,7 +39902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 53.34 92.71 0)
 			(effects
 				(font
@@ -40918,7 +40918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 139.954 132.334 90)
 			(effects
 				(font
@@ -41355,7 +41355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 157.734 85.344 90)
 			(effects
 				(font
@@ -42237,7 +42237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 226.314 58.166 90)
 			(effects
 				(font
@@ -42675,7 +42675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 45.72 44.45 0)
 			(effects
 				(font
@@ -43112,7 +43112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMLVN6RBG1U1:LED_SMLV56_ROM"
+		(property "Footprint" "footprints:LED_SMLV56_ROM"
 			(at 171.45 39.37 0)
 			(effects
 				(font
@@ -43560,7 +43560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 29.464 28.194 90)
 			(effects
 				(font
@@ -44000,7 +44000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BZT52C5V1_7_F:SOD123_DIO"
+		(property "Footprint" "footprints:SOD123_DIO"
 			(at 90.17 92.71 0)
 			(effects
 				(font

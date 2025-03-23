@@ -7379,7 +7379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 149.86 15.5448 0)
 			(effects
 				(font
@@ -7816,7 +7816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 113.284 38.354 90)
 			(effects
 				(font
@@ -8255,7 +8255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 99.314 70.866 90)
 			(effects
 				(font
@@ -8694,7 +8694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 91.694 90)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 240.9952 77.47 0)
 			(effects
 				(font
@@ -9637,7 +9637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tps65400rgzt:RGZ0048B"
+		(property "Footprint" "footprints:RGZ0048B"
 			(at 164.338 36.83 0)
 			(effects
 				(font
@@ -10256,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 100.33 38.4048 0)
 			(effects
 				(font
@@ -10760,7 +10760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 113.284 84.074 90)
 			(effects
 				(font
@@ -11197,7 +11197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 133.35 46.0248 0)
 			(effects
 				(font
@@ -11636,7 +11636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 218.1352 22.86 0)
 			(effects
 				(font
@@ -12139,7 +12139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 133.35 58.7248 0)
 			(effects
 				(font
@@ -12645,7 +12645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 240.9952 50.8 0)
 			(effects
 				(font
@@ -13082,7 +13082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 129.794 110.744 90)
 			(effects
 				(font
@@ -13722,7 +13722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 126.6952 26.67 0)
 			(effects
 				(font
@@ -14161,7 +14161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 191.4652 22.86 0)
 			(effects
 				(font
@@ -14598,7 +14598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 107.95 104.4448 0)
 			(effects
 				(font
@@ -15104,7 +15104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 123.444 90)
 			(effects
 				(font
@@ -16210,7 +16210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 42.164 90)
 			(effects
 				(font
@@ -16649,7 +16649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 240.9952 123.19 0)
 			(effects
 				(font
@@ -17155,7 +17155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 37.846 152.654 90)
 			(effects
 				(font
@@ -17592,7 +17592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 113.284 99.314 90)
 			(effects
 				(font
@@ -18031,7 +18031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 37.846 77.724 90)
 			(effects
 				(font
@@ -18470,7 +18470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 100.584 90)
 			(effects
 				(font
@@ -18909,7 +18909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 55.626 152.654 90)
 			(effects
 				(font
@@ -19415,7 +19415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 44.196 77.724 90)
 			(effects
 				(font
@@ -19852,7 +19852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 100.33 84.1248 0)
 			(effects
 				(font
@@ -20289,7 +20289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 133.35 106.9848 0)
 			(effects
 				(font
@@ -20795,7 +20795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 114.554 90)
 			(effects
 				(font
@@ -21234,7 +21234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 229.5652 118.11 0)
 			(effects
 				(font
@@ -21740,7 +21740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 105.1052 33.02 0)
 			(effects
 				(font
@@ -22179,7 +22179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 37.7952 179.07 0)
 			(effects
 				(font
@@ -22683,7 +22683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 100.33 99.3648 0)
 			(effects
 				(font
@@ -23120,7 +23120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 132.08 91.7448 0)
 			(effects
 				(font
@@ -24065,7 +24065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 110.49 0)
 			(effects
 				(font
@@ -24504,7 +24504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 200.3552 22.86 0)
 			(effects
 				(font
@@ -24941,7 +24941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NC7WZ07P6X:SOT65P210X110-6N"
+		(property "Footprint" "footprints:NC7WZ07P6X"
 			(at 97.79 151.13 0)
 			(effects
 				(font
@@ -25443,7 +25443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 229.5652 45.72 0)
 			(effects
 				(font
@@ -25949,7 +25949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 121.666 136.144 90)
 			(effects
 				(font
@@ -26388,7 +26388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 209.2452 22.86 0)
 			(effects
 				(font
@@ -26959,7 +26959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 107.95 89.2048 0)
 			(effects
 				(font
@@ -27465,7 +27465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 68.834 90)
 			(effects
 				(font
@@ -27901,7 +27901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 107.95 43.4848 0)
 			(effects
 				(font
@@ -28788,7 +28788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 62.23 0)
 			(effects
 				(font
@@ -29294,7 +29294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 87.63 0)
 			(effects
 				(font
@@ -29731,7 +29731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TYS60282R2N_10:IND_TYS60282_LRD"
+		(property "Footprint" "footprints:IND_TYS60282_LRD"
 			(at 201.93 38.1 0)
 			(effects
 				(font
@@ -30172,7 +30172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 229.5652 72.39 0)
 			(effects
 				(font
@@ -30678,7 +30678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 229.5652 95.25 0)
 			(effects
 				(font
@@ -31117,7 +31117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 94.9452 33.02 0)
 			(effects
 				(font
@@ -31556,7 +31556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 77.724 90)
 			(effects
 				(font
@@ -31995,7 +31995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 219.456 51.054 90)
 			(effects
 				(font
@@ -32434,7 +32434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 240.9952 100.33 0)
 			(effects
 				(font
@@ -32873,7 +32873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FDV301N:SOT95P237X111-3N"
+		(property "Footprint" "footprints:FDV301N"
 			(at 52.07 166.37 0)
 			(effects
 				(font
@@ -34804,7 +34804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 113.284 51.054 90)
 			(effects
 				(font
@@ -35241,7 +35241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 40.894 91.694 90)
 			(effects
 				(font
@@ -35677,7 +35677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 100.33 51.1048 0)
 			(effects
 				(font
@@ -36113,7 +36113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 107.95 56.1848 0)
 			(effects
 				(font
@@ -36685,7 +36685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 35.56 0)
 			(effects
 				(font
