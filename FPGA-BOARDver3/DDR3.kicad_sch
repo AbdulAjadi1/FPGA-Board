@@ -14251,7 +14251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCPCB:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 199.644 123.444 90)
 			(effects
 				(font
