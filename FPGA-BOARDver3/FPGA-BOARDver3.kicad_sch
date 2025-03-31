@@ -158,6 +158,44 @@
 		)
 	)
 	(sheet
+		(at 87.63 129.54)
+		(size 29.21 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c735a7f7-95ea-43d7-ae8f-dd55fa022523")
+		(property "Sheetname" "hdmi"
+			(at 87.63 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi.kicad_sch"
+			(at 87.63 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 58.42 59.69)
 		(size 22.86 29.21)
 		(fields_autoplaced yes)

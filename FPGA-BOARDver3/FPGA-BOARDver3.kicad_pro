@@ -1004,6 +1004,10 @@
     [
       "e1600e09-3fb3-4dd3-93e7-93ab60a9447f",
       "DDR and MIO banks"
+    ],
+    [
+      "c735a7f7-95ea-43d7-ae8f-dd55fa022523",
+      "hdmi"
     ]
   ],
   "text_variables": {}
