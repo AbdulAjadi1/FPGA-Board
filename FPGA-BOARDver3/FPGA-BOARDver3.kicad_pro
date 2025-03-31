@@ -1000,6 +1000,10 @@
     [
       "fde6fc46-317b-4234-bd09-93bac36f032a",
       "DDR3"
+    ],
+    [
+      "e1600e09-3fb3-4dd3-93e7-93ab60a9447f",
+      "DDR and MIO banks"
     ]
   ],
   "text_variables": {}

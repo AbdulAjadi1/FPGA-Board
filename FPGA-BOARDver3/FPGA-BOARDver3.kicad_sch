@@ -158,6 +158,44 @@
 		)
 	)
 	(sheet
+		(at 58.42 59.69)
+		(size 22.86 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1600e09-3fb3-4dd3-93e7-93ab60a9447f")
+		(property "Sheetname" "DDR and MIO banks"
+			(at 58.42 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR and MIO banks.kicad_sch"
+			(at 58.42 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 54.61 19.05)
 		(size 26.67 30.48)
 		(fields_autoplaced yes)
