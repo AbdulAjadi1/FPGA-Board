@@ -1570,7 +1570,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 15.24 180)
+				(at -138.43 17.78 180)
 				(length 7.62)
 				(name "IO_L12P_T1_MRCC_13"
 					(effects
@@ -1588,7 +1588,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 17.78 180)
+				(at -138.43 15.24 180)
 				(length 7.62)
 				(name "IO_L12N_T1_MRCC_13"
 					(effects
@@ -1768,7 +1768,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 20.32 180)
+				(at -138.43 22.86 180)
 				(length 7.62)
 				(name "IO_L11P_T1_SRCC_13"
 					(effects
@@ -1786,7 +1786,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 -8.89 180)
+				(at -138.43 -11.43 180)
 				(length 7.62)
 				(name "IO_L17N_T2_13"
 					(effects
@@ -1804,7 +1804,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 -11.43 180)
+				(at -138.43 -8.89 180)
 				(length 7.62)
 				(name "IO_L17P_T2_13"
 					(effects
@@ -2020,7 +2020,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 22.86 180)
+				(at -138.43 20.32 180)
 				(length 7.62)
 				(name "IO_L11N_T1_SRCC_13"
 					(effects
@@ -2038,7 +2038,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 1.27 180)
+				(at -138.43 -1.27 180)
 				(length 7.62)
 				(name "IO_L15P_T2_DQS_13"
 					(effects
@@ -2074,7 +2074,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 -16.51 180)
+				(at -138.43 -13.97 180)
 				(length 7.62)
 				(name "IO_L18P_T2_13"
 					(effects
@@ -2236,7 +2236,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 -1.27 180)
+				(at -138.43 1.27 180)
 				(length 7.62)
 				(name "IO_L15N_T2_DQS_13"
 					(effects
@@ -2272,7 +2272,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 -13.97 180)
+				(at -138.43 -16.51 180)
 				(length 7.62)
 				(name "IO_L18N_T2_13"
 					(effects
@@ -2290,7 +2290,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 -27.94 180)
+				(at -138.43 -25.4 180)
 				(length 7.62)
 				(name "IO_L20P_T3_13"
 					(effects
@@ -2308,7 +2308,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 -25.4 180)
+				(at -138.43 -27.94 180)
 				(length 7.62)
 				(name "IO_L20N_T3_13"
 					(effects
@@ -2416,7 +2416,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 11.43 180)
+				(at -138.43 8.89 180)
 				(length 7.62)
 				(name "IO_L13N_T2_MRCC_13"
 					(effects
@@ -2434,7 +2434,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 8.89 180)
+				(at -138.43 11.43 180)
 				(length 7.62)
 				(name "IO_L13P_T2_MRCC_13"
 					(effects
@@ -2452,7 +2452,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 6.35 180)
+				(at -138.43 3.81 180)
 				(length 7.62)
 				(name "IO_L14N_T2_SRCC_13"
 					(effects
@@ -2470,7 +2470,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -138.43 3.81 180)
+				(at -138.43 6.35 180)
 				(length 7.62)
 				(name "IO_L14P_T2_SRCC_13"
 					(effects

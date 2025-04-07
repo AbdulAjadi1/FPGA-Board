@@ -1162,21 +1162,193 @@
 				)
 			)
 		)
-		(symbol "Switch2:SW_SP3T"
+		(symbol "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -4.5772 5.5944 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PTS645SK50SMTR92LFS"
+				(at -5.0879 -7.3774 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PTS645SK50SMTR92LFS:SW_PTS645SK50SMTR92LFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CnK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PTS645SK50SMTR92LFS_0_0"
+				(circle
+					(center 0 -1.524)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTS645SK50SMTR92LFS_1_0"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch2:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 5.08 0)
+				(at 0 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SP3T"
+			(property "Value" "SW_SPDT"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1185,7 +1357,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -15.875 4.445 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1194,15 +1366,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at -15.875 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1211,7 +1374,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch sp3t ON-ON-ON"
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1220,7 +1383,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW* SP3T*"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1229,22 +1392,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SP3T_0_1"
+			(symbol "SW_SPDT_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1255,7 +1406,7 @@
 				)
 				(circle
 					(center 2.032 -2.54)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1264,9 +1415,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.4572)
+			)
+			(symbol "SW_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1277,7 +1431,7 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1287,11 +1441,11 @@
 					)
 				)
 			)
-			(symbol "SW_SP3T_1_1"
+			(symbol "SW_SPDT_1_1"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1307,9 +1461,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "2"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1317,24 +1471,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1345,159 +1481,14 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "4"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2361,6 +2352,12 @@
 		(uuid "1207099b-0c9d-4ade-a228-b55bee13c8c6")
 	)
 	(junction
+		(at 86.36 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "217022e0-fb3f-41bf-8646-512ebbb7df3e")
+	)
+	(junction
 		(at 86.36 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2463,12 +2460,6 @@
 		(uuid "61e3bff6-ceb3-44b1-9f0b-c68401e1807e")
 	)
 	(junction
-		(at 86.36 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "677f17a3-7563-4583-ab20-4244b5d60667")
-	)
-	(junction
 		(at 180.34 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2479,6 +2470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d1c9520-0e3f-49e3-9e0d-3d1c65c036de")
+	)
+	(junction
+		(at 86.36 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770f89a6-e987-4916-a0cb-e4d845773e04")
 	)
 	(junction
 		(at 215.9 62.23)
@@ -2497,6 +2494,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "874f8517-821c-4d37-acc2-516871fa3197")
+	)
+	(junction
+		(at 86.36 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc118cb-c1f6-4ad2-9426-a416ff265f8f")
 	)
 	(junction
 		(at 215.9 113.03)
@@ -2607,12 +2610,6 @@
 		(uuid "e2b13985-3ace-4d06-9d63-87b9d22d8ae4")
 	)
 	(junction
-		(at 86.36 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4b90bec-4980-4c85-997b-78cb4cd7cd62")
-	)
-	(junction
 		(at 58.42 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2623,12 +2620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e642d2f0-c700-497f-8b5c-95a3d39dd961")
-	)
-	(junction
-		(at 86.36 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e74d3e73-4812-4b47-866f-30a4aff72304")
 	)
 	(junction
 		(at 111.76 173.99)
@@ -2719,6 +2710,16 @@
 			(type default)
 		)
 		(uuid "05174706-9c9e-46b7-9636-0ea5e9adf798")
+	)
+	(wire
+		(pts
+			(xy 86.36 143.51) (xy 87.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05402a13-1ae8-4859-a96b-5ba9770145ca")
 	)
 	(wire
 		(pts
@@ -2882,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 143.51) (xy 86.36 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f65aae-55c5-479d-b5f1-afa0207a8725")
+	)
+	(wire
+		(pts
 			(xy 93.98 29.21) (xy 101.6 29.21)
 		)
 		(stroke
@@ -2919,6 +2930,16 @@
 			(type default)
 		)
 		(uuid "1769627b-1a1d-4b07-8ab2-857c15a2bd71")
+	)
+	(wire
+		(pts
+			(xy 95.25 163.83) (xy 102.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199bab9e-3ed3-45aa-8796-8d2fbff8f01e")
 	)
 	(wire
 		(pts
@@ -3042,16 +3063,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 128.27) (xy 86.36 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f7fa66-344e-4020-8070-3c6ba9bd3ef4")
-	)
-	(wire
-		(pts
 			(xy 186.69 130.81) (xy 186.69 134.62)
 		)
 		(stroke
@@ -3172,13 +3183,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 143.51) (xy 120.65 143.51)
+			(xy 86.36 133.35) (xy 87.63 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "391d51ed-225d-4692-bc27-80ddeebdc64d")
+		(uuid "3858861b-64ef-4df3-a364-bd2e42ad9254")
 	)
 	(wire
 		(pts
@@ -3249,6 +3260,16 @@
 			(type default)
 		)
 		(uuid "3f1f4ca1-234b-4a9f-b1c9-83938d21e9f2")
+	)
+	(wire
+		(pts
+			(xy 95.25 153.67) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f95d5a8-f7e3-49db-b635-1b59528a7a02")
 	)
 	(wire
 		(pts
@@ -3422,16 +3443,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 133.35) (xy 86.36 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a5215cf-d3e7-469c-aa0d-8df2f5c4cf91")
-	)
-	(wire
-		(pts
 			(xy 80.01 74.93) (xy 86.36 74.93)
 		)
 		(stroke
@@ -3532,6 +3543,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 143.51) (xy 120.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dfaf69-01a3-4439-92ea-b02624e722ce")
+	)
+	(wire
+		(pts
 			(xy 111.76 173.99) (xy 120.65 173.99)
 		)
 		(stroke
@@ -3562,13 +3583,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 133.35) (xy 128.27 133.35)
+			(xy 86.36 153.67) (xy 86.36 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a2fdbc7-6402-4d22-bee0-98374a4dc6ee")
+		(uuid "6976461e-ccc1-4d6b-abbb-af92894cc6e6")
 	)
 	(wire
 		(pts
@@ -3682,7 +3703,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 143.51) (xy 86.36 153.67)
+			(xy 86.36 128.27) (xy 86.36 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3709,6 +3730,16 @@
 			(type default)
 		)
 		(uuid "7914e19d-bc55-4afc-9bde-ae18c45de3b9")
+	)
+	(wire
+		(pts
+			(xy 86.36 153.67) (xy 87.63 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b24ad68-ad5b-4bba-8a9e-d512d21f011d")
 	)
 	(wire
 		(pts
@@ -3929,6 +3960,16 @@
 			(type default)
 		)
 		(uuid "93dc1045-8f8f-4077-8285-8e4be33f2373")
+	)
+	(wire
+		(pts
+			(xy 86.36 163.83) (xy 87.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e432b5-4693-41c5-a5ba-f0da094ddc54")
 	)
 	(wire
 		(pts
@@ -4182,6 +4223,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 133.35) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1449bcb-579f-4503-b73e-cda8c024e89b")
+	)
+	(wire
+		(pts
 			(xy 53.34 88.9) (xy 53.34 77.47)
 		)
 		(stroke
@@ -4412,6 +4463,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 133.35) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8051e3-d03c-417e-af16-41e30e52ad63")
+	)
+	(wire
+		(pts
 			(xy 180.34 113.03) (xy 180.34 106.68)
 		)
 		(stroke
@@ -4529,16 +4590,6 @@
 			(type default)
 		)
 		(uuid "debf6e48-6aaf-4ed9-bc20-6106b888d532")
-	)
-	(wire
-		(pts
-			(xy 96.52 153.67) (xy 111.76 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6d09f4-e4b4-4d20-88a4-d5cd36211dab")
 	)
 	(wire
 		(pts
@@ -4802,16 +4853,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 153.67) (xy 86.36 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2719b68-37ce-4f47-847f-e1251f2ea8b5")
-	)
-	(wire
-		(pts
 			(xy 40.64 82.55) (xy 45.72 82.55)
 		)
 		(stroke
@@ -4869,16 +4910,6 @@
 			(type default)
 		)
 		(uuid "fc8068e2-5d32-4989-8060-7315f6e38cf1")
-	)
-	(wire
-		(pts
-			(xy 96.52 163.83) (xy 102.87 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe9b2f66-79a6-43df-90a0-c5a5c282525b")
 	)
 	(wire
 		(pts
@@ -6587,7 +6618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+		(property "Footprint" "footprints:CONN_PPPC062LJBN-RC_SUL"
 			(at 66.04 43.434 0)
 			(effects
 				(font
@@ -8782,443 +8813,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10aa5ae2-3b44-4ed2-9eb5-b9af5abceb82")
-		(property "Reference" "SW5"
-			(at 91.44 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "01 IPN" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "02 DESC" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a0292bb-75c7-490c-b80b-89c8e5bb665f")
-		)
-		(pin "1"
-			(uuid "e9ab1f41-16d6-4555-8fb3-18db6305506e")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 48.26 147.32 180)
 		(unit 1)
@@ -10095,6 +9689,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch2:SW_SPDT")
+		(at 191.77 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f8692eb-7df1-41e0-aa26-bd3784b3c84a")
+		(property "Reference" "SW1"
+			(at 191.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 191.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SS-12D10G5_XKB"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16bff451-55ab-4f85-b84d-0d30c9d5188c")
+		)
+		(pin "2"
+			(uuid "e6de6130-4c40-4375-886d-0627d3e3ced4")
+		)
+		(pin "3"
+			(uuid "2d705864-1e4b-43c7-ab74-15169a564240")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 38.1 158.75 90)
 		(unit 1)
@@ -10526,443 +10191,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23c66a3f-3262-4050-a539-2659ba143608")
-		(property "Reference" "SW4"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "01 IPN" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "02 DESC" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08ce8a0d-1b5d-4c90-828e-bcfc053b62c4")
-		)
-		(pin "1"
-			(uuid "b0ce3743-2c0b-40b5-b329-d01f49bd9b80")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -16158,7 +15386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+		(property "Footprint" "footprints:CONN_PPPC062LJBN-RC_SUL"
 			(at 69.85 91.694 0)
 			(effects
 				(font
@@ -18796,449 +18024,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch2:SW_SP3T")
-		(at 204.47 146.05 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56a4c30b-9755-4300-a5fd-f5aba5a800f2")
-		(property "Reference" "SW7"
-			(at 204.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SP3T"
-			(at 204.47 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.345 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.345 150.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "01 IPN" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "02 DESC" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 204.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae902ac9-f8bf-4a5a-a9b9-15581fa7a724")
-		)
-		(pin "3"
-			(uuid "a79ff638-4257-46f4-8c75-3b30db4b7335")
-		)
-		(pin "4"
-			(uuid "b9bf7346-d240-475a-9aa3-4bedd0b5e6b9")
-		)
-		(pin "1"
-			(uuid "64671562-1247-4e58-99aa-28898c5cf9cb")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -21999,443 +20784,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7324c7cb-ad4a-4924-93f2-a8c68fd7064e")
-		(property "Reference" "SW3"
-			(at 91.44 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "01 IPN" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "02 DESC" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "633425b3-d78e-4152-b682-ec6141197e0f")
-		)
-		(pin "1"
-			(uuid "224f7221-4ee2-45cc-92b7-499b00e4f689")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 58.42 176.53 0)
 		(unit 1)
@@ -23371,6 +21719,95 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
+		(at 91.44 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7906064c-5c8e-463c-a358-5d6d30e02d29")
+		(property "Reference" "S3"
+			(at 91.44 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
+		)
+		(pin "3"
+			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -26132,33 +24569,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 133.35 0)
+		(lib_id "Switch2:SW_SPDT")
+		(at 204.47 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85b7a864-d1fb-4c57-a6db-c6789f276710")
+		(uuid "86415625-077f-4eae-9a68-9fc350aa9bdc")
 		(property "Reference" "SW2"
-			(at 91.44 125.73 0)
+			(at 204.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 91.44 128.27 0)
+		(property "Value" "SW_SPDT"
+			(at 204.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 128.27 0)
+		(property "Footprint" "footprints:SS-12D10G5_XKB"
+			(at 204.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26167,7 +24604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 128.27 0)
+			(at 204.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26175,377 +24612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "01 IPN" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "02 DESC" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 91.44 133.35 0)
+		(property "Description" "Switch, single pole double throw"
+			(at 204.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26554,13 +24622,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd7cc2bd-6ae3-4a6f-bfd3-0c44979e9c17")
+			(uuid "16bff451-55ab-4f85-b84d-0d30c9d5188c")
 		)
 		(pin "2"
-			(uuid "06c61fb8-db00-4a84-a6b8-524bd9e1e3b5")
+			(uuid "e6de6130-4c40-4375-886d-0627d3e3ced4")
+		)
+		(pin "3"
+			(uuid "2d705864-1e4b-43c7-ab74-15169a564240")
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project ""
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "SW2")
 					(unit 1)
@@ -27439,6 +25510,95 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
+		(at 91.44 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ce0a445-2a52-44b2-b3f3-505c8b4a74e5")
+		(property "Reference" "S6"
+			(at 91.44 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
+		)
+		(pin "3"
+			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -32089,6 +30249,95 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
+		(at 91.44 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a307163e-150d-4bdf-9272-1eaecbf004a9")
+		(property "Reference" "S5"
+			(at 91.44 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
+		)
+		(pin "3"
+			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -41767,449 +40016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch2:SW_SP3T")
-		(at 191.77 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0f9d8f5-3b28-425d-a62a-cbe7fb988e55")
-		(property "Reference" "SW6"
-			(at 191.77 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SP3T"
-			(at 191.77 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.645 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.645 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "01 IPN" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "02 DESC" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 191.77 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae902ac9-f8bf-4a5a-a9b9-15581fa7a725")
-		)
-		(pin "3"
-			(uuid "a79ff638-4257-46f4-8c75-3b30db4b7336")
-		)
-		(pin "4"
-			(uuid "b9bf7346-d240-475a-9aa3-4bedd0b5e6ba")
-		)
-		(pin "1"
-			(uuid "64671562-1247-4e58-99aa-28898c5cf9cc")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 227.33 58.42 180)
 		(unit 1)
@@ -42643,6 +40449,95 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
+		(at 91.44 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f58ba575-2db6-4be7-ab77-812d92de23b1")
+		(property "Reference" "S4"
+			(at 91.44 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
+		)
+		(pin "3"
+			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S4")
 					(unit 1)
 				)
 			)

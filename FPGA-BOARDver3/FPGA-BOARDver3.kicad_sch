@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 59.69 97.79)
+		(size 20.32 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19a3c51a-4800-4c20-b3a0-7667316cb050")
+		(property "Sheetname" "FPGA Banks, Anti Alias Filters"
+			(at 59.69 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Banks_Anti_Alias_Filters.kicad_sch"
+			(at 59.69 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 22.86 58.42)
 		(size 25.4 27.94)
 		(fields_autoplaced yes)
@@ -153,6 +191,44 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 139.7)
+		(size 22.86 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dcc3b914-72d5-47e5-9d8d-33c11fcee62a")
+		(property "Sheetname" "SPDIF"
+			(at 59.69 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPDIF.kicad_sch"
+			(at 59.69 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "9")
 				)
 			)
 		)

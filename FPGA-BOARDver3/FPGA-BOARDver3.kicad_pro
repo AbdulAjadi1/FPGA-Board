@@ -1004,6 +1004,14 @@
     [
       "e1600e09-3fb3-4dd3-93e7-93ab60a9447f",
       "DDR and MIO banks"
+    ],
+    [
+      "19a3c51a-4800-4c20-b3a0-7667316cb050",
+      "FPGA Banks, Anti Alias Filters"
+    ],
+    [
+      "dcc3b914-72d5-47e5-9d8d-33c11fcee62a",
+      "SPDIF"
     ]
   ],
   "text_variables": {}
