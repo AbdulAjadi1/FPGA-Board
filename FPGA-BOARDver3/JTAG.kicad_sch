@@ -12156,10 +12156,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7afe626-1b31-4a0a-8910-74c492bc36ae")
+			(uuid "c7afe626-1b31-4a0a-8910-74c492bc36af")
 		)
 		(pin "1"
-			(uuid "c861d271-7594-4715-8e89-f0a09f4f77cc")
+			(uuid "c861d271-7594-4715-8e89-f0a09f4f77cd")
 		)
 		(instances
 			(project "FPGA-BOARDver3"
@@ -12363,7 +12363,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2c29956-9804-49ea-9697-93970653f852")
+			(uuid "c2c29956-9804-49ea-9697-93970653f853")
 		)
 		(instances
 			(project ""
@@ -12494,10 +12494,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6d55e5fd-2bab-465c-8c68-3386c17a38cb")
+			(uuid "6d55e5fd-2bab-465c-8c68-3386c17a38cc")
 		)
 		(pin "1"
-			(uuid "39a666b1-e67a-4e2f-b4b4-22c1c6acdded")
+			(uuid "39a666b1-e67a-4e2f-b4b4-22c1c6acddee")
 		)
 		(instances
 			(project "FPGA-BOARDver3"
@@ -12854,10 +12854,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68714d30-3981-4da1-9476-b1c2ce69602f")
 		(property "Reference" "U7"
-			(at 229.87 88.9 0)
+			(at 230.632 93.218 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12865,7 +12864,7 @@
 			)
 		)
 		(property "Value" "S25FL128SAGMFI000"
-			(at 229.87 91.44 0)
+			(at 230.886 96.266 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13254,7 +13253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "footprints:LED_0402_1005Metric"
 			(at 177.8 116.84 90)
 			(effects
 				(font
@@ -13419,10 +13418,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7afe626-1b31-4a0a-8910-74c492bc36ae")
+			(uuid "c7afe626-1b31-4a0a-8910-74c492bc36b0")
 		)
 		(pin "1"
-			(uuid "c861d271-7594-4715-8e89-f0a09f4f77cc")
+			(uuid "c861d271-7594-4715-8e89-f0a09f4f77ce")
 		)
 		(instances
 			(project "FPGA-BOARDver3"

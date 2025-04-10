@@ -3237,7 +3237,7 @@
 		)
 	)
 	(junction
-		(at 185.42 114.3)
+		(at 175.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f463fca-315c-4915-9221-c6d5694d48e3")
@@ -3255,7 +3255,7 @@
 		(uuid "1dd65bbb-526b-43fa-b7f3-fcae739fdb4b")
 	)
 	(junction
-		(at 195.58 104.14)
+		(at 185.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21986bc9-8b58-4728-a867-d11beb39d3ce")
@@ -3369,7 +3369,7 @@
 		(uuid "bcb00c6d-ebcc-4fd2-88c6-f2a06beab289")
 	)
 	(junction
-		(at 185.42 104.14)
+		(at 175.26 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beb50e42-d605-44b5-9660-fc6add3c74da")
@@ -3387,7 +3387,7 @@
 		(uuid "d5f48594-ca21-4fa3-ab8e-045e871aa91d")
 	)
 	(junction
-		(at 195.58 114.3)
+		(at 185.42 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6dfa36b-f069-485e-a8f6-35d9a5e61e04")
@@ -3648,17 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 222.25 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40fbd530-c07e-403a-a030-535de259b66c")
-	)
-	(wire
-		(pts
-			(xy 185.42 114.3) (xy 185.42 116.84)
+			(xy 175.26 114.3) (xy 175.26 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3758,7 +3748,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 111.76) (xy 195.58 114.3)
+			(xy 185.42 111.76) (xy 185.42 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3768,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 104.14) (xy 204.47 104.14)
+			(xy 185.42 104.14) (xy 194.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3828,7 +3818,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 109.22) (xy 207.01 114.3)
+			(xy 196.85 109.22) (xy 196.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3978,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 104.14) (xy 185.42 104.14)
+			(xy 170.18 104.14) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4038,7 +4028,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 104.14) (xy 195.58 104.14)
+			(xy 175.26 104.14) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4058,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 114.3) (xy 195.58 114.3)
+			(xy 196.85 114.3) (xy 185.42 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4168,7 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.76) (xy 185.42 114.3)
+			(xy 175.26 111.76) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4178,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 185.42 124.46)
+			(xy 170.18 124.46) (xy 175.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4308,7 +4298,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 114.3) (xy 185.42 114.3)
+			(xy 185.42 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4504,6 +4494,28 @@
 			)
 		)
 	)
+	(global_label "VUSB"
+		(shape bidirectional)
+		(at 222.25 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "756d79da-e16d-4a97-9279-2aeb400bac2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2549 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XADC1V8"
 		(shape input)
 		(at 49.53 121.92 180)
@@ -4522,6 +4534,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VUSB"
+		(shape bidirectional)
+		(at 204.47 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88b8fa4d-c512-4227-8455-20cca9eb9a76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4651 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4751,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "footprints:PinHeader_1x03_P2.54mm_Vertical"
 			(at 222.25 101.6 0)
 			(effects
 				(font
@@ -5304,7 +5338,7 @@
 	)
 	(symbol
 		(lib_id "DMG2305UX-13:DMG2305UX-13")
-		(at 209.55 106.68 270)
+		(at 199.39 106.68 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5313,7 +5347,7 @@
 		(dnp no)
 		(uuid "1145b21e-93fe-4c22-92b7-38274a220139")
 		(property "Reference" "Q7"
-			(at 210.8201 101.6 0)
+			(at 200.6601 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5356,7 @@
 			)
 		)
 		(property "Value" "DMG2305UX-13"
-			(at 208.2801 101.6 0)
+			(at 198.1201 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5365,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DMG2305UX_13"
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5393,7 @@
 			)
 		)
 		(property "PARTREV" "09/2018"
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5403,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes Inc."
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5413,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5423,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5433,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5442,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5451,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5460,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5469,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5478,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5487,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5496,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5505,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5514,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5523,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5532,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5541,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5550,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5559,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5568,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5577,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5586,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5595,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5604,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5613,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5622,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5631,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5640,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5649,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5658,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5667,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5676,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5685,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5694,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5703,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5712,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5721,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5730,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5739,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5748,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5757,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5766,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5775,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5784,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5793,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 209.55 106.68 0)
+			(at 199.39 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "footprints:SOT-23"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -9548,7 +9582,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 107.95 0)
+		(at 185.42 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9557,7 +9591,7 @@
 		(fields_autoplaced yes)
 		(uuid "62a1d683-0f76-484c-8fce-86ff8a3f8b89")
 		(property "Reference" "C27"
-			(at 199.39 106.6799 0)
+			(at 189.23 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +9600,7 @@
 			)
 		)
 		(property "Value" "4.7uF/10V"
-			(at 199.39 109.2199 0)
+			(at 189.23 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9609,7 @@
 			)
 		)
 		(property "Footprint" "footprints:C_0402"
-			(at 196.5452 111.76 0)
+			(at 186.3852 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9627,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9636,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9645,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9654,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9663,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +9672,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9681,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9690,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9699,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +9708,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +9717,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +9726,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,7 +9735,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9710,7 +9744,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,7 +9753,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,7 +9762,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,7 +9771,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +9780,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9755,7 +9789,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,7 +9798,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9773,7 +9807,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,7 +9816,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9791,7 +9825,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,7 +9834,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9843,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9852,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9861,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9870,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +9879,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +9888,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,7 +9897,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,7 +9906,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +9915,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +9924,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +9933,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +9942,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,7 +9951,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +9960,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +9969,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +9978,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,7 +9987,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +9996,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 195.58 107.95 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,7 +11556,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 180.34 124.46 270)
+		(at 170.18 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11531,7 +11565,7 @@
 		(fields_autoplaced yes)
 		(uuid "86307e89-e2c5-4763-88d6-7f3937749a4a")
 		(property "Reference" "#PWR027"
-			(at 173.99 124.46 0)
+			(at 163.83 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11540,16 +11574,17 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 176.53 124.4599 90)
+			(at 166.37 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 124.46 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11558,7 +11593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 124.46 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,7 +11602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 180.34 124.46 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,7 +12154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "footprints:SOT-23-5"
 			(at 67.31 88.9 0)
 			(effects
 				(font
@@ -12565,7 +12600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "footprints:PinHeader_1x01_P2.54mm_Vertical"
 			(at 64.77 35.56 0)
 			(effects
 				(font
@@ -15575,7 +15610,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 185.42 120.65 0)
+		(at 175.26 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15584,7 +15619,7 @@
 		(fields_autoplaced yes)
 		(uuid "d985c631-9678-47e4-8466-49150c07df6e")
 		(property "Reference" "R84"
-			(at 187.96 119.3799 0)
+			(at 177.8 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +15628,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 187.96 121.9199 0)
+			(at 177.8 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15602,7 +15637,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 186.436 120.904 90)
+			(at 176.276 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,7 +15646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,7 +15655,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15629,7 +15664,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15638,7 +15673,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15647,7 +15682,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15656,7 +15691,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,7 +15700,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +15709,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15683,7 +15718,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,7 +15727,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +15736,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,7 +15745,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,7 +15754,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +15763,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +15772,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +15781,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,7 +15790,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15764,7 +15799,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15773,7 +15808,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,7 +15817,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15791,7 +15826,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15800,7 +15835,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15809,7 +15844,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15818,7 +15853,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15827,7 +15862,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15836,7 +15871,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,7 +15880,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15854,7 +15889,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,7 +15898,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,7 +15907,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15881,7 +15916,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15925,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +15934,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15908,7 +15943,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15917,7 +15952,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15926,7 +15961,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15935,7 +15970,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15944,7 +15979,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15953,7 +15988,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15962,7 +15997,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15971,7 +16006,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15980,7 +16015,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15989,7 +16024,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 185.42 120.65 0)
+			(at 175.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16014,7 +16049,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 185.42 107.95 0)
+		(at 175.26 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16023,7 +16058,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc49f753-748b-46c9-aa6f-03aad5e5d651")
 		(property "Reference" "R83"
-			(at 187.96 106.6799 0)
+			(at 177.8 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16032,7 +16067,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 187.96 109.2199 0)
+			(at 177.8 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16041,7 +16076,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 186.436 108.204 90)
+			(at 176.276 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16050,7 +16085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16059,7 +16094,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16068,7 +16103,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16077,7 +16112,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16086,7 +16121,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16095,7 +16130,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16104,7 +16139,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16113,7 +16148,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16122,7 +16157,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16131,7 +16166,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16140,7 +16175,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16149,7 +16184,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16158,7 +16193,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16167,7 +16202,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16176,7 +16211,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,7 +16220,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16194,7 +16229,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16203,7 +16238,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16212,7 +16247,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16221,7 +16256,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16265,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16274,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16248,7 +16283,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16257,7 +16292,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16266,7 +16301,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16275,7 +16310,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16284,7 +16319,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16293,7 +16328,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16302,7 +16337,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16311,7 +16346,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16320,7 +16355,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16329,7 +16364,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16338,7 +16373,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16347,7 +16382,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +16391,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16365,7 +16400,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,7 +16409,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16383,7 +16418,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16392,7 +16427,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16401,7 +16436,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16410,7 +16445,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16419,7 +16454,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16428,7 +16463,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 185.42 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16890,7 +16925,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 180.34 104.14 90)
+		(at 170.18 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16899,7 +16934,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebba3953-843e-4b4c-a8d2-b9fa14205254")
 		(property "Reference" "#PWR026"
-			(at 184.15 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16908,7 +16943,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 176.53 104.1399 90)
+			(at 166.37 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16917,7 +16952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16926,7 +16961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,7 +16970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 180.34 104.14 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

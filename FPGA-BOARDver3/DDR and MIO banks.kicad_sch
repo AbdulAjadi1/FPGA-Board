@@ -914,14 +914,14 @@
 				)
 			)
 		)
-		(symbol "NC7WZ07P6X_1"
+		(symbol "NC7WZ07P6X:NC7WZ07P6X_modified"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U9"
+			(property "Reference" "U17"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -929,7 +929,7 @@
 					)
 				)
 			)
-			(property "Value" "NC7WZ07P6X"
+			(property "Value" "NC7WZ07P6X_modified"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -938,7 +938,7 @@
 				)
 			)
 			(property "Footprint" "NC7WZ07P6X:SOT65P210X110-6N"
-				(at -0.508 6.858 0)
+				(at 0.254 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -948,7 +948,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -957,7 +957,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -966,7 +966,7 @@
 				)
 			)
 			(property "SUPPLIER" "FAIRCHILD SEMICONDUCTOR"
-				(at 2.032 6.858 0)
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -976,7 +976,7 @@
 				)
 			)
 			(property "OC_FARNELL" "1470998"
-				(at 4.318 4.064 0)
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -986,7 +986,7 @@
 				)
 			)
 			(property "OC_NEWARK" "58K9469"
-				(at 3.048 3.302 0)
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -996,7 +996,7 @@
 				)
 			)
 			(property "MPN" "NC7WZ07P6X"
-				(at 0 6.096 0)
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 				)
 			)
 			(property "PACKAGE" "SC-70-6"
-				(at 2.794 4.826 0)
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1015,7 +1015,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NC7WZ07P6X_1_0_1"
+			(symbol "NC7WZ07P6X_modified_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 2.54) (xy -5.08 -2.54) (xy 0 0)
@@ -1028,11 +1028,9 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "NC7WZ07P6X_1_1_0"
 				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08) hide
+					(at -7.62 0 0)
+					(length 2.54)
 					(name "A1"
 						(effects
 							(font
@@ -1048,9 +1046,29 @@
 						)
 					)
 				)
+				(pin output line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NC7WZ07P6X_modified_2_0"
 				(pin passive line
-					(at -17.78 -10.16 0)
-					(length 5.08) hide
+					(at -5.08 -15.24 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -1066,9 +1084,41 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -5.08 -1.27 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NC7WZ07P6X_modified_3_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 2.54) (xy -5.08 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
-					(at -6.35 0 0)
-					(length 1.27)
+					(at -7.62 0 0)
+					(length 2.54)
 					(name "A2"
 						(effects
 							(font
@@ -1085,8 +1135,8 @@
 					)
 				)
 				(pin output line
-					(at 1.27 0 180)
-					(length 1.27)
+					(at 2.54 0 180)
+					(length 2.54)
 					(name "Y2"
 						(effects
 							(font
@@ -1095,42 +1145,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 2.54 0)
-					(length 5.08) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08) hide
-					(name "Y1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -25065,6 +25079,12 @@
 		(uuid "19ff9914-2f5d-453a-a1b1-f65de50f9be3")
 	)
 	(junction
+		(at 266.7 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3428e3fa-6037-47b0-ab5c-afb5d74c8d23")
+	)
+	(junction
 		(at 125.73 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25095,16 +25115,16 @@
 		(uuid "671b1000-576d-4e05-9409-15bc248e2e45")
 	)
 	(junction
-		(at 254 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6934ae55-d239-41ef-a82b-f5edc8e69da5")
-	)
-	(junction
 		(at 166.37 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73b307b9-17a2-49fb-aab6-fef251b3c6fc")
+	)
+	(junction
+		(at 254 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74af71fe-3ec0-4ed8-9995-8354c27f1f68")
 	)
 	(junction
 		(at 166.37 113.03)
@@ -25153,6 +25173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c5deb76-461f-4059-87fc-15f32c2689ce")
+	)
+	(junction
+		(at 266.7 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0f09c94-d4e7-4728-b4a7-3cccb5ed94f0")
 	)
 	(junction
 		(at 208.28 101.6)
@@ -25234,6 +25260,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 163.83) (xy 269.24 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09490ced-ab5f-4956-a708-a13ebe3f24ad")
+	)
+	(wire
+		(pts
 			(xy 166.37 113.03) (xy 162.56 113.03)
 		)
 		(stroke
@@ -25271,16 +25307,6 @@
 			(type default)
 		)
 		(uuid "135769fe-380e-405a-bcd8-d7a8b303c404")
-	)
-	(wire
-		(pts
-			(xy 231.14 146.05) (xy 240.03 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "156270d3-5124-4530-bda1-64624ed03ec2")
 	)
 	(wire
 		(pts
@@ -25501,16 +25527,6 @@
 			(type default)
 		)
 		(uuid "4e149153-4ff7-461e-ba20-770317ceba3b")
-	)
-	(wire
-		(pts
-			(xy 247.65 146.05) (xy 254 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b055b8-b966-4c94-8b13-c3d7c2f133bc")
 	)
 	(wire
 		(pts
@@ -25744,6 +25760,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 160.02) (xy 260.35 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b80905-c2a9-4013-aa81-f7752cf13383")
+	)
+	(wire
+		(pts
 			(xy 27.94 123.19) (xy 39.37 123.19)
 		)
 		(stroke
@@ -25761,6 +25787,16 @@
 			(type default)
 		)
 		(uuid "8d0a65be-2e67-4e1b-9b63-68647cdaef93")
+	)
+	(wire
+		(pts
+			(xy 260.35 149.86) (xy 266.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc3c5fa-8ee9-47d2-a710-610eac443292")
 	)
 	(wire
 		(pts
@@ -25791,6 +25827,26 @@
 			(type default)
 		)
 		(uuid "9695502b-a9e7-4398-ad57-2d8895eb81a8")
+	)
+	(wire
+		(pts
+			(xy 248.92 146.05) (xy 254 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991d91ba-f200-4c0b-ae40-aaa60510b4ae")
+	)
+	(wire
+		(pts
+			(xy 260.35 163.83) (xy 266.7 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d359b29-8750-46d5-bb14-ccb9faed2e0e")
 	)
 	(wire
 		(pts
@@ -25854,6 +25910,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 152.4) (xy 260.35 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37959ad-47e0-4b41-8d8e-9e7d02ce8a1c")
+	)
+	(wire
+		(pts
 			(xy 39.37 31.75) (xy 36.83 31.75)
 		)
 		(stroke
@@ -25861,6 +25927,16 @@
 			(type default)
 		)
 		(uuid "b484302a-4e0e-4720-bfa2-48110027bba0")
+	)
+	(wire
+		(pts
+			(xy 231.14 146.05) (xy 238.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b124a9-0b69-4999-8b5d-fb685401afed")
 	)
 	(wire
 		(pts
@@ -26084,6 +26160,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 149.86) (xy 270.51 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda94b84-bda6-49a8-b482-a79371d8a9aa")
+	)
+	(wire
+		(pts
 			(xy 46.99 182.88) (xy 50.8 182.88)
 		)
 		(stroke
@@ -26141,6 +26227,45 @@
 			(type default)
 		)
 		(uuid "fdbbb967-0248-48c1-88fd-af6fd90b5fdb")
+	)
+	(text "VCC1V5"
+		(exclude_from_sim no)
+		(at 50.8 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0d897551-679b-4590-9078-77990ac6a980")
+	)
+	(text "VCC1V8_IO"
+		(exclude_from_sim no)
+		(at 224.282 16.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4b88563c-d3a4-47cf-9af3-701fdafc3e5a")
+	)
+	(text "VCC3V3"
+		(exclude_from_sim no)
+		(at 162.052 31.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c83e8181-84bc-4ffd-b938-40495ffc8619")
 	)
 	(global_label "SPI_CS"
 		(shape bidirectional)
@@ -30687,6 +30812,139 @@
 		)
 	)
 	(symbol
+		(lib_id "NC7WZ07P6X:NC7WZ07P6X_modified")
+		(at 271.78 148.59 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "310f0a7a-3391-4c3c-bac8-7d52dc36d4d0")
+		(property "Reference" "U23"
+			(at 267.97 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NC7WZ07P6X"
+			(at 267.97 158.1149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:NC7WZ07P6X"
+			(at 272.034 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.526 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.526 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "FAIRCHILD SEMICONDUCTOR"
+			(at 271.526 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1470998"
+			(at 271.526 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "58K9469"
+			(at 271.526 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NC7WZ07P6X"
+			(at 271.526 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SC-70-6"
+			(at 271.526 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b8a5c1b3-f584-4691-8ed3-13a3d05cdc41")
+		)
+		(pin "6"
+			(uuid "0d81a857-bee6-4245-95b9-8b36c6da24dc")
+		)
+		(pin "1"
+			(uuid "cb94582b-a961-4f5f-b67b-9437adc85a34")
+		)
+		(pin "2"
+			(uuid "c13059a6-3d88-47f4-a160-7d1c2fd8e4d4")
+		)
+		(pin "5"
+			(uuid "b0599dd5-5722-4a8e-a0b1-2ca39905df36")
+		)
+		(pin "3"
+			(uuid "378c991b-6b3e-4ad8-9259-7e00a2618028")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "U23")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 172.72 106.68 0)
 		(unit 1)
@@ -31437,6 +31695,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 269.24 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61434827-14cf-4e1f-8cd3-ebe305359e18")
+		(property "Reference" "#PWR0223"
+			(at 275.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 273.05 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 269.24 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ac0d6d1-6b81-4894-acbe-e269272b4ce0")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 139.7 176.53 270)
 		(unit 1)
@@ -31634,6 +31959,73 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 270.51 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c77cb1c-083e-480e-ae73-73e90fa1c31e")
+		(property "Reference" "#PWR0224"
+			(at 266.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 274.32 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36a47463-b81e-4a56-a771-aa182fcbeefe")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -32713,10 +33105,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4f7eb1b-bcd3-44d6-af46-ed45d0c3fe02")
 		(property "Reference" "C9"
-			(at 50.8 185.4199 0)
+			(at 41.402 185.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32725,7 +33116,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 50.8 187.9599 0)
+			(at 39.624 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32770,6 +33161,75 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 260.35 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5a9b77e-d035-48b4-ac68-6437d7359e3e")
+		(property "Reference" "C176"
+			(at 254.508 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 253.492 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0402"
+			(at 261.3152 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 260.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0732375-aa7b-4d0e-9e06-358101c50800")
+		)
+		(pin "2"
+			(uuid "c06a3701-2ff6-45a5-b657-16ff6f312765")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "C176")
 					(unit 1)
 				)
 			)
@@ -32841,6 +33301,137 @@
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "R46")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NC7WZ07P6X:NC7WZ07P6X_modified")
+		(at 246.38 146.05 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd2c2075-118b-40d3-917d-67a513069ef1")
+		(property "Reference" "U23"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC7WZ07P6X"
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:NC7WZ07P6X"
+			(at 246.634 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.126 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.126 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "FAIRCHILD SEMICONDUCTOR"
+			(at 246.126 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1470998"
+			(at 246.126 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "58K9469"
+			(at 246.126 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NC7WZ07P6X"
+			(at 246.126 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SC-70-6"
+			(at 246.126 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b8a5c1b3-f584-4691-8ed3-13a3d05cdc41")
+		)
+		(pin "6"
+			(uuid "0d81a857-bee6-4245-95b9-8b36c6da24dc")
+		)
+		(pin "1"
+			(uuid "cb94582b-a961-4f5f-b67b-9437adc85a34")
+		)
+		(pin "2"
+			(uuid "c13059a6-3d88-47f4-a160-7d1c2fd8e4d4")
+		)
+		(pin "5"
+			(uuid "b0599dd5-5722-4a8e-a0b1-2ca39905df36")
+		)
+		(pin "3"
+			(uuid "378c991b-6b3e-4ad8-9259-7e00a2618028")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "U23")
+					(unit 3)
 				)
 			)
 		)
@@ -36400,137 +36991,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "NC7WZ07P6X_1")
-		(lib_id "NC7WZ07P6X:NC7WZ07P6X")
-		(at 246.38 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fca60def-512e-48af-8e35-e4847d4df855")
-		(property "Reference" "U3"
-			(at 244.602 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NC7WZ07P6X"
-			(at 243.84 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:NC7WZ07P6X"
-			(at 245.872 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "FAIRCHILD SEMICONDUCTOR"
-			(at 248.412 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "1470998"
-			(at 250.698 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" "58K9469"
-			(at 249.428 142.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NC7WZ07P6X"
-			(at 246.38 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SC-70-6"
-			(at 249.174 141.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "6755e551-ca0a-4e0b-bd25-df37f98c76a8")
-		)
-		(pin "5"
-			(uuid "4c4a478d-7b06-4189-915a-1d2f7225be92")
-		)
-		(pin "1"
-			(uuid "a40c72e6-f8df-4fdc-8610-d756ee3739a2")
-		)
-		(pin "2"
-			(uuid "070c534a-be2e-485f-b5b1-0a4267d1c2de")
-		)
-		(pin "3"
-			(uuid "5d93c0ee-ca55-4078-9fcc-9abbda1f20cb")
-		)
-		(pin "4"
-			(uuid "338362cc-0f54-4859-9693-819cf1de48a5")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
-					(reference "U3")
 					(unit 1)
 				)
 			)
