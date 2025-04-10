@@ -1012,6 +1012,22 @@
     [
       "dcc3b914-72d5-47e5-9d8d-33c11fcee62a",
       "SPDIF"
+    ],
+    [
+      "41e60eaf-6223-4c1c-9aff-98af239c75fe",
+      "JTAG"
+    ],
+    [
+      "594e62a4-088d-4420-80b0-6e0938edae30",
+      "PI_HEADER"
+    ],
+    [
+      "43f3e7a6-a0a8-4648-abda-2a64c96c9a8c",
+      "HDMI"
+    ],
+    [
+      "198f551b-0495-4dfe-9b6f-a7260738d114",
+      "ETHERNET"
     ]
   ],
   "text_variables": {}

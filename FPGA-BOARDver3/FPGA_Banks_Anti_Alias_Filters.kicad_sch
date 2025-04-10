@@ -319,7 +319,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at 27.686 72.136 0)
+				(at 47.625 16.51 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -327,7 +327,7 @@
 				)
 			)
 			(property "Value" "XC7Z020-1CLG400I__"
-				(at 32.766 94.488 0)
+				(at 47.625 13.97 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -5010,18 +5010,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 87.63 11.43) (xy 87.63 -85.09)
-					)
-					(stroke
-						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -11289,7 +11277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 41.6052 180.34 0)
 			(effects
 				(font
@@ -11631,7 +11619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 41.6052 142.24 0)
 			(effects
 				(font
@@ -11684,7 +11672,7 @@
 		(fields_autoplaced yes)
 		(uuid "991c9e2c-66fa-49ff-8795-bf543c5e8557")
 		(property "Reference" "U1"
-			(at 141.6367 15.24 0)
+			(at 254.635 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11692,14 +11680,14 @@
 			)
 		)
 		(property "Value" "XC7Z020-1CLG400I__"
-			(at 141.6367 17.78 0)
+			(at 254.635 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "XC7Z020-1CLG400I:CLG400_ZYNQ-7000_AMD"
+		(property "Footprint" "footprints:CLG400_ZYNQ-7000_AMD"
 			(at 240.538 -5.08 0)
 			(effects
 				(font
@@ -12934,6 +12922,10 @@
 					(reference "U1")
 					(unit 1)
 				)
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/41e60eaf-6223-4c1c-9aff-98af239c75fe"
+					(reference "U1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -12965,7 +12957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 41.6052 160.02 0)
 			(effects
 				(font

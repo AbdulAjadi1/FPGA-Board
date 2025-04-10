@@ -1162,7 +1162,7 @@
 				)
 			)
 		)
-		(symbol "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS"
+		(symbol "PTS645SK50SMTR92LFS_:PTS645SK50SMTR92LFS"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1315,6 +1315,24 @@
 					)
 				)
 				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
@@ -1325,6 +1343,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2364,6 +2400,12 @@
 		(uuid "21d68b16-e4a2-4bcd-93a7-8f5e91e6621b")
 	)
 	(junction
+		(at 45.72 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2432517d-4668-4ebe-89fb-6153600da0bb")
+	)
+	(junction
 		(at 111.76 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2398,6 +2440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361917a3-333a-4a30-bbf8-a3daf6fd46b6")
+	)
+	(junction
+		(at 38.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b535489-ab96-478c-9946-bd2cc9d35746")
 	)
 	(junction
 		(at 237.49 71.12)
@@ -2548,6 +2596,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b04b776a-b54d-4a67-8166-29efbdd152b7")
+	)
+	(junction
+		(at 41.91 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0aa756e-911f-499b-bb77-ba695a274267")
 	)
 	(junction
 		(at 97.79 77.47)
@@ -3193,6 +3247,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c734d1-0bc7-46b9-a8c6-bc72a1cdb6c6")
+	)
+	(wire
+		(pts
 			(xy 176.53 81.28) (xy 185.42 81.28)
 		)
 		(stroke
@@ -3250,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "3d9aa4d9-4195-481d-bf7d-8c08868c9503")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 49.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e084849-2559-4687-80c0-3cd32215b9db")
 	)
 	(wire
 		(pts
@@ -3440,6 +3514,26 @@
 			(type default)
 		)
 		(uuid "569b7085-b971-4d11-8024-08961fa12164")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5794a180-7d18-43b5-ba92-5cb72587037f")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1ad983-a99f-49d6-bd6d-0a2c67dacfbd")
 	)
 	(wire
 		(pts
@@ -4243,16 +4337,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 49.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ad7bbf-f342-43da-b50d-0e6c05735cc4")
-	)
-	(wire
-		(pts
 			(xy 176.53 45.72) (xy 185.42 45.72)
 		)
 		(stroke
@@ -4373,7 +4457,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 38.1 52.07)
+			(xy 45.72 49.53) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4960d95-28a5-4790-bea1-c93c94ee1a0b")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4510,6 +4604,26 @@
 			(type default)
 		)
 		(uuid "d3ac09f3-e20f-4523-84f8-4169c71ea09c")
+	)
+	(wire
+		(pts
+			(xy 41.91 48.26) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d54e84-8a47-41bf-b1b0-f17ccf3beb88")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 38.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b25efb-4687-43de-ad35-a490ca7cd424")
 	)
 	(wire
 		(pts
@@ -4965,6 +5079,50 @@
 			)
 		)
 	)
+	(global_label "JA1_N"
+		(shape input)
+		(at 25.4 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20d39288-c2e7-4e60-8246-bbf0927d817e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.851 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JA3_N"
+		(shape input)
+		(at 109.22 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2904b3c4-3a55-4ca9-b8ea-fe2e1d503d48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.769 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED5_R"
 		(shape output)
 		(at 255.27 35.56 0)
@@ -5009,6 +5167,50 @@
 			)
 		)
 	)
+	(global_label "JA2_P"
+		(shape input)
+		(at 25.4 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3de90bae-ccac-4729-a5c0-4f0f63bcc806")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.9115 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JB2_P"
+		(shape input)
+		(at 29.21 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42d2f722-f236-4b6a-894a-07677ee52235")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.5401 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "led1"
 		(shape output)
 		(at 29.21 158.75 180)
@@ -5022,6 +5224,50 @@
 		(uuid "42f324ce-a44c-487a-8812-632593afb5a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.1125 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JA1_P"
+		(shape input)
+		(at 25.4 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55a92917-766e-4a6c-a33b-6e8286a34498")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.9115 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JB1_P"
+		(shape input)
+		(at 29.21 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f0f7ff6-1d74-4a46-a41a-a516f4ad0995")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.5401 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,6 +5343,28 @@
 			)
 		)
 	)
+	(global_label "JB4_P"
+		(shape input)
+		(at 113.03 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f83e955-17ef-43cc-8f24-0e991fcd65a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.6999 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED5_G"
 		(shape output)
 		(at 255.27 50.8 0)
@@ -5110,6 +5378,28 @@
 		(uuid "912a1ff1-2267-4a10-867f-bc98cc9671f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.1494 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JA4_P"
+		(shape input)
+		(at 109.22 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95c2c8b5-3dd0-48d3-ad6c-72100d6b9568")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.7085 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,6 +5431,28 @@
 			)
 		)
 	)
+	(global_label "JB4_N"
+		(shape input)
+		(at 113.03 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4f9e4bd-e270-4694-8499-2b697095fac1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.7604 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW2"
 		(shape output)
 		(at 228.6 146.05 0)
@@ -5163,6 +5475,72 @@
 			)
 		)
 	)
+	(global_label "JA3_P"
+		(shape input)
+		(at 109.22 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2be8bed-c4d0-48f7-a8e7-f3e2b4c9ee7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.7085 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JB3_P"
+		(shape input)
+		(at 113.03 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6e09f24-6010-4e3f-bd33-ce30f141404f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.6999 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JB1_N"
+		(shape input)
+		(at 29.21 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5c69c74-b6a6-4af2-9eb8-06abad4cba62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.4796 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTN3"
 		(shape output)
 		(at 147.32 133.35 0)
@@ -5176,6 +5554,28 @@
 		(uuid "d7c2f3ab-8c57-4984-ac65-4ab56c1ee1bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.0828 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JB3_N"
+		(shape input)
+		(at 113.03 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7c7c9c2-92ee-443e-b28f-fc69a84b08f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.7604 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,6 +5603,72 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JA4_N"
+		(shape input)
+		(at 109.22 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6b2334d-dfca-4c2a-893e-2fb16c6c4ef8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.769 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JB2_N"
+		(shape input)
+		(at 29.21 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea8f3857-b3e1-4b8b-aa70-694cd7d98999")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.4796 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JA2_N"
+		(shape input)
+		(at 25.4 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee4ab4e2-4a6f-45e6-9194-cac259437e1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.851 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5721,7 +6187,7 @@
 		(dnp no)
 		(uuid "02a57725-6f5e-4c04-b40e-4ab289869a8a")
 		(property "Reference" "R77"
-			(at 110.236 28.956 90)
+			(at 105.156 31.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +6195,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 107.95 30.988 90)
+			(at 105.918 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,6 +10155,101 @@
 		)
 	)
 	(symbol
+		(lib_id "PTS645SK50SMTR92LFS_:PTS645SK50SMTR92LFS")
+		(at 91.44 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b4c6767-edab-457d-b9f5-442085c52c57")
+		(property "Reference" "S7"
+			(at 91.44 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "82b20e0d-e30a-4f9a-ae43-cc4006161f7a")
+		)
+		(pin "3"
+			(uuid "8bce0b10-2bd9-47fd-bb10-89c479995378")
+		)
+		(pin "1"
+			(uuid "cd8de3ec-72c6-4a50-b000-f043ab76778f")
+		)
+		(pin "2"
+			(uuid "f7b87d9d-82fe-41ca-95eb-b7ffdefd78c2")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch2:SW_SPDT")
 		(at 191.77 137.16 180)
 		(unit 1)
@@ -10274,7 +10835,7 @@
 		(dnp no)
 		(uuid "2ae874bf-0278-413b-a21c-0cd67450547a")
 		(property "Reference" "R78"
-			(at 112.522 37.084 90)
+			(at 107.442 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +10843,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 112.522 35.814 90)
+			(at 104.394 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12169,7 +12730,7 @@
 		(dnp no)
 		(uuid "38468909-afb6-4df5-8235-1aa5048a98eb")
 		(property "Reference" "R76"
-			(at 112.014 28.956 90)
+			(at 105.664 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12177,7 +12738,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 105.41 25.4 90)
+			(at 108.204 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12596,6 +13157,101 @@
 		)
 	)
 	(symbol
+		(lib_id "PTS645SK50SMTR92LFS_:PTS645SK50SMTR92LFS")
+		(at 91.44 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a2d054d-44c2-42e7-befa-4ad36e3a4510")
+		(property "Reference" "S9"
+			(at 91.44 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "53042c1b-0111-4e3e-b958-90959befaa38")
+		)
+		(pin "3"
+			(uuid "f074120c-5b03-46f8-accb-df9674a804b8")
+		)
+		(pin "1"
+			(uuid "1823de12-55ce-4830-bb79-ea9aee0bc59c")
+		)
+		(pin "2"
+			(uuid "94ce4ea2-cfff-4670-90dc-2d6c07b061be")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 29.21 25.4 90)
 		(unit 1)
@@ -12603,10 +13259,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3cae3000-4717-4470-8175-547583d467e9")
 		(property "Reference" "R67"
-			(at 29.21 19.05 90)
+			(at 26.924 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,7 +13269,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 29.21 21.59 90)
+			(at 29.21 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16271,10 +16926,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50ee2464-4ac2-4197-9a71-bad9f9ba618e")
 		(property "Reference" "R71"
-			(at 33.02 67.31 90)
+			(at 33.02 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16282,7 +16936,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 33.02 69.85 90)
+			(at 34.29 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19920,7 +20574,7 @@
 		(dnp no)
 		(uuid "6fd1c58e-1992-4cf3-84e6-6d9f7a76b134")
 		(property "Reference" "R69"
-			(at 24.384 28.956 90)
+			(at 26.162 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19928,7 +20582,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 26.67 30.988 90)
+			(at 28.702 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21725,95 +22379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
-		(at 91.44 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7906064c-5c8e-463c-a358-5d6d30e02d29")
-		(property "Reference" "S3"
-			(at 91.44 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS645SK50SMTR92LFS"
-			(at 91.44 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CnK"
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
-		)
-		(pin "3"
-			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "S3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 220.98 146.05 90)
 		(unit 1)
@@ -22764,7 +23329,7 @@
 		(dnp no)
 		(uuid "82f4d3c7-a33a-4701-aa41-996b605dff3f")
 		(property "Reference" "R70"
-			(at 22.098 37.084 90)
+			(at 25.908 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22772,7 +23337,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 22.098 35.814 90)
+			(at 28.702 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23200,7 +23765,7 @@
 		(dnp no)
 		(uuid "831d2988-a290-4e89-8db1-631d8048c478")
 		(property "Reference" "R73"
-			(at 28.194 77.216 90)
+			(at 33.02 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23208,7 +23773,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 30.48 79.248 90)
+			(at 32.512 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23637,7 +24202,7 @@
 		(dnp no)
 		(uuid "83b1dfa2-29bd-41f2-a6a9-e82d92193211")
 		(property "Reference" "R82"
-			(at 116.332 85.344 90)
+			(at 108.458 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23645,7 +24210,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 84.074 90)
+			(at 109.982 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24622,13 +25187,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "16bff451-55ab-4f85-b84d-0d30c9d5188c")
+			(uuid "16bff451-55ab-4f85-b84d-0d30c9d5188d")
 		)
 		(pin "2"
-			(uuid "e6de6130-4c40-4375-886d-0627d3e3ced4")
+			(uuid "e6de6130-4c40-4375-886d-0627d3e3ced5")
 		)
 		(pin "3"
-			(uuid "2d705864-1e4b-43c7-ab74-15169a564240")
+			(uuid "2d705864-1e4b-43c7-ab74-15169a564241")
 		)
 		(instances
 			(project ""
@@ -25510,95 +26075,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
-		(at 91.44 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ce0a445-2a52-44b2-b3f3-505c8b4a74e5")
-		(property "Reference" "S6"
-			(at 91.44 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS645SK50SMTR92LFS"
-			(at 91.44 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CnK"
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
-		)
-		(pin "3"
-			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -29319,10 +29795,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c39dcbe-69c6-450d-9dd6-256168cda283")
 		(property "Reference" "R79"
-			(at 109.22 67.31 90)
+			(at 108.966 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29330,7 +29805,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 109.22 69.85 90)
+			(at 110.998 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30255,95 +30730,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
-		(at 91.44 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a307163e-150d-4bdf-9272-1eaecbf004a9")
-		(property "Reference" "S5"
-			(at 91.44 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS645SK50SMTR92LFS"
-			(at 91.44 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CnK"
-			(at 91.44 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
-		)
-		(pin "3"
-			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "S5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 109.22 81.28 270)
 		(mirror x)
@@ -30354,7 +30740,7 @@
 		(dnp no)
 		(uuid "a55b32da-8b5a-415b-957a-a406d0124d3a")
 		(property "Reference" "R81"
-			(at 114.046 77.216 90)
+			(at 109.728 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30362,7 +30748,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 111.76 79.248 90)
+			(at 109.728 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30781,6 +31167,101 @@
 		)
 	)
 	(symbol
+		(lib_id "PTS645SK50SMTR92LFS_:PTS645SK50SMTR92LFS")
+		(at 91.44 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a888685e-54d8-4256-9e36-3a9e9441d009")
+		(property "Reference" "S6"
+			(at 91.44 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a165a252-cdd8-467d-80d6-7bf5742ef0d1")
+		)
+		(pin "3"
+			(uuid "adc68964-1b3a-4806-86a2-34d545ecbb36")
+		)
+		(pin "1"
+			(uuid "5753515f-9784-4faf-a252-5942314adfb6")
+		)
+		(pin "2"
+			(uuid "915c2fc4-60ac-4219-ba9a-4572d84ff179")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 33.02 77.47 90)
 		(unit 1)
@@ -30790,7 +31271,7 @@
 		(dnp no)
 		(uuid "aad859b8-aefe-4754-accd-b532e0330903")
 		(property "Reference" "R72"
-			(at 26.416 77.216 90)
+			(at 31.496 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30798,7 +31279,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 33.02 73.66 90)
+			(at 32.766 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32985,7 +33466,7 @@
 		(dnp no)
 		(uuid "b631ecc5-61e1-4d27-a9f4-8035c7baddfe")
 		(property "Reference" "R74"
-			(at 25.908 85.344 90)
+			(at 34.036 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32993,7 +33474,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 25.908 84.074 90)
+			(at 32.766 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36382,10 +36863,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da7961af-cbb0-4435-82ad-90b0dc1a22a7")
 		(property "Reference" "R75"
-			(at 105.41 19.05 90)
+			(at 104.648 22.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36393,7 +36873,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 105.41 21.59 90)
+			(at 106.934 23.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37259,7 +37739,7 @@
 		(dnp no)
 		(uuid "e1cc928b-24fd-4a33-a208-49742eadbc7d")
 		(property "Reference" "R80"
-			(at 115.824 77.216 90)
+			(at 108.204 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37267,7 +37747,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 109.22 73.66 90)
+			(at 107.95 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38624,6 +39104,101 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTS645SK50SMTR92LFS_:PTS645SK50SMTR92LFS")
+		(at 91.44 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6c8bce3-3f73-4ed9-a857-f12950c38360")
+		(property "Reference" "S8"
+			(at 91.44 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS645SK50SMTR92LFS"
+			(at 91.44 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CnK"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "426debe4-4429-4b40-bd91-451b450ec69c")
+		)
+		(pin "3"
+			(uuid "d117c328-93da-4ba2-9b72-0de77a6de3c7")
+		)
+		(pin "1"
+			(uuid "efce5b97-fc88-4659-a0ea-23b5388eba32")
+		)
+		(pin "2"
+			(uuid "05284a05-6cd3-458c-8e01-eb537cc9594f")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
+					(reference "S8")
 					(unit 1)
 				)
 			)
@@ -40455,95 +41030,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS645SK50SMTR92LFS:PTS645SK50SMTR92LFS")
-		(at 91.44 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f58ba575-2db6-4be7-ab77-812d92de23b1")
-		(property "Reference" "S4"
-			(at 91.44 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS645SK50SMTR92LFS"
-			(at 91.44 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_PTS645SK50SMTR92LFS"
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CnK"
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb460f98-3491-4741-8f6d-e5baca542be6")
-		)
-		(pin "3"
-			(uuid "5ddba2a1-5e51-46f2-9081-8053911cd74f")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/5a9925ef-674c-4958-88af-e33ebdc9aaaa"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 45.72 44.45 270)
 		(unit 1)
@@ -41440,7 +41926,7 @@
 		(dnp no)
 		(uuid "fecd1dd0-a2d9-4d97-9086-cc8ee37fb286")
 		(property "Reference" "R68"
-			(at 22.606 28.956 90)
+			(at 26.924 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41448,7 +41934,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 29.21 25.4 90)
+			(at 29.972 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,4 +1,4 @@
-24647758082607508
+25177543817537765
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,34 @@ audio belton reverb
 0
 7
 7
+BLM18AG601SZ1D
+BEADC1608X95N
+
+
+0
+2
+2
+BZT52C5V1_7_F
+SOD123_DIO
+
+BZT52C5V1-7-F 
+0
+2
+2
+BZT52C5V1_7_F
+SOD123_DIO-L
+
+BZT52C5V1-7-F 
+0
+2
+2
+BZT52C5V1_7_F
+SOD123_DIO-M
+
+BZT52C5V1-7-F 
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -55194,6 +55222,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DMG2305UX_13
+SOT91P240X110-3N
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -57217,6 +57252,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FDV301N
+SOT95P237X111-3N
+
+
+0
+3
+3
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -58403,6 +58445,13 @@ heatsink
 IS43TR16256A_125KBL
 BGA96C80P9X16_900X1300X120
 
+
+0
+96
+96
+IS43TR16256B-125KBLI
+BGA96C80P9X16_900X1300X120
+<b>BGA</b><br>
 
 0
 96
@@ -64469,6 +64518,909 @@ THT
 0
 4
 2
+JLCPCB
+ANT-TH_L25.0-W25.0
+ANT-TH_L25.0-W25.0 footprint
+ANT-TH_L25.0-W25.0 footprint C784398
+0
+1
+1
+JLCPCB
+AUDIO-TH_PJ-3850-5A
+AUDIO-TH_PJ-3850-5A footprint
+AUDIO-TH_PJ-3850-5A footprint C707255
+0
+5
+5
+JLCPCB
+BAT-TH_BS-07-A1BJ001
+BAT-TH_BS-07-A1BJ001 footprint
+BAT-TH_BS-07-A1BJ001 footprint C2979167
+0
+2
+2
+JLCPCB
+Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering
+LGA-8
+lga land grid array
+0
+8
+8
+JLCPCB
+CONN-TH_2P-P5.00_KFM736H-5.0-2X1P
+CONN-TH_2P-P5.00_KFM736H-5.0-2X1P footprint
+CONN-TH_2P-P5.00_KFM736H-5.0-2X1P footprint C2974934
+0
+2
+2
+JLCPCB
+CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S
+CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint
+CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint C2981774
+0
+4
+4
+JLCPCB
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint
+CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint C9002
+0
+4
+4
+JLCPCB
+CRYSTAL-SMD_L5.0-W3.2
+CRYSTAL-SMD_L5.0-W3.2 footprint
+CRYSTAL-SMD_L5.0-W3.2 footprint C115962
+0
+2
+2
+JLCPCB
+CRYSTAL-SMD_L11.5-W4.8-LS12.7
+CRYSTAL-SMD_L11.5-W4.8-LS12.7 footprint
+CRYSTAL-SMD_L11.5-W4.8-LS12.7 footprint C12674
+0
+2
+2
+JLCPCB
+C_0402
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+JLCPCB
+C_0603
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+JLCPCB
+C_0805
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+JLCPCB
+C_1206
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+JLCPCB
+C_CASE-A-3216-18(mm)
+Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+JLCPCB
+C_CASE-B-3528-21(mm)
+Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+JLCPCB
+DBS_L8.2-W6.4-P5.10-LS10.0-BL
+DBS_L8.2-W6.4-P5.10-LS10.0-BL footprint
+DBS_L8.2-W6.4-P5.10-LS10.0-BL footprint C5377
+0
+4
+4
+JLCPCB
+DFN1006-3L_L1.0-W0.6-LS1.0-BR
+DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint
+DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint C20615795
+0
+3
+3
+JLCPCB
+DFN2020-3_L2.0-W2.0-P0.65-BR-1
+DFN2020-3_L2.0-W2.0-P0.65-BR-1 footprint
+DFN2020-3_L2.0-W2.0-P0.65-BR-1 footprint C20615799
+0
+3
+3
+JLCPCB
+DFN2020-3_L2.0-W2.0-P1.30-BR-1
+DFN2020-3_L2.0-W2.0-P1.30-BR-1 footprint
+DFN2020-3_L2.0-W2.0-P1.30-BR-1 footprint C22395518
+0
+3
+3
+JLCPCB
+DFN2510-10_L2.5-W1.0-P0.50-BL
+DFN2510-10_L2.5-W1.0-P0.50-BL footprint
+DFN2510-10_L2.5-W1.0-P0.50-BL footprint C7420374
+0
+10
+10
+JLCPCB
+D_0603
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+JLCPCB
+D_0805
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED
+0
+2
+2
+JLCPCB
+D_DFN0603-2L
+DFN0603-2_L0.6-W0.3-P0.40-RD footprint
+DFN0603-2_L0.6-W0.3-P0.40-RD footprint C22395515
+0
+2
+2
+JLCPCB
+D_DFN1006-2L
+DFN1006-2L-RD footprint
+DFN1006-2L-RD footprint C22395516
+0
+2
+2
+JLCPCB
+D_DFN1610-2L
+DFN1610-2L_L1.6-W1.0-P1.10-RD footprint
+DFN1610-2L_L1.6-W1.0-P1.10-RD footprint C20615798
+0
+2
+2
+JLCPCB
+D_DO-214AC(SMA)
+SMA_L4.5-W2.6-LS5.1-RD footprint
+SMA_L4.5-W2.6-LS5.1-RD footprint C2903799
+0
+2
+2
+JLCPCB
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+JLCPCB
+D_SMAF
+SMAF_L3.5-W2.6-LS4.7-RD footprint
+SMAF_L3.5-W2.6-LS4.7-RD footprint C2922170
+0
+2
+2
+JLCPCB
+D_SMB
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
+JLCPCB
+D_SMBF
+SMBF_L4.3-W3.6-LS5.3-RD footprint
+SMBF_L4.3-W3.6-LS5.3-RD footprint C2922174
+0
+2
+2
+JLCPCB
+D_SMC
+Diode SMC (DO-214AB)
+Diode SMC (DO-214AB)
+0
+2
+2
+JLCPCB
+D_SMC(DO-214AB)
+SMC_L7.1-W6.2-LS8.1-R-RD footprint
+SMC_L7.1-W6.2-LS8.1-R-RD footprint C35722
+0
+2
+2
+JLCPCB
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+JLCPCB
+D_SOD-123FL
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+JLCPCB
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+JLCPCB
+D_SOD-523
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+Diode SOD523
+0
+2
+2
+JLCPCB
+D_SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+JLCPCB
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP footprint
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP footprint C16581
+0
+15
+9
+JLCPCB
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP footprint
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP footprint C9864
+0
+15
+9
+JLCPCB
+ESP-12E
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+JLCPCB
+FB_0603
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+JLCPCB
+FB_0805
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+JLCPCB
+FC-135R_L3.2-W1.5
+FC-135R_L3.2-W1.5 footprint
+FC-135R_L3.2-W1.5 footprint C32346
+0
+2
+2
+JLCPCB
+Hole, 3mm
+
+
+0
+9
+1
+JLCPCB
+Hole_Tooling_JLCPCB
+
+
+0
+0
+0
+JLCPCB
+IPEX-SMD_BWIPX-1-001E
+IPEX-SMD_BWIPX-1-001E footprint
+IPEX-SMD_BWIPX-1-001E footprint C5137195
+0
+3
+3
+JLCPCB
+LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B
+LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B footprint
+LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B footprint C5349954
+0
+4
+4
+JLCPCB
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel PLCC-4 5050
+0
+4
+4
+JLCPCB
+LQFP-32_7x7mm_P0.8mm
+LQFP, 32 Pin (https://www.nxp.com/docs/en/package-information/SOT358-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+32
+32
+JLCPCB
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+JLCPCB
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+JLCPCB
+L_0402
+Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+JLCPCB
+L_0603
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+JLCPCB
+L_0805
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+JLCPCB
+L_1206
+Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+JLCPCB
+L_SMD,4.5x4.1mm
+IND-SMD_L4.5-W4.1_TMPA0402SP footprint
+IND-SMD_L4.5-W4.1_TMPA0402SP footprint C2875615
+0
+2
+2
+JLCPCB
+L_SMD,4x4mm
+IND-SMD_L4.0-W4.0-A footprint
+IND-SMD_L4.0-W4.0-A footprint C2849465
+0
+2
+2
+JLCPCB
+L_SMD,8x8mm
+IND-SMD_L8.0-W8.0 footprint
+IND-SMD_L8.0-W8.0 footprint C2827415
+0
+2
+2
+JLCPCB
+L_SMD,12.3x12.3mm
+Choke, SMD, 12x12mm 6mm height
+Choke SMD
+0
+2
+2
+JLCPCB
+L_SMD,12.5x12.5mm
+IND-SMD_L12.5-W12.5 footprint
+IND-SMD_L12.5-W12.5 footprint C2924827
+0
+2
+2
+JLCPCB
+Lite-On_LTR-303ALS-01
+ambient light sensor, i2c interface, 6-pin chipled package, http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
+ambient light sensor chipled
+0
+6
+6
+JLCPCB
+MBS_L4.7-W3.8-P2.40-LS7.0-TL
+MBS_L4.7-W3.8-P2.40-LS7.0-TL footprint
+MBS_L4.7-W3.8-P2.40-LS7.0-TL footprint C2488
+0
+4
+4
+JLCPCB
+MouseBites, Cosmetic, JLCPCB, 1.6mm
+
+
+0
+0
+0
+JLCPCB
+MouseBites, Mechanical, JLCPCB, 1.6mm
+
+
+0
+0
+0
+JLCPCB
+OSC-SMD_4P-L3.2-W2.5-BL
+OSC-SMD_4P-L3.2-W2.5-BL footprint
+OSC-SMD_4P-L3.2-W2.5-BL footprint C9006
+0
+4
+4
+JLCPCB
+OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI
+OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint
+OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
+0
+4
+4
+JLCPCB
+PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
+PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
+PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint C34465
+0
+13
+6
+JLCPCB
+Part_Num_JLCPCB
+
+
+0
+0
+0
+JLCPCB
+QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm
+QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+27
+21
+JLCPCB
+QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
+QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+39
+25
+JLCPCB
+QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias
+QFN, 32 Pin (https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+59
+33
+JLCPCB
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.4
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.4 footprint
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.4 footprint C459293
+0
+43
+33
+JLCPCB
+QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias
+QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+71
+57
+JLCPCB
+QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm_ThermalVias
+QFN, 56 Pin (https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf#page=41), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+71
+57
+JLCPCB
+Q_SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+JLCPCB
+Q_SOT-89
+SOT-89-3_L4.5-W2.5-P1.50-LS4.0-BR-1 footprint
+SOT-89-3_L4.5-W2.5-P1.50-LS4.0-BR-1 footprint C24278
+0
+4
+3
+JLCPCB
+Q_SOT-323
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322
+0
+3
+3
+JLCPCB
+RV_Plugin,P=5mm
+RES-TH_L8.0-W5.4-P5.00-D0.6 footprint
+RES-TH_L8.0-W5.4-P5.00-D0.6 footprint C2919238
+0
+2
+2
+JLCPCB
+R_0402
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+JLCPCB
+R_0402x4
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA04P (see cra04p.pdf)
+resistor array
+0
+8
+8
+JLCPCB
+R_0603
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+JLCPCB
+R_0603x4
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)
+resistor array
+0
+8
+8
+JLCPCB
+R_0805
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+JLCPCB
+R_1206
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+JLCPCB
+R_2010
+Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+JLCPCB
+R_2512
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+JLCPCB
+SOIC-8_3.9x4.9mm_P1.27mm
+SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
+JLCPCB
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL footprint
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL footprint C627741
+0
+8
+8
+JLCPCB
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint C7881
+0
+8
+8
+JLCPCB
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL footprint
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL footprint C97521
+0
+8
+8
+JLCPCB
+SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL
+SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+14
+14
+JLCPCB
+SOIC-16_3.9x9.9mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+JLCPCB
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint C233584
+0
+16
+16
+JLCPCB
+SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL
+SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint
+SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
+0
+20
+20
+JLCPCB
+SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
+SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
+SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint C20617928
+0
+3
+3
+JLCPCB
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint C7502687
+0
+3
+3
+JLCPCB
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint C626179
+0
+3
+3
+JLCPCB
+SOT-23-3_L2.9-W1.3-P1.90-LS2.8-BR
+SOT-23-3_L2.9-W1.3-P1.90-LS2.8-BR footprint
+SOT-23-3_L2.9-W1.3-P1.90-LS2.8-BR footprint C22466350
+0
+3
+3
+JLCPCB
+SOT-23-3_L2.9-W1.4-P1.90-LS2.5-BR
+SOT-23-3_L2.9-W1.4-P1.90-LS2.5-BR footprint
+SOT-23-3_L2.9-W1.4-P1.90-LS2.5-BR footprint C22466364
+0
+3
+3
+JLCPCB
+SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR
+SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR footprint
+SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR footprint C20615824
+0
+3
+3
+JLCPCB
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint C2829399
+0
+3
+3
+JLCPCB
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint C32677
+0
+3
+3
+JLCPCB
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL footprint
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL footprint C242517
+0
+5
+5
+JLCPCB
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C7972
+0
+5
+5
+JLCPCB
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL footprint C12044
+0
+6
+6
+JLCPCB
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-1
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-1 footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-1 footprint C7420376
+0
+6
+6
+JLCPCB
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR footprint C85364
+0
+6
+6
+JLCPCB
+SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL
+SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL footprint C20615829
+0
+6
+6
+JLCPCB
+SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR
+SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint
+SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint C2829405
+0
+7
+3
+JLCPCB
+SOT-143-4_L2.9-W1.3-P1.90-LS2.4-BL-1
+SOT-143-4_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint
+SOT-143-4_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint C22395520
+0
+4
+4
+JLCPCB
+SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR
+SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint
+SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint C6186
+0
+8
+4
+JLCPCB
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint C6187
+0
+8
+4
+JLCPCB
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR-2
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR-2 footprint
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR-2 footprint C22466373
+0
+3
+3
+JLCPCB
+SOT-323-3_L2.0-W1.3-P1.30-LS2.3-BR
+SOT-323-3_L2.0-W1.3-P1.30-LS2.3-BR footprint
+SOT-323-3_L2.0-W1.3-P1.30-LS2.3-BR footprint C22392482
+0
+3
+3
+JLCPCB
+SOT-363-6_L2.0-W1.3-P0.65-LS2.3-BL
+SOT-363-6_L2.0-W1.3-P0.65-LS2.3-BL footprint
+SOT-363-6_L2.0-W1.3-P0.65-LS2.3-BL footprint C22466376
+0
+6
+6
+JLCPCB
+SOT-363_L2.0-W1.3-P0.65-LS2.1-BR
+SOT-363_L2.0-W1.3-P0.65-LS2.1-BR footprint
+SOT-363_L2.0-W1.3-P0.65-LS2.1-BR footprint C15879
+0
+6
+6
+JLCPCB
+SOT-363_L2.1-W1.3-P0.65-LS2.2-BL
+SOT-363_L2.1-W1.3-P0.65-LS2.2-BL footprint
+SOT-363_L2.1-W1.3-P0.65-LS2.2-BL footprint C20615830
+0
+6
+6
+JLCPCB
+SOT-363_SC-70-6
+SOT-363, SC-70-6, SC-88
+SOT-363 SC-70-6 SC-88
+0
+6
+6
+JLCPCB
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
+0
+4
+4
+JLCPCB
+Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm
+Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Sensirion QFN NoLead
+0
+25
+21
+JLCPCB
+TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL
+TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL footprint
+TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL footprint C58069
+0
+13
+3
+JLCPCB
+TO-263-5_L10.2-W8.9-P1.70-TL
+TO-263-5_L10.2-W8.9-P1.70-TL footprint
+TO-263-5_L10.2-W8.9-P1.70-TL footprint C10002
+0
+13
+6
+JLCPCB
+TQFP-32_7x7mm_P0.8mm
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
+JLCPCB
+TSSOP-10_3x3mm_P0.5mm
+TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
+SSOP 0.5
+0
+10
+10
+JLCPCB
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL footprint
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL footprint C13482
+0
+16
+16
+JLCPCB
+TSSOP-20_4.4x6.5mm_P0.65mm
+TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+20
+20
+JLCPCB
+TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL
+TSSOP, 24 Pin (JEDEC MO-153 Var DA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+24
+24
+JLCPCB
+TYPE-C-SMD_HX-TYPE-C-16PIN
+TYPE-C-SMD_HX-TYPE-C-16PIN footprint
+TYPE-C-SMD_HX-TYPE-C-16PIN footprint C2927039
+0
+21
+13
+JLCPCB
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint C6568
+0
+38
+29
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -68480,6 +69432,13 @@ threaded screw
 0
 4
 1
+NC7WZ07P6X
+SOT65P210X110-6N
+
+
+0
+6
+6
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -91055,6 +92014,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SMLVN6RBG1U1
+LED_SMLV56_ROM
+
+SMLVN6RGB1U1 
+0
+6
+6
+SMLVN6RBG1U1
+LED_SMLV56_ROM-L
+
+SMLVN6RGB1U1 
+0
+6
+6
+SMLVN6RBG1U1
+LED_SMLV56_ROM-M
+
+SMLVN6RGB1U1 
+0
+6
+6
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -92735,6 +93715,13 @@ QFN50P300X300X100-17N
 0
 22
 22
+TYS60282R2N_10
+IND_TYS60282_LRD
+
+TYS60282R2N-10 
+0
+2
+2
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99364,13 +100351,1140 @@ Varistor VF
 0
 2
 2
-footprints
-IND_TAIYO_NR5040_TAY
+XC7Z020-1CLG400I
+CLG400_ZYNQ-7000_AMD
 
-NR5040T2R2N 
+XC7Z020-1CLG400I 
+0
+400
+400
+XC7Z020-1CLG400I
+CLG400_ZYNQ-7000_AMD-L
+
+XC7Z020-1CLG400I 
+0
+400
+400
+XC7Z020-1CLG400I
+CLG400_ZYNQ-7000_AMD-M
+
+XC7Z020-1CLG400I 
+0
+400
+400
+footprints
+ANT-TH_L25.0-W25.0
+ANT-TH_L25.0-W25.0 footprint
+ANT-TH_L25.0-W25.0 footprint C784398
+0
+1
+1
+footprints
+AUDIO-TH_PJ-3850-5A
+AUDIO-TH_PJ-3850-5A footprint
+AUDIO-TH_PJ-3850-5A footprint C707255
+0
+5
+5
+footprints
+BAT-TH_BS-07-A1BJ001
+BAT-TH_BS-07-A1BJ001 footprint
+BAT-TH_BS-07-A1BJ001 footprint C2979167
 0
 2
 2
+footprints
+BEADC1608X95N
+
+
+0
+2
+2
+footprints
+BGA96C80P9X16_900X1300X120
+<b>BGA</b><br>
+
+0
+96
+96
+footprints
+Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering
+LGA-8
+lga land grid array
+0
+8
+8
+footprints
+CLG400_ZYNQ-7000_AMD
+
+XC7Z020-1CLG400I 
+0
+400
+400
+footprints
+CONN-TH_2P-P5.00_KFM736H-5.0-2X1P
+CONN-TH_2P-P5.00_KFM736H-5.0-2X1P footprint
+CONN-TH_2P-P5.00_KFM736H-5.0-2X1P footprint C2974934
+0
+2
+2
+footprints
+CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S
+CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint
+CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint C2981774
+0
+4
+4
+footprints
+CONN6_PZ254V-11-06P_XFC
+
+PZ254V-11-06P 
+0
+6
+6
+footprints
+CONN_PPPC062LJBN-RC_SUL
+
+PPPC062LJBN-RC 
+0
+12
+12
+footprints
+CONN_PZ254V-11-02P_02P_XFC
+
+PZ254V-11-02P 
+0
+2
+2
+footprints
+CONN_PZ254V-11-04P_XFC
+
+PZ254V-11-04P 
+0
+4
+4
+footprints
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint
+CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint C9002
+0
+4
+4
+footprints
+CRYSTAL-SMD_L5.0-W3.2
+CRYSTAL-SMD_L5.0-W3.2 footprint
+CRYSTAL-SMD_L5.0-W3.2 footprint C115962
+0
+2
+2
+footprints
+CRYSTAL-SMD_L11.5-W4.8-LS12.7
+CRYSTAL-SMD_L11.5-W4.8-LS12.7 footprint
+CRYSTAL-SMD_L11.5-W4.8-LS12.7 footprint C12674
+0
+2
+2
+footprints
+CUI_PJ-102AH
+
+
+0
+3
+3
+footprints
+C_0402
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
+C_0603
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
+C_0805
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
+C_1206
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
+C_CASE-A-3216-18(mm)
+Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+footprints
+C_CASE-B-3528-21(mm)
+Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+footprints
+DBS_L8.2-W6.4-P5.10-LS10.0-BL
+DBS_L8.2-W6.4-P5.10-LS10.0-BL footprint
+DBS_L8.2-W6.4-P5.10-LS10.0-BL footprint C5377
+0
+4
+4
+footprints
+DFN1006-3L_L1.0-W0.6-LS1.0-BR
+DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint
+DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint C20615795
+0
+3
+3
+footprints
+DFN2020-3_L2.0-W2.0-P0.65-BR-1
+DFN2020-3_L2.0-W2.0-P0.65-BR-1 footprint
+DFN2020-3_L2.0-W2.0-P0.65-BR-1 footprint C20615799
+0
+3
+3
+footprints
+DFN2020-3_L2.0-W2.0-P1.30-BR-1
+DFN2020-3_L2.0-W2.0-P1.30-BR-1 footprint
+DFN2020-3_L2.0-W2.0-P1.30-BR-1 footprint C22395518
+0
+3
+3
+footprints
+DFN2510-10_L2.5-W1.0-P0.50-BL
+DFN2510-10_L2.5-W1.0-P0.50-BL footprint
+DFN2510-10_L2.5-W1.0-P0.50-BL footprint C7420374
+0
+10
+10
+footprints
+DMG2305UX_13
+
+
+0
+3
+3
+footprints
+D_0603
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+footprints
+D_0805
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED
+0
+2
+2
+footprints
+D_DFN0603-2L
+DFN0603-2_L0.6-W0.3-P0.40-RD footprint
+DFN0603-2_L0.6-W0.3-P0.40-RD footprint C22395515
+0
+2
+2
+footprints
+D_DFN1006-2L
+DFN1006-2L-RD footprint
+DFN1006-2L-RD footprint C22395516
+0
+2
+2
+footprints
+D_DFN1610-2L
+DFN1610-2L_L1.6-W1.0-P1.10-RD footprint
+DFN1610-2L_L1.6-W1.0-P1.10-RD footprint C20615798
+0
+2
+2
+footprints
+D_DO-214AC(SMA)
+SMA_L4.5-W2.6-LS5.1-RD footprint
+SMA_L4.5-W2.6-LS5.1-RD footprint C2903799
+0
+2
+2
+footprints
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+footprints
+D_SMAF
+SMAF_L3.5-W2.6-LS4.7-RD footprint
+SMAF_L3.5-W2.6-LS4.7-RD footprint C2922170
+0
+2
+2
+footprints
+D_SMB
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
+footprints
+D_SMBF
+SMBF_L4.3-W3.6-LS5.3-RD footprint
+SMBF_L4.3-W3.6-LS5.3-RD footprint C2922174
+0
+2
+2
+footprints
+D_SMC
+Diode SMC (DO-214AB)
+Diode SMC (DO-214AB)
+0
+2
+2
+footprints
+D_SMC(DO-214AB)
+SMC_L7.1-W6.2-LS8.1-R-RD footprint
+SMC_L7.1-W6.2-LS8.1-R-RD footprint C35722
+0
+2
+2
+footprints
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+footprints
+D_SOD-123FL
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+footprints
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+footprints
+D_SOD-523
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+Diode SOD523
+0
+2
+2
+footprints
+D_SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+footprints
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP footprint
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP footprint C16581
+0
+15
+9
+footprints
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP footprint
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-TL-EP footprint C9864
+0
+15
+9
+footprints
+ESP-12E
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+footprints
+FB_0603
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+footprints
+FB_0805
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+footprints
+FC-135R_L3.2-W1.5
+FC-135R_L3.2-W1.5 footprint
+FC-135R_L3.2-W1.5 footprint C32346
+0
+2
+2
+footprints
+FDV301N
+
+
+0
+3
+3
+footprints
+Hole, 3mm
+
+
+0
+9
+1
+footprints
+Hole_Tooling_JLCPCB
+
+
+0
+0
+0
+footprints
+IND_TAIYO_NR5040_TAY
+
+NR5040T3R3N 
+0
+2
+2
+footprints
+IND_TYS60282_LRD
+
+TYS60282R2N-10 
+0
+2
+2
+footprints
+IPEX-SMD_BWIPX-1-001E
+IPEX-SMD_BWIPX-1-001E footprint
+IPEX-SMD_BWIPX-1-001E footprint C5137195
+0
+3
+3
+footprints
+LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B
+LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B footprint
+LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B footprint C5349954
+0
+4
+4
+footprints
+LED_SMLV56_ROM
+
+SMLVN6RGB1U1 
+0
+6
+6
+footprints
+LED_SMLV56_ROM-L
+
+SMLVN6RGB1U1 
+0
+6
+6
+footprints
+LED_SMLV56_ROM-M
+
+SMLVN6RGB1U1 
+0
+6
+6
+footprints
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel PLCC-4 5050
+0
+4
+4
+footprints
+LQFP-32_7x7mm_P0.8mm
+LQFP, 32 Pin (https://www.nxp.com/docs/en/package-information/SOT358-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+32
+32
+footprints
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+footprints
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+footprints
+L_0402
+Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+footprints
+L_0603
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+footprints
+L_0805
+Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+footprints
+L_1206
+Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+footprints
+L_SMD,4.5x4.1mm
+IND-SMD_L4.5-W4.1_TMPA0402SP footprint
+IND-SMD_L4.5-W4.1_TMPA0402SP footprint C2875615
+0
+2
+2
+footprints
+L_SMD,4x4mm
+IND-SMD_L4.0-W4.0-A footprint
+IND-SMD_L4.0-W4.0-A footprint C2849465
+0
+2
+2
+footprints
+L_SMD,8x8mm
+IND-SMD_L8.0-W8.0 footprint
+IND-SMD_L8.0-W8.0 footprint C2827415
+0
+2
+2
+footprints
+L_SMD,12.3x12.3mm
+Choke, SMD, 12x12mm 6mm height
+Choke SMD
+0
+2
+2
+footprints
+L_SMD,12.5x12.5mm
+IND-SMD_L12.5-W12.5 footprint
+IND-SMD_L12.5-W12.5 footprint C2924827
+0
+2
+2
+footprints
+Lite-On_LTR-303ALS-01
+ambient light sensor, i2c interface, 6-pin chipled package, http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
+ambient light sensor chipled
+0
+6
+6
+footprints
+MBS_L4.7-W3.8-P2.40-LS7.0-TL
+MBS_L4.7-W3.8-P2.40-LS7.0-TL footprint
+MBS_L4.7-W3.8-P2.40-LS7.0-TL footprint C2488
+0
+4
+4
+footprints
+MouseBites, Cosmetic, JLCPCB, 1.6mm
+
+
+0
+0
+0
+footprints
+MouseBites, Mechanical, JLCPCB, 1.6mm
+
+
+0
+0
+0
+footprints
+NC7WZ07P6X
+
+
+0
+6
+6
+footprints
+OSC-SMD_4P-L3.2-W2.5-BL
+OSC-SMD_4P-L3.2-W2.5-BL footprint
+OSC-SMD_4P-L3.2-W2.5-BL footprint C9006
+0
+4
+4
+footprints
+OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI
+OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint
+OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
+0
+4
+4
+footprints
+PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
+PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
+PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint C34465
+0
+13
+6
+footprints
+Part_Num_JLCPCB
+
+
+0
+0
+0
+footprints
+QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm
+QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+27
+21
+footprints
+QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
+QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+39
+25
+footprints
+QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias
+QFN, 32 Pin (https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+59
+33
+footprints
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.4
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.4 footprint
+QFN-32_L5.0-W5.0-P0.50-TL-EP3.4 footprint C459293
+0
+43
+33
+footprints
+QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias
+QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+71
+57
+footprints
+QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm_ThermalVias
+QFN, 56 Pin (https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf#page=41), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+71
+57
+footprints
+Q_SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+footprints
+Q_SOT-89
+SOT-89-3_L4.5-W2.5-P1.50-LS4.0-BR-1 footprint
+SOT-89-3_L4.5-W2.5-P1.50-LS4.0-BR-1 footprint C24278
+0
+4
+3
+footprints
+Q_SOT-323
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322
+0
+3
+3
+footprints
+RGT0016C
+
+TLV62130RGTT 
+0
+22
+22
+footprints
+RGZ0048B
+
+TPS65400RGZT 
+0
+57
+50
+footprints
+RGZ0048B_NV
+
+TPS65400RGZT 
+0
+49
+49
+footprints
+RV_Plugin,P=5mm
+RES-TH_L8.0-W5.4-P5.00-D0.6 footprint
+RES-TH_L8.0-W5.4-P5.00-D0.6 footprint C2919238
+0
+2
+2
+footprints
+R_0402
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
+R_0402x4
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA04P (see cra04p.pdf)
+resistor array
+0
+8
+8
+footprints
+R_0603
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
+R_0603x4
+Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)
+resistor array
+0
+8
+8
+footprints
+R_0805
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
+R_1206
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
+R_2010
+Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
+R_2512
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
+SO3016_INF
+
+S25FL128SAGMFI000 
+0
+16
+16
+footprints
+SOD123_DIO
+
+BZT52C5V1-7-F 
+0
+2
+2
+footprints
+SOD123_DIO-L
+
+BZT52C5V1-7-F 
+0
+2
+2
+footprints
+SOD123_DIO-M
+
+BZT52C5V1-7-F 
+0
+2
+2
+footprints
+SOIC-8_3.9x4.9mm_P1.27mm
+SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
+footprints
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL footprint
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL footprint C627741
+0
+8
+8
+footprints
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
+SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint C7881
+0
+8
+8
+footprints
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL footprint
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL footprint C97521
+0
+8
+8
+footprints
+SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL
+SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+14
+14
+footprints
+SOIC-16_3.9x9.9mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+footprints
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint C233584
+0
+16
+16
+footprints
+SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL
+SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint
+SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
+0
+20
+20
+footprints
+SOIC8_4P9X3P9MC_MCH
+
+ATSHA204A-SSHCZ-T 
+0
+8
+8
+footprints
+SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
+SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
+SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint C20617928
+0
+3
+3
+footprints
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint C7502687
+0
+3
+3
+footprints
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR footprint C626179
+0
+3
+3
+footprints
+SOT-23-3_L2.9-W1.3-P1.90-LS2.8-BR
+SOT-23-3_L2.9-W1.3-P1.90-LS2.8-BR footprint
+SOT-23-3_L2.9-W1.3-P1.90-LS2.8-BR footprint C22466350
+0
+3
+3
+footprints
+SOT-23-3_L2.9-W1.4-P1.90-LS2.5-BR
+SOT-23-3_L2.9-W1.4-P1.90-LS2.5-BR footprint
+SOT-23-3_L2.9-W1.4-P1.90-LS2.5-BR footprint C22466364
+0
+3
+3
+footprints
+SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR
+SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR footprint
+SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR footprint C20615824
+0
+3
+3
+footprints
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR footprint C2829399
+0
+3
+3
+footprints
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint
+SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint C32677
+0
+3
+3
+footprints
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL footprint
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL footprint C242517
+0
+5
+5
+footprints
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C7972
+0
+5
+5
+footprints
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL footprint C12044
+0
+6
+6
+footprints
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-1
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-1 footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-1 footprint C7420376
+0
+6
+6
+footprints
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR footprint C85364
+0
+6
+6
+footprints
+SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL
+SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL footprint
+SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL footprint C20615829
+0
+6
+6
+footprints
+SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR
+SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint
+SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint C2829405
+0
+7
+3
+footprints
+SOT-143-4_L2.9-W1.3-P1.90-LS2.4-BL-1
+SOT-143-4_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint
+SOT-143-4_L2.9-W1.3-P1.90-LS2.4-BL-1 footprint C22395520
+0
+4
+4
+footprints
+SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR
+SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint
+SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR footprint C6186
+0
+8
+4
+footprints
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint C6187
+0
+8
+4
+footprints
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR-2
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR-2 footprint
+SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR-2 footprint C22466373
+0
+3
+3
+footprints
+SOT-323-3_L2.0-W1.3-P1.30-LS2.3-BR
+SOT-323-3_L2.0-W1.3-P1.30-LS2.3-BR footprint
+SOT-323-3_L2.0-W1.3-P1.30-LS2.3-BR footprint C22392482
+0
+3
+3
+footprints
+SOT-363-6_L2.0-W1.3-P0.65-LS2.3-BL
+SOT-363-6_L2.0-W1.3-P0.65-LS2.3-BL footprint
+SOT-363-6_L2.0-W1.3-P0.65-LS2.3-BL footprint C22466376
+0
+6
+6
+footprints
+SOT-363_L2.0-W1.3-P0.65-LS2.1-BR
+SOT-363_L2.0-W1.3-P0.65-LS2.1-BR footprint
+SOT-363_L2.0-W1.3-P0.65-LS2.1-BR footprint C15879
+0
+6
+6
+footprints
+SOT-363_L2.1-W1.3-P0.65-LS2.2-BL
+SOT-363_L2.1-W1.3-P0.65-LS2.2-BL footprint
+SOT-363_L2.1-W1.3-P0.65-LS2.2-BL footprint C20615830
+0
+6
+6
+footprints
+SOT-363_SC-70-6
+SOT-363, SC-70-6, SC-88
+SOT-363 SC-70-6 SC-88
+0
+6
+6
+footprints
+SS-12D10G5_XKB
+
+SS-12D10G5 
+0
+3
+3
+footprints
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
+0
+4
+4
+footprints
+SW_PTS645SK50SMTR92LFS
+
+
+0
+4
+4
+footprints
+Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm
+Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Sensirion QFN NoLead
+0
+25
+21
+footprints
+TLV62130RGTT
+
+
+0
+22
+22
+footprints
+TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL
+TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL footprint
+TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL footprint C58069
+0
+13
+3
+footprints
+TO-263-5_L10.2-W8.9-P1.70-TL
+TO-263-5_L10.2-W8.9-P1.70-TL footprint
+TO-263-5_L10.2-W8.9-P1.70-TL footprint C10002
+0
+13
+6
+footprints
+TORX1950AF_TOS
+
+TORX1950AF 
+0
+6
+6
+footprints
+TOTX1950AF_TOS
+
+TOTX1950AF 
+0
+6
+6
+footprints
+TQFP-32_7x7mm_P0.8mm
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
+footprints
+TSSOP-10_3x3mm_P0.5mm
+TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
+SSOP 0.5
+0
+10
+10
+footprints
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL footprint
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL footprint C13482
+0
+16
+16
+footprints
+TSSOP-20_4.4x6.5mm_P0.65mm
+TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+20
+20
+footprints
+TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL
+TSSOP, 24 Pin (JEDEC MO-153 Var DA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+24
+24
+footprints
+TYPE-C-SMD_HX-TYPE-C-16PIN
+TYPE-C-SMD_HX-TYPE-C-16PIN footprint
+TYPE-C-SMD_HX-TYPE-C-16PIN footprint C2927039
+0
+21
+13
+footprints
+VDFN6_3P2X2P5_MCH
+
+DSC1122CI5-050.0000T 
+0
+6
+6
+footprints
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint
+WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint C6568
+0
+38
+29
 fpga-board
 XC7Z020-2CLG484I
 
@@ -99378,3 +101492,17 @@ XC7Z020-2CLG484I
 0
 484
 484
+tps65400rgzt
+RGZ0048B
+
+TPS65400RGZT 
+0
+57
+50
+tps65400rgzt
+RGZ0048B_NV
+
+TPS65400RGZT 
+0
+49
+49
