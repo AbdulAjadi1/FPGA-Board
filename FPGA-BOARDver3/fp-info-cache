@@ -1,4 +1,4 @@
-25177543817537765
+25217603621551867
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100373,6 +100373,13 @@ XC7Z020-1CLG400I
 400
 400
 footprints
+AMPHENOL_10029449-001RLF
+
+
+0
+23
+23
+footprints
 ANT-TH_L25.0-W25.0
 ANT-TH_L25.0-W25.0 footprint
 ANT-TH_L25.0-W25.0 footprint C784398
@@ -100449,6 +100456,13 @@ PPPC062LJBN-RC
 0
 12
 12
+footprints
+CONN_PRT-14017_SPK
+
+PRT-14017 
+0
+40
+40
 footprints
 CONN_PZ254V-11-02P_02P_XFC
 
@@ -100744,6 +100758,20 @@ FDV301N
 3
 3
 footprints
+FUSE_PTS1206_EAT
+
+PTS120630V012 
+0
+2
+2
+footprints
+HALO_FASTJACK
+Halo_FastJack
+Connector
+0
+16
+16
+footprints
 Hole, 3mm
 
 
@@ -100785,6 +100813,13 @@ LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B footprint C5349954
 0
 4
 4
+footprints
+LED_0402_1005Metric
+LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
 footprints
 LED_SMLV56_ROM
 
@@ -100912,6 +100947,20 @@ MBS_L4.7-W3.8-P2.40-LS7.0-TL footprint C2488
 4
 4
 footprints
+MLP6_2X2_ONS
+
+FPF1018 
+0
+7
+7
+footprints
+MOLEX_503398-1892
+
+
+0
+14
+14
+footprints
 MouseBites, Cosmetic, JLCPCB, 1.6mm
 
 
@@ -100960,6 +101009,27 @@ Part_Num_JLCPCB
 0
 0
 0
+footprints
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+footprints
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+footprints
+PinHeader_2x20_P2.54mm_Vertical
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
 footprints
 QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm
 QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -101045,6 +101115,20 @@ TPS65400RGZT
 49
 49
 footprints
+RTL8211F-CG_RTK
+
+RTL8211F-CG 
+0
+41
+41
+footprints
+RTW24_2P45X2P45
+
+TXS02612RTWR 
+0
+34
+26
+footprints
 RV_Plugin,P=5mm
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint C2919238
@@ -101108,6 +101192,20 @@ resistor
 2
 2
 footprints
+SC-74A_318BQ_ONS
+
+NC7SZ125M5X 
+0
+5
+5
+footprints
+SIP32510DT-T1-GE3_VIS
+
+SIP32510DT-T1-GE3 
+0
+6
+6
+footprints
 SO3016_INF
 
 S25FL128SAGMFI000 
@@ -101132,6 +101230,13 @@ footprints
 SOD123_DIO-M
 
 BZT52C5V1-7-F 
+0
+2
+2
+footprints
+SODFL1608X70N
+
+
 0
 2
 2
@@ -101199,6 +101304,13 @@ ATSHA204A-SSHCZ-T
 8
 8
 footprints
+SOT-23
+SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+footprints
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint C20617928
@@ -101254,6 +101366,13 @@ SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint C32677
 0
 3
 3
+footprints
+SOT-23-5
+SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
 footprints
 SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL
 SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL footprint
@@ -101367,6 +101486,27 @@ SOT-363 SC-70-6 SC-88
 6
 6
 footprints
+SOT553-5_ONS
+
+NL17SZ17XV5T2G 
+0
+5
+5
+footprints
+SOT902-1_NXP
+
+GTL2002GM 
+0
+8
+8
+footprints
+SRN4018
+SRN4018
+Inductor
+0
+2
+2
+footprints
 SS-12D10G5_XKB
 
 SS-12D10G5 
@@ -101401,6 +101541,13 @@ TLV62130RGTT
 0
 22
 22
+footprints
+TO-18-3
+TO-18-3
+TO-18-3
+0
+3
+3
 footprints
 TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL
 TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL footprint
@@ -101472,6 +101619,13 @@ TYPE-C-SMD_HX-TYPE-C-16PIN footprint C2927039
 21
 13
 footprints
+USC_TOS
+
+1SS352 
+0
+2
+2
+footprints
 VDFN6_3P2X2P5_MCH
 
 DSC1122CI5-050.0000T 
@@ -101485,6 +101639,13 @@ WQFN-28_L5.0-W5.0-P0.50-BL-EP3.2 footprint C6568
 0
 38
 29
+footprints
+XTAL_ABMM-25.000MHZ-B2-T
+
+
+0
+4
+4
 fpga-board
 XC7Z020-2CLG484I
 
