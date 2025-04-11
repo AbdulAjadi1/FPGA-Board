@@ -921,23 +921,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U17"
-				(at 0 12.7 0)
+			(property "Reference" "U23"
+				(at -2.54 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "NC7WZ07P6X_modified"
-				(at 0 10.16 0)
+			(property "Value" "NC7WZ07P6X"
+				(at -2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "NC7WZ07P6X:SOT65P210X110-6N"
+			(property "Footprint" "footprints:NC7WZ07P6X"
 				(at 0.254 5.08 0)
 				(effects
 					(font
@@ -1030,7 +1030,7 @@
 				)
 				(pin input line
 					(at -7.62 0 0)
-					(length 2.54)
+					(length 2.54) hide
 					(name "A1"
 						(effects
 							(font
@@ -1048,7 +1048,7 @@
 				)
 				(pin output line
 					(at 2.54 0 180)
-					(length 2.54)
+					(length 2.54) hide
 					(name "Y1"
 						(effects
 							(font
@@ -1104,6 +1104,246 @@
 				)
 			)
 			(symbol "NC7WZ07P6X_modified_3_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 2.54) (xy -5.08 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NC7WZ07P6X_modified_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U23"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NC7WZ07P6X"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:NC7WZ07P6X"
+				(at 0.254 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "FAIRCHILD SEMICONDUCTOR"
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_FARNELL" "1470998"
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_NEWARK" "58K9469"
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NC7WZ07P6X"
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "SC-70-6"
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "NC7WZ07P6X_modified_1_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -5.08 2.54) (xy -5.08 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54) hide
+					(name "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 0 180)
+					(length 2.54) hide
+					(name "Y1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NC7WZ07P6X_modified_1_2_0"
+				(pin passive line
+					(at -5.08 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -1.27 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NC7WZ07P6X_modified_1_3_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -5.08 2.54) (xy -5.08 -2.54) (xy 0 0)
@@ -30822,21 +31062,19 @@
 		(fields_autoplaced yes)
 		(uuid "310f0a7a-3391-4c3c-bac8-7d52dc36d4d0")
 		(property "Reference" "U23"
-			(at 267.97 155.5749 0)
+			(at 269.24 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "NC7WZ07P6X"
-			(at 267.97 158.1149 0)
+			(at 269.24 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:NC7WZ07P6X"
@@ -33306,6 +33544,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NC7WZ07P6X_modified_1")
 		(lib_id "NC7WZ07P6X:NC7WZ07P6X_modified")
 		(at 246.38 146.05 0)
 		(unit 3)
