@@ -348,6 +348,44 @@
 		)
 	)
 	(sheet
+		(at 123.19 19.05)
+		(size 24.13 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd0c3344-baf7-4bb5-a300-e73c15154941")
+		(property "Sheetname" "AUDIO_USBHOST"
+			(at 123.19 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AUDIO.kicad_sch"
+			(at 123.19 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 59.69 139.7)
 		(size 22.86 29.21)
 		(fields_autoplaced yes)

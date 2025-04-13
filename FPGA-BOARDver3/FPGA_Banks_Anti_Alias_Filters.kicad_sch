@@ -7983,6 +7983,28 @@
 			)
 		)
 	)
+	(global_label "AUD_SD"
+		(shape bidirectional)
+		(at 171.45 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "144660fc-1ff9-4b73-a3c0-b6d4612a9d34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.6827 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HDMI_TX_D0_N"
 		(shape bidirectional)
 		(at 265.43 82.55 0)
@@ -8093,7 +8115,7 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "LED0"
 		(shape bidirectional)
 		(at 171.45 55.88 0)
 		(fields_autoplaced yes)
@@ -8159,7 +8181,7 @@
 			)
 		)
 	)
-	(global_label "LED0"
+	(global_label "LED1"
 		(shape bidirectional)
 		(at 171.45 53.34 0)
 		(fields_autoplaced yes)
@@ -10029,6 +10051,28 @@
 			)
 		)
 	)
+	(global_label "AUD_PWM"
+		(shape bidirectional)
+		(at 171.45 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef671d3c-74d8-446c-b9c5-446f311b4493")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.376 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED2"
 		(shape bidirectional)
 		(at 265.43 130.81 0)
@@ -10297,6 +10341,15 @@
 		)
 		(property "Description" ""
 			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
+			(at 207.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

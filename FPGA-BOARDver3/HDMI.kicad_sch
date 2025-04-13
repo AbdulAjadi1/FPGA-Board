@@ -1487,8 +1487,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U8"
-				(at 30.48 10.16 0)
+			(property "Reference" "U10"
+				(at 10.414 5.588 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1496,14 +1496,14 @@
 				)
 			)
 			(property "Value" "GTL2002GM"
-				(at 30.48 7.62 0)
+				(at 15.494 4.064 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "SOT902-1_NXP"
+			(property "Footprint" "footprints:SOT902-1_NXP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1524,6 +1524,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lcsc#" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1596,7 +1605,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 27.94 -7.62 180)
+					(at 0 -5.08 0)
 					(length 7.62)
 					(name "S1"
 						(effects
@@ -1614,7 +1623,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 27.94 -5.08 180)
+					(at 0 -7.62 0)
 					(length 7.62)
 					(name "S2"
 						(effects
@@ -1632,7 +1641,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5.08 0)
+					(at 27.94 -7.62 180)
 					(length 7.62)
 					(name "D2"
 						(effects
@@ -1650,7 +1659,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -7.62 0)
+					(at 27.94 -5.08 180)
 					(length 7.62)
 					(name "D1"
 						(effects
@@ -1705,6 +1714,254 @@
 				)
 			)
 			(symbol "GTL2002GM_1_1"
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -11.43) (xy 20.32 -11.43) (xy 20.32 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "GTL2002GM_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U8"
+				(at 10.414 5.588 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "GTL2002GM"
+				(at 15.494 4.064 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "footprints:SOT902-1_NXP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "GTL2002GM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lcsc#" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "GTL2002GM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT902-1_NXP SOT902-1_NXP-M SOT902-1_NXP-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GTL2002GM_1_0_1"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 -7.62 180)
+					(length 7.62)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 -5.08 180)
+					(length 7.62)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 -2.54 180)
+					(length 7.62)
+					(name "DREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 0 180)
+					(length 7.62)
+					(name "GREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GTL2002GM_1_1_1"
 				(polyline
 					(pts
 						(xy 7.62 2.54) (xy 7.62 -11.43) (xy 20.32 -11.43) (xy 20.32 2.54) (xy 7.62 2.54)
@@ -4049,7 +4306,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 100.33) (xy 83.82 100.33)
+			(xy 74.93 100.33) (xy 76.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5687,7 +5944,7 @@
 			)
 		)
 	)
-	(global_label "HDMI_TX_5V0"
+	(global_label "HDMI_RX_5V0"
 		(shape input)
 		(at 266.7 39.37 0)
 		(fields_autoplaced yes)
@@ -5699,7 +5956,7 @@
 		)
 		(uuid "5306c107-c8b5-4546-a82d-e2d87822c3d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.9618 39.37 0)
+			(at 282.2642 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,6 +6637,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99b086af-0888-419a-906c-61afe514171d")
 		)
@@ -6516,6 +6782,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 115.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "282f2454-1b21-4d92-b59e-a2bc01228b25")
 		)
@@ -6577,6 +6852,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 69.85 119.38 0)
 			(effects
 				(font
@@ -6788,6 +7072,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5aaccfd-dfe8-4e97-b3ca-d81c080480a2")
 		)
@@ -6923,6 +7216,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 238.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b495490b-b9f8-4a6a-b9ba-50cec2edbe60")
 		)
@@ -6984,6 +7286,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -7061,6 +7372,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 101.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70d6d357-fb6f-4d38-a3b0-ea6f55ac0130")
 		)
@@ -7130,6 +7450,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4dc6e6e-482d-44f0-942d-de85a9f3ca30")
 		)
@@ -7140,6 +7469,84 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/43f3e7a6-a0a8-4648-abda-2a64c96c9a8c"
 					(reference "R145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18b316b8-4143-4e17-a811-220887d2c010")
+		(property "Reference" "R207"
+			(at 77.724 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 80.01 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 79.756 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e51c92-8184-4142-a0a7-4b9ff1effb03")
+		)
+		(pin "2"
+			(uuid "78f06899-38d9-4e82-9935-c28c58357a10")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/43f3e7a6-a0a8-4648-abda-2a64c96c9a8c"
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -7191,6 +7598,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -7260,6 +7676,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 130.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 130.81 49.53 0)
 			(effects
 				(font
@@ -7403,6 +7828,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 105.41 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0b0ac820-17d4-4190-bc6d-b7f8d76e3b29")
 		)
@@ -7473,6 +7907,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -7657,6 +8100,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 34.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "2bb67d6a-c36f-4623-987c-cbef53f85264")
 		)
@@ -7790,6 +8242,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 226.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3170ff13-2b28-48dc-8f51-fc9139915f11")
 		)
@@ -7890,7 +8351,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "1K"
 			(at 80.01 17.272 0)
 			(effects
 				(font
@@ -7918,6 +8379,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 80.01 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 80.01 22.86 0)
 			(effects
 				(font
@@ -8122,6 +8592,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 217.17 81.28 0)
 			(effects
 				(font
@@ -8373,6 +8852,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "63eca355-e531-4fe1-bf88-cfec831be644")
 		)
@@ -8505,6 +8993,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b088b4d0-05fd-4516-b839-87ad479d1207")
 		)
@@ -8566,6 +9063,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 69.85 40.64 0)
 			(effects
 				(font
@@ -8711,6 +9217,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "918d53ba-1782-474e-8ac1-60c65a931ea2")
 		)
@@ -8772,6 +9287,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 88.9 135.89 0)
 			(effects
 				(font
@@ -8880,7 +9404,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "1K"
 			(at 167.132 50.8 0)
 			(effects
 				(font
@@ -8908,6 +9432,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 172.72 50.8 0)
 			(effects
 				(font
@@ -8985,6 +9518,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "977cd64b-e875-4750-944a-85603fc9547e")
 		)
@@ -9019,6 +9561,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GTL2002GM_1")
 		(lib_id "GTL2002GM:GTL2002GM")
 		(at 200.66 53.34 0)
 		(unit 1)
@@ -9064,6 +9607,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 200.66 53.34 0)
 			(effects
 				(font
@@ -9124,7 +9676,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 41.402 191.516 90)
+			(at 44.958 196.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,6 +9777,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 120.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fb6d434-ebec-40b3-834e-360d9f978164")
 		)
@@ -9287,6 +9848,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 227.33 43.18 0)
 			(effects
 				(font
@@ -9413,6 +9983,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
+			(at 69.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9896,6 +10475,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20515ff2-3b51-40a0-ade1-06964b84a51a")
 		)
@@ -10035,6 +10623,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 127 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b533ecde-f5a0-490b-9a0a-b07e24710e89")
 		)
@@ -10164,6 +10761,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 256.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -10360,6 +10966,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "a047475e-b361-4437-92b0-f2a2360f3443")
 		)
@@ -10422,6 +11037,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 255.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 255.27 121.92 0)
 			(effects
 				(font
@@ -10500,6 +11124,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa12ed2c-dbf5-4936-850b-fa87747f2ffe")
 		)
@@ -10559,6 +11192,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 19.05 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 19.05 189.23 0)
 			(effects
 				(font
@@ -10666,7 +11308,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "1K"
 			(at 181.864 121.92 90)
 			(effects
 				(font
@@ -10693,6 +11335,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 179.07 121.92 0)
 			(effects
 				(font
@@ -10837,6 +11488,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2da6db6b-0909-431b-8e12-d7290c61fec2")
 		)
@@ -10897,6 +11557,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 240.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 240.03 39.37 0)
 			(effects
 				(font
@@ -10966,6 +11635,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 74.93 104.14 0)
 			(effects
 				(font
@@ -11044,6 +11722,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 241.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "613760fb-b371-4798-99f0-f90e98257a80")
 		)
@@ -11114,6 +11801,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 198.12 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e9580357-7ba1-44bb-91b7-bcd273661bc5")
 		)
@@ -11175,6 +11871,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 107.95 129.54 0)
 			(effects
 				(font
@@ -11253,6 +11958,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 26.67 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9bcd02aa-a93d-4acf-985d-70486c732a63")
 		)
@@ -11322,6 +12036,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7ad3f62-468d-48c8-a876-494578334039")
 		)
@@ -11354,7 +12077,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "1K"
 			(at 183.134 50.8 90)
 			(effects
 				(font
@@ -11381,6 +12104,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 180.34 50.8 0)
 			(effects
 				(font
@@ -11452,6 +12184,15 @@
 		)
 		(property "Description" "TinyLogic UHS Buffer, Tri-State Output, SOT-23-5"
 			(at 198.374 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,7 +12309,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "1K"
 			(at 165.862 121.92 0)
 			(effects
 				(font
@@ -11596,6 +12337,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 171.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 171.45 121.92 0)
 			(effects
 				(font
@@ -11673,6 +12423,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3deca516-563e-4aa0-b4a8-ee0f1f7e0c79")
 		)
@@ -11734,6 +12493,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 95.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 95.25 50.8 0)
 			(effects
 				(font

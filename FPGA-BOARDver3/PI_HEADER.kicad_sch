@@ -4758,7 +4758,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c3")
+			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c4")
 		)
 		(instances
 			(project ""
@@ -4825,7 +4825,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c3")
+			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c5")
 		)
 		(instances
 			(project ""
@@ -4959,7 +4959,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c3")
+			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c6")
 		)
 		(instances
 			(project ""
@@ -5093,7 +5093,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c3")
+			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c7")
 		)
 		(instances
 			(project ""
@@ -5220,6 +5220,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -5413,7 +5422,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c3")
+			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c8")
 		)
 		(instances
 			(project ""
@@ -5480,7 +5489,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c3")
+			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c9")
 		)
 		(instances
 			(project ""
@@ -5906,6 +5915,15 @@
 			)
 		)
 		(property "VENDOR P/N" ""
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -6353,6 +6371,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 193.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9615aa8-3b6e-4c04-b927-bf0a7610a990")
 		)
@@ -6792,6 +6819,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da5d4ffe-183c-46a9-8928-96b34dc22d97")
 		)
@@ -6930,7 +6966,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "06779a64-45ed-4712-ae78-d01f57418da5")
+			(uuid "06779a64-45ed-4712-ae78-d01f57418da6")
 		)
 		(instances
 			(project ""
@@ -7365,6 +7401,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" ""
+			(at 100.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dcc05d2-4ab0-419d-922b-d2101f302f6e")
 		)
@@ -7436,7 +7481,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3c3")
+			(uuid "54c51058-0b31-4b2c-a7b3-dd00543cd3ca")
 		)
 		(instances
 			(project ""
