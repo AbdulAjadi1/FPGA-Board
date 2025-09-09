@@ -5,377 +5,6 @@
 	(uuid "cd3a0dfb-9584-4eeb-a1d0-ecebd7ccf87b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2025-03-04_21-33-04:NR5040T2R2N"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 6.985 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "NR5040T2R2N"
-				(at 6.985 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_TAIYO_NR5040_TAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "NR5040T2R2N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NR5040T2R2N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "IND_TAIYO_NR5040_TAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NR5040T2R2N_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 1.27)
-					(mid 3.81 2.5344)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 1.27)
-					(mid 6.35 2.5344)
-					(end 5.08 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 1.27)
-					(mid 8.89 2.5344)
-					(end 7.62 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 1.27)
-					(mid 11.43 2.5344)
-					(end 10.16 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NR5040T2R2N_1_2"
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 3.81)
-					(end -1.27 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 6.35)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 8.89)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 12.7)
-					(mid -2.5344 11.43)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BLM18AG601SZ1D:BLM18AG601SZ1D"
 			(pin_names
 				(offset 1.016)
@@ -746,6 +375,166 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J17"
+				(at 0.635 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 4.2164 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 4.2164 -2.667)
+					(end 5.08 -2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1871,6 +1660,377 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NR5040T4R7N:NR5040T4R7N"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 6.985 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "NR5040T4R7N"
+				(at 6.985 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "IND_TAIYO_NR5040_TAY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NR5040T4R7N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NR5040T4R7N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "IND_TAIYO_NR5040_TAY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NR5040T4R7N_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 1.27)
+					(mid 3.81 2.5344)
+					(end 2.54 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 6.35 2.5344)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 8.89 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 1.27)
+					(mid 11.43 2.5344)
+					(end 10.16 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NR5040T4R7N_1_2"
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 3.81)
+					(end -1.27 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 6.35)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 8.89)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 12.7)
+					(mid -2.5344 11.43)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3701,6 +3861,12 @@
 		(uuid "26efe766-c04d-4d84-99f7-fc888060ea0d")
 	)
 	(junction
+		(at 233.68 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f083056-f18d-4f40-8b95-04b0c6f59517")
+	)
+	(junction
 		(at 151.13 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3741,6 +3907,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e50d53c-d6c3-4446-94df-9068d70ac5f5")
+	)
+	(junction
+		(at 185.42 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64d1a5c4-e60f-492c-a0fe-6c6d1a463dc1")
 	)
 	(junction
 		(at 83.82 125.73)
@@ -3843,12 +4015,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e2bf1a0-3f54-4093-9ced-fd6676ba1180")
-	)
-	(junction
-		(at 185.42 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a466c6a7-8352-4114-8b48-5108a3842e0a")
 	)
 	(junction
 		(at 173.99 17.78)
@@ -4121,6 +4287,16 @@
 			(type default)
 		)
 		(uuid "1858a5ec-6943-470c-9dc3-5727d21c5a77")
+	)
+	(wire
+		(pts
+			(xy 233.68 101.6) (xy 242.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8487c6-c451-4a57-83b4-29cdeddc9267")
 	)
 	(wire
 		(pts
@@ -4754,7 +4930,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 101.6) (xy 242.57 101.6)
+			(xy 227.33 101.6) (xy 233.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4924,6 +5100,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4f958e-4b54-4ac1-9c48-01a3e07122b9")
+	)
+	(wire
+		(pts
 			(xy 148.59 67.31) (xy 151.13 67.31)
 		)
 		(stroke
@@ -4951,6 +5137,16 @@
 			(type default)
 		)
 		(uuid "c1575ed6-c26a-408e-9602-e3ae994c12c9")
+	)
+	(wire
+		(pts
+			(xy 233.68 111.76) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18fabea-99a0-4fc6-9685-5c452a401bb3")
 	)
 	(wire
 		(pts
@@ -5031,6 +5227,16 @@
 			(type default)
 		)
 		(uuid "cb3e1072-7cdf-43f6-b0c0-db9cfeefe531")
+	)
+	(wire
+		(pts
+			(xy 227.33 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde226df-3e3e-4165-8846-1f635a8a2d21")
 	)
 	(wire
 		(pts
@@ -5172,6 +5378,16 @@
 		)
 		(uuid "ff0024e2-86ba-4b9b-ac7c-abed8f27b4ae")
 	)
+	(label "VUSB"
+		(at 215.9 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2370b24-dd37-4fe3-aaa2-08e165e1159f")
+	)
 	(global_label "REG5V0"
 		(shape input)
 		(at 222.25 99.06 180)
@@ -5190,6 +5406,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XADCGND"
+		(shape input)
+		(at 93.98 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b65f80b-4bd5-47bb-bbef-b39e25c7abfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.6738 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5260,28 +5498,6 @@
 			)
 		)
 	)
-	(global_label "VUSB"
-		(shape bidirectional)
-		(at 222.25 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "756d79da-e16d-4a97-9279-2aeb400bac2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2549 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XADC1V8"
 		(shape input)
 		(at 49.53 121.92 180)
@@ -5304,28 +5520,6 @@
 			)
 		)
 	)
-	(global_label "VUSB"
-		(shape bidirectional)
-		(at 204.47 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88b8fa4d-c512-4227-8455-20cca9eb9a76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4651 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VU"
 		(shape bidirectional)
 		(at 76.2 17.78 0)
@@ -5344,6 +5538,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PI5V"
+		(shape input)
+		(at 222.25 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af4ea672-fd7b-4d85-94af-d1d793dd0b08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.0919 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5592,6 +5808,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 222.25 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04e081d6-0f60-4c27-83f3-b74c0b1ad171")
+		(property "Reference" "J17"
+			(at 222.885 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 222.885 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:PinHeader_1x02_P2.54mm_Vertical"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "digi/mouser"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8e531a2-7353-4f5c-8a3f-0cfe55d14534")
+		)
+		(pin "1"
+			(uuid "ec7f3a7d-622b-4462-8f1a-7b10aa2b5d89")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DDZ9699-7:DDZ9699-7")
 		(at 166.37 114.3 90)
 		(unit 1)
@@ -5639,6 +5932,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C460860"
 			(at 166.37 114.3 0)
 			(effects
 				(font
@@ -6086,7 +6388,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 219.71 21.59 0)
 			(effects
 				(font
@@ -6163,7 +6465,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "digi/mouser"
 			(at 222.25 101.6 0)
 			(effects
 				(font
@@ -6614,7 +6916,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 199.39 39.37 0)
 			(effects
 				(font
@@ -7170,7 +7472,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C144153"
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -7687,7 +7989,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 54.61 125.73 0)
 			(effects
 				(font
@@ -8135,7 +8437,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c14445"
 			(at 49.53 99.06 0)
 			(effects
 				(font
@@ -8583,7 +8885,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c14445"
 			(at 83.82 99.06 0)
 			(effects
 				(font
@@ -9031,7 +9333,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 242.57 119.38 0)
 			(effects
 				(font
@@ -9479,7 +9781,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 204.47 21.59 0)
 			(effects
 				(font
@@ -9927,7 +10229,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 181.61 21.59 0)
 			(effects
 				(font
@@ -10374,7 +10676,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 227.33 21.59 0)
 			(effects
 				(font
@@ -10821,7 +11123,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "digi/mouser"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -10840,6 +11142,73 @@
 			(project ""
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
 					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 66.04 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "406d3367-cf5b-48c7-8a1a-cf831762acf0")
+		(property "Reference" "#PWR0152"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 62.23 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a55e56c-0867-40e6-9cc3-bc30c892c9f0")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -11269,7 +11638,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c14445"
 			(at 50.8 156.21 0)
 			(effects
 				(font
@@ -11719,7 +12088,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C34674"
 			(at 67.31 125.73 0)
 			(effects
 				(font
@@ -11874,6 +12243,453 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BLM18AG601SZ1D:BLM18AG601SZ1D")
+		(at 81.28 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50c4d60e-2601-4959-9988-124a3c2318d1")
+		(property "Reference" "FL5"
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ohm/100Mhz"
+			(at 80.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:BEADC1608X95N"
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "01 IPN" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "02 DESC" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "03 MAN" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "04 MPN" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADD INTO BOM" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AP" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CODE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPTYPE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONVERT TO PCB" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DFM" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FULL_LEAD_TIME" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMPLEMENTATION TYPE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ITEM_PRIORITY" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LIFE_CYCLE_FLAG" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER'S PART NUMBER" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG PN" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDERING P/N" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_SEQ" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORIGIN FOOTPRINT" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE TYPE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PANGO PART NUMBER" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART TYPE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PCB FOOTPRINT" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PEGATRON_PART_NUMBER" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PITCH" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER PINS VISIBLE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PPL_FLAG" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRIMITIVE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCE PACKAGE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYMBOL" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VA" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE1" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VALUE2" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VENDOR" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VENDOR P/N" ""
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "digi/mouser"
+			(at 81.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cfba11b-48e8-4a37-9f76-c4c76f83e6b3")
+		)
+		(pin "1"
+			(uuid "4cca5629-39a1-4ed2-b62e-6e8d741a8a39")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
+					(reference "FL5")
 					(unit 1)
 				)
 			)
@@ -12304,7 +13120,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C122479"
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -12797,7 +13613,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 185.42 107.95 0)
 			(effects
 				(font
@@ -13245,7 +14061,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -13693,7 +14509,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 212.09 21.59 0)
 			(effects
 				(font
@@ -13712,454 +14528,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
 					(reference "C197")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2025-03-04_21-33-04:NR5040T2R2N")
-		(at 170.18 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "660a0f2d-5bbc-4fe8-9559-c8460ead055c")
-		(property "Reference" "L5"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "22uH"
-			(at 177.8 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:IND_TAIYO_NR5040_TAY"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NR5040T2R2N"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "01 IPN" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "02 DESC" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc#" ""
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de9e5c30-98b9-4279-88d8-5fcc9eca5a60")
-		)
-		(pin "1"
-			(uuid "a96bc290-2504-4724-920a-56886c80e1cb")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
-					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -14655,7 +15023,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C137950"
 			(at 93.98 31.75 0)
 			(effects
 				(font
@@ -14813,7 +15181,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C3096093"
 			(at 68.58 20.32 0)
 			(effects
 				(font
@@ -15332,7 +15700,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 93.98 41.91 0)
 			(effects
 				(font
@@ -15845,7 +16213,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C80670"
 			(at 67.31 97.79 0)
 			(effects
 				(font
@@ -15873,6 +16241,84 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
 					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NR5040T4R7N:NR5040T4R7N")
+		(at 170.18 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d4c7764-dfb5-49e7-83ca-ba990158f6cf")
+		(property "Reference" "L3"
+			(at 177.8 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NR5040T4R7N / 4.7uH"
+			(at 180.34 30.988 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:IND_TAIYO_NR5040_TAY"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NR5040T4R7N"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C223063"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d452c87-c404-4763-a160-678164f48076")
+		)
+		(pin "2"
+			(uuid "29272f26-a02c-4cff-8de7-f530ed956fec")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/8f1e02ad-76ee-4ea2-a502-887476bcc94b"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -15931,7 +16377,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "digi/mouser"
 			(at 64.77 26.67 0)
 			(effects
 				(font
@@ -16376,7 +16822,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 173.99 21.59 0)
 			(effects
 				(font
@@ -16958,7 +17404,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C274352"
 			(at 187.96 53.34 0)
 			(effects
 				(font
@@ -17406,7 +17852,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 83.82 132.08 0)
 			(effects
 				(font
@@ -17854,7 +18300,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C852893"
 			(at 187.96 39.37 0)
 			(effects
 				(font
@@ -17981,6 +18427,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C435933"
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18423,7 +18878,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 90.17 156.21 0)
 			(effects
 				(font
@@ -18871,7 +19326,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c337699"
 			(at 124.46 50.8 0)
 			(effects
 				(font
@@ -19319,7 +19774,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 242.57 105.41 0)
 			(effects
 				(font
@@ -19968,7 +20423,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C105871"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -20416,7 +20871,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60491"
 			(at 175.26 107.95 0)
 			(effects
 				(font
@@ -20862,7 +21317,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C106231"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -21509,7 +21964,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 166.37 21.59 0)
 			(effects
 				(font
@@ -21957,7 +22412,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 189.23 21.59 0)
 			(effects
 				(font
@@ -22472,7 +22927,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 196.85 21.59 0)
 			(effects
 				(font

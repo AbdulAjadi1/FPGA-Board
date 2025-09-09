@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.565
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,11 +48,20 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|196825000|93120000|531c1758-c841-41db-bc4b-04d8032de804|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|96068900|58911101|a93343fd-b3bc-427e-bedb-c3f030c94a28|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -110,22 +119,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_clearance": 0.09,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.45,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.25,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -171,7 +180,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +209,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -438,19 +454,19 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -459,7 +475,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GNDREF"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -518,8 +539,8 @@
         },
         {
           "group_by": false,
-          "label": "lcsc#",
-          "name": "lcsc#",
+          "label": "LCSC PN",
+          "name": "LCSC PN",
           "show": true
         },
         {
@@ -1049,13 +1070,37 @@
           "label": "CUI_purchase_URL",
           "name": "CUI_purchase_URL",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TTI Price/Stock",
+          "name": "TTI Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TTI Part Number",
+          "name": "TTI Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "CUI_purchase_URL"
+      "sort_field": "LCSC PN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1086,7 +1131,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/quick/Desktop/",
+    "plot_directory": "C:/Users/quick/Documents/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -1152,6 +1197,10 @@
     [
       "cd0c3344-baf7-4bb5-a300-e73c15154941",
       "AUDIO_USBHOST"
+    ],
+    [
+      "748a1c73-b565-4242-ab5f-7bfd3a84c6a4",
+      "USB_JTAG_PROGRAMMING"
     ]
   ],
   "text_variables": {}

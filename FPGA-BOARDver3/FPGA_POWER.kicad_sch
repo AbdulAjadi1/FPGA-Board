@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CLG400_ZYNQ-7000_AMD"
+			(property "Footprint" "footprints:CLG400_ZYNQ-7000_AMD"
 				(at 33.528 77.47 0)
 				(effects
 					(font
@@ -446,6 +446,15 @@
 			)
 			(property "Description" ""
 				(at -101.6 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lcsc#" "C1519081"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3351,7 +3360,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -114.3 0)
+					(at 0 -116.84 0)
 					(length 7.62)
 					(name "PS_DDR_VRN_502"
 						(effects
@@ -3423,7 +3432,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -116.84 0)
+					(at 0 -114.3 0)
 					(length 7.62)
 					(name "PS_DDR_VRP_502"
 						(effects
@@ -8773,7 +8782,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CLG400_ZYNQ-7000_AMD"
+			(property "Footprint" "footprints:CLG400_ZYNQ-7000_AMD"
 				(at 33.528 77.47 0)
 				(effects
 					(font
@@ -8795,6 +8804,15 @@
 			)
 			(property "Description" ""
 				(at -101.6 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lcsc#" "C1519081"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11700,7 +11718,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -114.3 0)
+					(at 0 -116.84 0)
 					(length 7.62)
 					(name "PS_DDR_VRN_502"
 						(effects
@@ -11772,7 +11790,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -116.84 0)
+					(at 0 -114.3 0)
 					(length 7.62)
 					(name "PS_DDR_VRP_502"
 						(effects
@@ -16543,6 +16561,12 @@
 		(uuid "0cfa7827-539c-4cbb-b9f6-aa778e9f3893")
 	)
 	(junction
+		(at 167.64 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e44863f-d4a1-4c88-bc11-84dabf6b50f1")
+	)
+	(junction
 		(at 36.83 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16847,6 +16871,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "520390de-46cb-41ce-89e1-de862b407836")
+	)
+	(junction
+		(at 167.64 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5287d29e-b9cd-41b4-8360-4c1cf47be744")
 	)
 	(junction
 		(at 198.12 115.57)
@@ -17185,6 +17215,12 @@
 		(uuid "a1ec79f3-ac57-4647-a4bf-3900124cd2bf")
 	)
 	(junction
+		(at 167.64 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2218099-2a93-460f-a0ec-b2c68c625503")
+	)
+	(junction
 		(at 66.04 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17281,10 +17317,22 @@
 		(uuid "b04c98f7-efd4-4e4c-aab1-efc0dc9e6f0a")
 	)
 	(junction
+		(at 167.64 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0ce7901-bdac-457b-a8bd-5ad2a1dc292b")
+	)
+	(junction
 		(at 254 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3492d31-7adc-4d25-9aaf-35e1e0a02078")
+	)
+	(junction
+		(at 167.64 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a10c47-7b27-4a83-adf0-defaf6a119d7")
 	)
 	(junction
 		(at 87.63 143.51)
@@ -17297,6 +17345,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b64c2dcc-141c-42ad-89c2-bdee5a578125")
+	)
+	(junction
+		(at 167.64 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7b584f3-92ed-488f-bc93-1ca1440d2fb0")
 	)
 	(junction
 		(at 226.06 115.57)
@@ -17357,6 +17411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca208850-2de5-4a7a-af73-4ce41f249d81")
+	)
+	(junction
+		(at 167.64 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb26d2c0-9017-48a7-9235-5b0e80af3c72")
 	)
 	(junction
 		(at 226.06 58.42)
@@ -17531,6 +17591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb4ead57-fdae-42c8-9c9e-710ce611dcfd")
+	)
+	(junction
+		(at 167.64 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecceccd1-2d92-4541-9ee4-169cb4505abe")
 	)
 	(junction
 		(at 226.06 66.04)
@@ -17878,6 +17944,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 120.65) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3c7126-5cf6-4fc1-992a-894fba0b03e8")
+	)
+	(wire
+		(pts
 			(xy 46.99 146.05) (xy 46.99 143.51)
 		)
 		(stroke
@@ -17905,6 +17981,16 @@
 			(type default)
 		)
 		(uuid "11cb94a5-8371-4d79-b54c-5c4c6d1ae26d")
+	)
+	(wire
+		(pts
+			(xy 166.37 123.19) (xy 167.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e07e4d-23f6-4d50-97dd-d2be262655a3")
 	)
 	(wire
 		(pts
@@ -18055,6 +18141,16 @@
 			(type default)
 		)
 		(uuid "176fe975-7f20-4b69-ace5-7b273098d19b")
+	)
+	(wire
+		(pts
+			(xy 167.64 125.73) (xy 167.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18eacb33-b58f-4652-8743-4e4052fbf389")
 	)
 	(wire
 		(pts
@@ -18228,7 +18324,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 105.41) (xy 179.07 105.41)
+			(xy 166.37 110.49) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237faa21-27ea-4f37-9bab-3973e00b4481")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 167.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -18305,6 +18411,16 @@
 			(type default)
 		)
 		(uuid "26a5d1e8-e89c-47f7-b127-5ab8bbbcd4ac")
+	)
+	(wire
+		(pts
+			(xy 166.37 113.03) (xy 167.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bcf929-1225-450b-9a73-ae7aba33175a")
 	)
 	(wire
 		(pts
@@ -19558,6 +19674,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 123.19) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712ce804-7b06-49fd-9a1b-be0fd2a32c3f")
+	)
+	(wire
+		(pts
 			(xy 236.22 76.2) (xy 243.84 76.2)
 		)
 		(stroke
@@ -19768,6 +19894,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 105.41) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7b414c-f43e-4eb1-95a0-e75abc191042")
+	)
+	(wire
+		(pts
 			(xy 81.28 93.98) (xy 85.09 93.98)
 		)
 		(stroke
@@ -19798,6 +19934,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 118.11) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9feba3-d064-491a-94b8-0cbb7e5864ea")
+	)
+	(wire
+		(pts
 			(xy 187.96 114.3) (xy 187.96 115.57)
 		)
 		(stroke
@@ -19825,6 +19971,16 @@
 			(type default)
 		)
 		(uuid "802fd5c6-42c5-4729-9174-65a597a6f1a6")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 167.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809f5492-a322-4b0d-99d3-ba00daa9b701")
 	)
 	(wire
 		(pts
@@ -20075,6 +20231,16 @@
 			(type default)
 		)
 		(uuid "91d92432-172b-4857-a62f-26d32867a387")
+	)
+	(wire
+		(pts
+			(xy 167.64 110.49) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95450de8-6640-478c-ba13-840b203f43db")
 	)
 	(wire
 		(pts
@@ -20638,6 +20804,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 125.73) (xy 167.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad337479-987d-4d8d-8219-a15072cceb4a")
+	)
+	(wire
+		(pts
 			(xy 187.96 97.79) (xy 187.96 99.06)
 		)
 		(stroke
@@ -20675,6 +20851,16 @@
 			(type default)
 		)
 		(uuid "af26d6b0-3546-4817-9015-30ab03cefd4b")
+	)
+	(wire
+		(pts
+			(xy 166.37 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b010d459-c173-4c0c-88cf-1d39f5da235e")
 	)
 	(wire
 		(pts
@@ -20888,6 +21074,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 107.95) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0d89d4-a871-413b-b79e-069f171e7e9b")
+	)
+	(wire
+		(pts
 			(xy 189.23 48.26) (xy 198.12 48.26)
 		)
 		(stroke
@@ -20905,6 +21101,16 @@
 			(type default)
 		)
 		(uuid "bad911b8-f93b-4023-b207-c269b2bd7fc2")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4d6a9b-f93f-46ad-83e9-ac6ca53afd43")
 	)
 	(wire
 		(pts
@@ -20945,6 +21151,16 @@
 			(type default)
 		)
 		(uuid "bfa7299d-72cd-4169-ba97-fbe8ea2a6c8c")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff64065-5f21-4b0a-a067-414d411d38b1")
 	)
 	(wire
 		(pts
@@ -21568,6 +21784,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 118.11) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08ce8cc-10e7-40c1-b573-63f910af056a")
+	)
+	(wire
+		(pts
 			(xy 85.09 63.5) (xy 85.09 62.23)
 		)
 		(stroke
@@ -21765,6 +21991,16 @@
 			(type default)
 		)
 		(uuid "ec96ff0e-c4ef-473a-a802-729935263579")
+	)
+	(wire
+		(pts
+			(xy 167.64 120.65) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee155bd0-efe6-4ed8-bf7f-94de376b48f1")
 	)
 	(wire
 		(pts
@@ -22506,7 +22742,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 102.87 88.9 0)
 			(effects
 				(font
@@ -22954,7 +23190,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 226.06 53.34 0)
 			(effects
 				(font
@@ -23402,7 +23638,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -23850,7 +24086,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 207.01 53.34 0)
 			(effects
 				(font
@@ -23997,7 +24233,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C1519081"
 			(at 115.57 29.21 0)
 			(effects
 				(font
@@ -25216,6 +25452,10 @@
 					(reference "U1")
 					(unit 6)
 				)
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "U1")
+					(unit 6)
+				)
 			)
 		)
 	)
@@ -25643,7 +25883,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 198.12 110.49 0)
 			(effects
 				(font
@@ -25762,7 +26002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 86.0552 77.47 0)
 			(effects
 				(font
@@ -26158,7 +26398,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 85.09 73.66 0)
 			(effects
 				(font
@@ -26606,7 +26846,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -27054,7 +27294,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 217.17 53.34 0)
 			(effects
 				(font
@@ -27502,7 +27742,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -27950,7 +28190,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 189.23 38.1 0)
 			(effects
 				(font
@@ -28002,7 +28242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 86.0552 62.23 0)
 			(effects
 				(font
@@ -28398,7 +28638,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 85.09 58.42 0)
 			(effects
 				(font
@@ -28846,7 +29086,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c84705"
 			(at 93.98 88.9 0)
 			(effects
 				(font
@@ -29294,7 +29534,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 189.23 53.34 0)
 			(effects
 				(font
@@ -29346,7 +29586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 237.1852 74.93 0)
 			(effects
 				(font
@@ -29742,7 +29982,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 236.22 71.12 0)
 			(effects
 				(font
@@ -30190,7 +30430,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -30638,7 +30878,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 226.06 110.49 0)
 			(effects
 				(font
@@ -31085,7 +31325,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "digi/mouser"
 			(at 241.3 138.43 0)
 			(effects
 				(font
@@ -31600,7 +31840,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 187.96 93.98 0)
 			(effects
 				(font
@@ -31652,7 +31892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 237.1852 57.15 0)
 			(effects
 				(font
@@ -32048,7 +32288,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 236.22 53.34 0)
 			(effects
 				(font
@@ -32127,7 +32367,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C1519081"
 			(at 27.94 186.69 0)
 			(effects
 				(font
@@ -33346,6 +33586,10 @@
 					(reference "U1")
 					(unit 7)
 				)
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "U1")
+					(unit 7)
+				)
 			)
 		)
 	)
@@ -33773,7 +34017,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -33892,7 +34136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 67.0052 109.22 0)
 			(effects
 				(font
@@ -34288,7 +34532,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 66.04 105.41 0)
 			(effects
 				(font
@@ -34473,7 +34717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 86.0552 124.46 0)
 			(effects
 				(font
@@ -34869,7 +35113,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 85.09 120.65 0)
 			(effects
 				(font
@@ -34988,7 +35232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 237.1852 114.3 0)
 			(effects
 				(font
@@ -35384,7 +35628,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 236.22 110.49 0)
 			(effects
 				(font
@@ -35832,7 +36076,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -36280,7 +36524,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -36728,7 +36972,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 207.01 110.49 0)
 			(effects
 				(font
@@ -37176,7 +37420,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 179.07 38.1 0)
 			(effects
 				(font
@@ -37624,7 +37868,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 93.98 120.65 0)
 			(effects
 				(font
@@ -38206,7 +38450,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 179.07 71.12 0)
 			(effects
 				(font
@@ -38654,7 +38898,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -39236,7 +39480,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -39684,7 +39928,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -39736,7 +39980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 199.0852 97.79 0)
 			(effects
 				(font
@@ -40132,7 +40376,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c16790"
 			(at 198.12 93.98 0)
 			(effects
 				(font
@@ -40580,7 +40824,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 198.12 53.34 0)
 			(effects
 				(font
@@ -40699,7 +40943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 254.9652 38.1 0)
 			(effects
 				(font
@@ -41095,7 +41339,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c16790"
 			(at 254 34.29 0)
 			(effects
 				(font
@@ -41543,7 +41787,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 85.09 33.02 0)
 			(effects
 				(font
@@ -42057,7 +42301,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 198.12 38.1 0)
 			(effects
 				(font
@@ -42639,7 +42883,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 86.36 105.41 0)
 			(effects
 				(font
@@ -42758,7 +43002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 207.9752 41.91 0)
 			(effects
 				(font
@@ -43154,7 +43398,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 207.01 38.1 0)
 			(effects
 				(font
@@ -43668,7 +43912,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -44116,7 +44360,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 93.98 58.42 0)
 			(effects
 				(font
@@ -44168,7 +44412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 56.8452 36.83 0)
 			(effects
 				(font
@@ -44564,7 +44808,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -45146,7 +45390,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -45728,7 +45972,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c315248"
 			(at 219.71 143.51 0)
 			(effects
 				(font
@@ -46243,7 +46487,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 179.07 53.34 0)
 			(effects
 				(font
@@ -46758,7 +47002,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -47206,7 +47450,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 66.04 33.02 0)
 			(effects
 				(font
@@ -47392,7 +47636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 86.0552 92.71 0)
 			(effects
 				(font
@@ -47788,7 +48032,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c141660"
 			(at 85.09 88.9 0)
 			(effects
 				(font
@@ -48236,7 +48480,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 102.87 73.66 0)
 			(effects
 				(font
@@ -48751,7 +48995,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -49199,7 +49443,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -49647,7 +49891,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 226.06 71.12 0)
 			(effects
 				(font
@@ -50095,7 +50339,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -50543,7 +50787,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c92361"
 			(at 207.01 143.51 0)
 			(effects
 				(font
@@ -50991,7 +51235,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c23733"
 			(at 215.9 71.12 0)
 			(effects
 				(font

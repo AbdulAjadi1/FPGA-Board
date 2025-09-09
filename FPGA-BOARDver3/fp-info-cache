@@ -1,4 +1,4 @@
-25240281693989944
+25294639358640379
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100351,27 +100351,13 @@ Varistor VF
 0
 2
 2
-XC7Z020-1CLG400I
-CLG400_ZYNQ-7000_AMD
+footprints
+64QFN_FT2232HQ_FTD
 
-XC7Z020-1CLG400I 
+FT2232HQ 
 0
-400
-400
-XC7Z020-1CLG400I
-CLG400_ZYNQ-7000_AMD-L
-
-XC7Z020-1CLG400I 
-0
-400
-400
-XC7Z020-1CLG400I
-CLG400_ZYNQ-7000_AMD-M
-
-XC7Z020-1CLG400I 
-0
-400
-400
+65
+65
 footprints
 AMPHENOL_10029449-001RLF
 
@@ -100379,6 +100365,20 @@ AMPHENOL_10029449-001RLF
 0
 23
 23
+footprints
+AMPHENOL_10118194-0001LF
+
+
+0
+11
+11
+footprints
+AMPHENOL_UE27AC54100
+
+
+0
+6
+6
 footprints
 ANT-TH_L25.0-W25.0
 ANT-TH_L25.0-W25.0 footprint
@@ -100457,6 +100457,13 @@ CONN4_5787834-1_TEC
 6
 6
 footprints
+CONN4_USB-231-ARY_XNP
+
+USB-231-ARY 
+0
+4
+4
+footprints
 CONN6_PZ254V-11-06P_XFC
 
 PZ254V-11-06P 
@@ -100492,6 +100499,20 @@ PZ254V-11-04P
 4
 4
 footprints
+CONN_USB-234-BCW_XNP
+
+USB-234-BCW 
+0
+8
+8
+footprints
+CONN_USB-A-S-X-X-SM2-X-XX_SAI
+
+USB-A-S-F-B-SM2 
+0
+6
+6
+footprints
 CRYSTAL-SMD_4P-L3.2-W2.5-BL
 CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint
 CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint C9002
@@ -100513,12 +100534,33 @@ CRYSTAL-SMD_L11.5-W4.8-LS12.7 footprint C12674
 2
 2
 footprints
+CRYSTAL_TXC_7M
+
+7M-26.000MAAJ-T 
+0
+4
+4
+footprints
+CR_050R3C2P_AVX
+
+GG0402050R3C2P 
+0
+2
+2
+footprints
 CUI_PJ-102AH
 
 
 0
 3
 3
+footprints
+CUI_SJ1-3525NG
+
+
+0
+5
+5
 footprints
 C_0402
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -100543,6 +100585,20 @@ capacitor
 footprints
 C_1206
 Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
+C_1210_3225Metric
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
+C_1808_4520Metric
+Capacitor SMD 1808 (4520 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: datasheet page 3, https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_en.pdf), generated with kicad-footprint-generator
 capacitor
 0
 2
@@ -100575,6 +100631,13 @@ TPS2051BDBVR
 0
 5
 5
+footprints
+DBV0006A_L
+
+SN74LVC1T45DBVR 
+0
+6
+6
 footprints
 DFN1006-3L_L1.0-W0.6-LS1.0-BR
 DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint
@@ -100828,6 +100891,34 @@ IC_TPD4E05U06DQAR
 10
 10
 footprints
+IND_SMDRI_SXN
+
+SMDRI127-470MT 
+0
+2
+2
+footprints
+IND_SRP4020_BRN
+
+SRP4020TA-1R5M 
+0
+2
+2
+footprints
+IND_SRP6540-1R5M
+
+
+0
+2
+2
+footprints
+IND_TAIYO_CBC2012_TAY
+
+CBC2012T470K 
+0
+2
+2
+footprints
 IND_TAIYO_NR5040_TAY
 
 NR5040T3R3N 
@@ -100848,6 +100939,13 @@ IPEX-SMD_BWIPX-1-001E footprint C5137195
 0
 3
 3
+footprints
+KC2016K_KYO
+
+KC2016K12.0000C1GE00 
+0
+4
+4
 footprints
 LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B
 LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B footprint
@@ -101038,12 +101136,26 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 4
 4
 footprints
+OSC_SG-8018CE_50.0000M-TJHPA
+
+
+0
+4
+4
+footprints
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint C34465
 0
 13
 6
+footprints
+PTS120630V012
+PTS120630V012-3
+Fuse
+0
+2
+2
 footprints
 Part_Num_JLCPCB
 
@@ -101059,6 +101171,13 @@ Through hole pin header THT 1x01 2.54mm single row
 1
 1
 footprints
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+footprints
 PinHeader_1x03_P2.54mm_Vertical
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
 Through hole pin header THT 1x03 2.54mm single row
@@ -101066,12 +101185,54 @@ Through hole pin header THT 1x03 2.54mm single row
 3
 3
 footprints
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+footprints
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+footprints
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+footprints
+PinHeader_1x08_P2.54mm_Vertical
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+footprints
 PinHeader_2x20_P2.54mm_Vertical
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
 40
 40
+footprints
+PinSocket_1x04_P2.54mm_Vertical
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+footprints
+PinSocket_1x08_P2.54mm_Vertical
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+8
+8
 footprints
 QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm
 QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -101262,6 +101423,13 @@ SAMESKY_SJ1-2503A
 4
 4
 footprints
+SAMTEC_USB-A-S-X-X-SM2
+
+
+0
+6
+6
+footprints
 SC-74A_318BQ_ONS
 
 NC7SZ125M5X 
@@ -101381,6 +101549,13 @@ ATSHA204A-SSHCZ-T
 8
 8
 footprints
+SOP50P310X90-8N
+
+
+0
+8
+8
+footprints
 SOT-23
 SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
@@ -101465,6 +101640,13 @@ SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C7972
 5
 5
 footprints
+SOT-23-5_MC_MCH
+
+MIC5504-3.3YM5-TR 
+0
+5
+5
+footprints
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL footprint
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL footprint C12044
@@ -101489,6 +101671,13 @@ footprints
 SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL
 SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL footprint
 SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL footprint C20615829
+0
+6
+6
+footprints
+SOT-23-6_MC_MCH
+
+93LC56BT-I/OT 
 0
 6
 6
@@ -101563,6 +101752,13 @@ SOT-363 SC-70-6 SC-88
 6
 6
 footprints
+SOT95P240X110-3N
+SOT-23
+MOSFET (N-Channel)
+0
+3
+3
+footprints
 SOT236
 
 
@@ -101604,6 +101800,13 @@ SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
 0
 4
 4
+footprints
+SW_EG1218
+
+
+0
+3
+3
 footprints
 SW_PTS645SK50SMTR92LFS
 
@@ -101696,12 +101899,26 @@ TSSOP SO
 24
 24
 footprints
+TSX-3225 26.0000MF09Z-AC3_EPS
+
+TSX-3225 26.0000MF09Z-AC3 
+0
+4
+4
+footprints
 TYPE-C-SMD_HX-TYPE-C-16PIN
 TYPE-C-SMD_HX-TYPE-C-16PIN footprint
 TYPE-C-SMD_HX-TYPE-C-16PIN footprint C2927039
 0
 21
 13
+footprints
+US8-8_2P1X2P4_ONS
+
+NC7WZ126K8X 
+0
+8
+8
 footprints
 USC_TOS
 

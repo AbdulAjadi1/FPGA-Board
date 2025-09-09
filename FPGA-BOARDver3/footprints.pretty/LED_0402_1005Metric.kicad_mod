@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -200,7 +203,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "692886a2-6c6b-4a86-b487-733b3ef4e40c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl"
+	(model "${KIPRJMOD}/3dmodels/LED_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

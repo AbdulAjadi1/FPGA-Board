@@ -1681,7 +1681,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "mouser"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -1772,7 +1772,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "mouser"
 			(at 133.35 110.49 0)
 			(effects
 				(font
@@ -1862,7 +1862,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 119.38 60.96 0)
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 120.65 115.57 0)
 			(effects
 				(font
@@ -2192,7 +2192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:L_0402"
+		(property "Footprint" "footprints:IND_TAIYO_CBC2012_TAY"
 			(at 127 117.602 90)
 			(effects
 				(font
@@ -2345,7 +2345,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C223186"
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -2424,7 +2424,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C163457"
 			(at 125.73 62.23 0)
 			(effects
 				(font

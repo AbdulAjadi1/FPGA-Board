@@ -5,207 +5,6 @@
 	(uuid "99d563f3-a26b-4050-bf65-49b1e87ed572")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2025-04-06_19-32-54:DSC1122CI5-050.0000T"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "DSC1122CI5-050.0000T"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "VDFN6_3P2X2P5_MCH"
-				(at 20.066 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "DSC1122CI5-050.0000T"
-				(at 22.86 7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DSC1122CI5-050.0000T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VDFN6_3P2X2P5_MCH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DSC1122CI5-050.0000T_1_1"
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 12.7 -8.89) (xy 25.4 -8.89) (xy 25.4 2.54) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -3.81 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -6.35 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 19.05 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 27.94 1.27 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 27.94 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 0 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Conn_01x02_Pin_1"
 			(pin_names
 				(offset 1.016) hide)
@@ -1602,6 +1401,205 @@
 				)
 			)
 		)
+		(symbol "SG-8018CE_50.0000M-TJHPA:SG-8018CE_50.0000M-TJHPA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y2"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SG-8018CE_50.0000M-TJHPA"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SG-8018CE_50.0000M-TJHPA:OSC_SG-8018CE_50.0000M-TJHPA"
+				(at 4.826 16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 3.81 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+				(at 8.636 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CREATOR" "RODRIGO"
+				(at 3.302 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 4.572 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "5/22/24"
+				(at 6.096 20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" "RODRIGO"
+				(at 5.334 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Epson"
+				(at 4.826 18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SG-8018CE_50.0000M-TJHPA_0_0"
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 1.27 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SG-8018CE_50.0000M-TJHPA_0_1"
+				(rectangle
+					(start -5.08 3.175)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "XC7Z020-1CLG400I___1"
 			(pin_names
 				(offset 0.254)
@@ -1625,7 +1623,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CLG400_ZYNQ-7000_AMD"
+			(property "Footprint" "footprints:CLG400_ZYNQ-7000_AMD"
 				(at 33.528 77.47 0)
 				(effects
 					(font
@@ -1647,6 +1645,15 @@
 			)
 			(property "Description" ""
 				(at -101.6 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lcsc#" "C1519081"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4552,7 +4559,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -114.3 0)
+					(at 0 -116.84 0)
 					(length 7.62)
 					(name "PS_DDR_VRN_502"
 						(effects
@@ -4624,7 +4631,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -116.84 0)
+					(at 0 -114.3 0)
 					(length 7.62)
 					(name "PS_DDR_VRP_502"
 						(effects
@@ -9362,7 +9369,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CLG400_ZYNQ-7000_AMD"
+			(property "Footprint" "footprints:CLG400_ZYNQ-7000_AMD"
 				(at 33.528 77.47 0)
 				(effects
 					(font
@@ -9384,6 +9391,15 @@
 			)
 			(property "Description" ""
 				(at -101.6 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lcsc#" "C1519081"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12289,7 +12305,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -114.3 0)
+					(at 0 -116.84 0)
 					(length 7.62)
 					(name "PS_DDR_VRN_502"
 						(effects
@@ -12361,7 +12377,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -116.84 0)
+					(at 0 -114.3 0)
 					(length 7.62)
 					(name "PS_DDR_VRP_502"
 						(effects
@@ -17471,7 +17487,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CLG400_ZYNQ-7000_AMD"
+			(property "Footprint" "footprints:CLG400_ZYNQ-7000_AMD"
 				(at 33.528 77.47 0)
 				(effects
 					(font
@@ -17493,6 +17509,15 @@
 			)
 			(property "Description" ""
 				(at -101.6 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "lcsc#" "C1519081"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -20398,7 +20423,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -114.3 0)
+					(at 0 -116.84 0)
 					(length 7.62)
 					(name "PS_DDR_VRN_502"
 						(effects
@@ -20470,7 +20495,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -116.84 0)
+					(at 0 -114.3 0)
 					(length 7.62)
 					(name "PS_DDR_VRP_502"
 						(effects
@@ -25193,6 +25218,12 @@
 		(uuid "0362ee5d-6ebc-412d-afcc-db0642cf542e")
 	)
 	(junction
+		(at 46.99 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "119d6bc2-0421-4cf3-9982-fa2cbd022c82")
+	)
+	(junction
 		(at 172.72 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25253,12 +25284,6 @@
 		(uuid "78096c06-79b3-490c-85ea-276d3b3cb52c")
 	)
 	(junction
-		(at 46.99 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ebbde67-454f-4492-ae1b-47bb57fa2557")
-	)
-	(junction
 		(at 179.07 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25281,12 +25306,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "934603d9-169f-4caa-bac1-066e89cf1f7d")
-	)
-	(junction
-		(at 72.39 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97d06246-8484-40b1-bdb6-2cf6cad0df17")
 	)
 	(junction
 		(at 27.94 123.19)
@@ -25320,6 +25339,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 179.07) (xy 74.93 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003be6a8-9d04-494e-b863-e0f37e309737")
+	)
+	(wire
+		(pts
 			(xy 181.61 124.46) (xy 184.15 124.46)
 		)
 		(stroke
@@ -25337,16 +25366,6 @@
 			(type default)
 		)
 		(uuid "01f6147c-5131-49e6-849f-ef16d2179ed2")
-	)
-	(wire
-		(pts
-			(xy 82.55 181.61) (xy 86.36 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04c295d5-f9b1-4ed5-83dc-d7184d609af5")
 	)
 	(wire
 		(pts
@@ -25380,6 +25399,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 49.53) (xy 262.89 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07efe230-7641-489d-9965-a58946757575")
+	)
+	(wire
+		(pts
 			(xy 266.7 163.83) (xy 269.24 163.83)
 		)
 		(stroke
@@ -25407,16 +25436,6 @@
 			(type default)
 		)
 		(uuid "11ccd799-27a3-4a75-86bf-2a85808fe113")
-	)
-	(wire
-		(pts
-			(xy 68.58 177.8) (xy 72.39 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1256f88c-d853-444f-8b13-187fe91c75d6")
 	)
 	(wire
 		(pts
@@ -25450,6 +25469,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 36.83) (xy 271.9634 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da7b058-a5c7-43bd-b91f-d09e34408fe7")
+	)
+	(wire
+		(pts
 			(xy 179.07 148.59) (xy 179.07 154.94)
 		)
 		(stroke
@@ -25467,16 +25496,6 @@
 			(type default)
 		)
 		(uuid "1de79e19-5137-4627-9806-630008c94bbc")
-	)
-	(wire
-		(pts
-			(xy 72.39 177.8) (xy 74.93 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21dbc24d-8584-4f82-b087-654521fe34a5")
 	)
 	(wire
 		(pts
@@ -25507,6 +25526,16 @@
 			(type default)
 		)
 		(uuid "279d384c-ab7a-431a-a9b7-04536a475529")
+	)
+	(wire
+		(pts
+			(xy 46.99 181.61) (xy 50.8 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a28dc4-e728-4acd-8c9b-226883d01cd5")
 	)
 	(wire
 		(pts
@@ -25660,16 +25689,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 181.61) (xy 72.39 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5756a3a7-0b2f-4dfb-be32-11a3dd4719fc")
-	)
-	(wire
-		(pts
 			(xy 173.99 138.43) (xy 179.07 138.43)
 		)
 		(stroke
@@ -25677,6 +25696,16 @@
 			(type default)
 		)
 		(uuid "5a51a2bf-e44e-435b-85ef-727674fffc41")
+	)
+	(wire
+		(pts
+			(xy 264.16 39.37) (xy 262.89 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efaca16-2f44-4ca7-9ec8-c6112ba61c31")
 	)
 	(wire
 		(pts
@@ -25700,7 +25729,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 194.31) (xy 59.69 194.31)
+			(xy 46.99 194.31) (xy 60.96 194.31)
 		)
 		(stroke
 			(width 0)
@@ -25760,6 +25789,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 189.23) (xy 60.96 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1b27b1-dc25-481f-b680-20601bea36db")
+	)
+	(wire
+		(pts
 			(xy 262.89 97.79) (xy 264.16 97.79)
 		)
 		(stroke
@@ -25787,6 +25826,16 @@
 			(type default)
 		)
 		(uuid "6f840aed-3327-4d75-9854-ffcc6fc638bb")
+	)
+	(wire
+		(pts
+			(xy 274.32 44.45) (xy 271.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744dc370-9494-42cd-8ed7-04dedc817ffc")
 	)
 	(wire
 		(pts
@@ -25870,7 +25919,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 179.07) (xy 46.99 182.88)
+			(xy 46.99 179.07) (xy 46.99 181.61)
 		)
 		(stroke
 			(width 0)
@@ -25900,7 +25949,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 177.8) (xy 86.36 177.8)
+			(xy 82.55 179.07) (xy 86.36 179.07)
 		)
 		(stroke
 			(width 0)
@@ -25947,6 +25996,16 @@
 			(type default)
 		)
 		(uuid "9695502b-a9e7-4398-ad57-2d8895eb81a8")
+	)
+	(wire
+		(pts
+			(xy 264.16 46.99) (xy 262.89 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989b4137-f9f2-4ae2-92b4-bb74f079dd6b")
 	)
 	(wire
 		(pts
@@ -26030,6 +26089,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 46.99) (xy 271.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affddc7f-a713-4d62-872a-9a8d36140423")
+	)
+	(wire
+		(pts
 			(xy 260.35 152.4) (xy 260.35 149.86)
 		)
 		(stroke
@@ -26057,6 +26126,16 @@
 			(type default)
 		)
 		(uuid "b5b124a9-0b69-4999-8b5d-fb685401afed")
+	)
+	(wire
+		(pts
+			(xy 274.32 49.53) (xy 271.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7de4961-b6ff-4cff-b5e8-d58b2e85b2bf")
 	)
 	(wire
 		(pts
@@ -26110,13 +26189,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 181.61) (xy 72.39 181.61)
+			(xy 274.32 39.37) (xy 271.78 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf6a3d5d-d0ae-46d0-a8a4-81fea8fd4be6")
+		(uuid "d22cca7b-a4b1-4b27-907c-8575fe131cf7")
 	)
 	(wire
 		(pts
@@ -26200,6 +26279,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 181.61) (xy 46.99 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b0413f-751d-41f7-8a36-6487d2843061")
+	)
+	(wire
+		(pts
 			(xy 120.65 189.23) (xy 125.73 189.23)
 		)
 		(stroke
@@ -26230,13 +26319,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 194.31) (xy 59.69 190.5)
+			(xy 264.16 41.91) (xy 262.89 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e70e8bd8-5f8e-448c-a25f-0761e1df907a")
+		(uuid "e767203c-a033-4824-abcc-0473d511a6fb")
 	)
 	(wire
 		(pts
@@ -26290,13 +26379,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 182.88) (xy 50.8 182.88)
+			(xy 264.3434 36.83) (xy 262.89 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f34dc68f-d26a-4674-91e1-6f9264539c74")
+		(uuid "f3939521-6f5c-4006-be70-1b8890d50ff0")
 	)
 	(wire
 		(pts
@@ -26307,6 +26396,26 @@
 			(type default)
 		)
 		(uuid "f5829348-dd80-4f81-914f-2a888309f98d")
+	)
+	(wire
+		(pts
+			(xy 264.16 44.45) (xy 262.89 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f606197e-12a7-423d-a1a7-2a515d7cbd06")
+	)
+	(wire
+		(pts
+			(xy 274.32 41.91) (xy 271.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68f0baf-fa41-4f7a-a46e-0dff318879b0")
 	)
 	(wire
 		(pts
@@ -26433,7 +26542,7 @@
 	)
 	(global_label "PS_CLK"
 		(shape bidirectional)
-		(at 86.36 177.8 0)
+		(at 86.36 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26443,7 +26552,7 @@
 		)
 		(uuid "01f0cc61-2ee5-46d6-918a-cf5da1f43325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.4717 177.8 0)
+			(at 97.4717 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26475,7 +26584,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D2"
+	(global_label "DDR3_D0"
 		(shape bidirectional)
 		(at 135.89 88.9 0)
 		(fields_autoplaced yes)
@@ -26761,7 +26870,7 @@
 			)
 		)
 	)
-	(global_label "UART_RXD_OUT"
+	(global_label "UART_RXD"
 		(shape bidirectional)
 		(at 191.77 82.55 0)
 		(fields_autoplaced yes)
@@ -26773,7 +26882,7 @@
 		)
 		(uuid "2707d9ea-35b9-4147-8d05-dd5786a766d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.8365 82.55 0)
+			(at 205.2403 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26849,7 +26958,7 @@
 			)
 		)
 	)
-	(global_label "UART_TXD_IN"
+	(global_label "UART_TXD"
 		(shape bidirectional)
 		(at 191.77 80.01 0)
 		(fields_autoplaced yes)
@@ -26861,7 +26970,7 @@
 		)
 		(uuid "2e4f5c69-c4e7-4892-958a-90eed3a5d7f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.8408 80.01 0)
+			(at 204.9379 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26937,7 +27046,7 @@
 			)
 		)
 	)
-	(global_label "SPI_SCK_MODE4"
+	(global_label "SPI_SCK{slash}MODE4"
 		(shape bidirectional)
 		(at 199.39 59.69 0)
 		(fields_autoplaced yes)
@@ -26949,7 +27058,7 @@
 		)
 		(uuid "361a066f-62c3-4a1b-b89e-6f127d94edd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.6659 59.69 0)
+			(at 219.0288 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26981,7 +27090,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D7"
+	(global_label "DDR3_D6"
 		(shape bidirectional)
 		(at 135.89 76.2 0)
 		(fields_autoplaced yes)
@@ -27025,7 +27134,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D8"
+	(global_label "DDR3_D2"
 		(shape bidirectional)
 		(at 135.89 91.44 0)
 		(fields_autoplaced yes)
@@ -27093,7 +27202,7 @@
 	)
 	(global_label "ETH_TXD0"
 		(shape bidirectional)
-		(at 262.89 39.37 0)
+		(at 274.32 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27103,7 +27212,7 @@
 		)
 		(uuid "4640b3f2-eabe-4ef4-b6c2-73cc202ae2c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0578 39.37 0)
+			(at 287.4878 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27203,7 +27312,7 @@
 	)
 	(global_label "ETH_TXCTL"
 		(shape bidirectional)
-		(at 262.89 49.53 0)
+		(at 274.32 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27213,7 +27322,7 @@
 		)
 		(uuid "4dd68caa-e8de-4453-87de-2b425f51e6d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.844 49.53 0)
+			(at 288.274 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27355,7 +27464,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D9"
+	(global_label "DDR3_D10"
 		(shape bidirectional)
 		(at 135.89 99.06 0)
 		(fields_autoplaced yes)
@@ -27367,7 +27476,7 @@
 		)
 		(uuid "65e14233-d046-4503-814d-b1b2ced88fa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4531 99.06 0)
+			(at 149.6626 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27401,7 +27510,7 @@
 	)
 	(global_label "ETH_TXCLK"
 		(shape bidirectional)
-		(at 262.89 36.83 0)
+		(at 274.32 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27411,7 +27520,7 @@
 		)
 		(uuid "67948dac-9ba1-4beb-b93b-940a68008d10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.1464 36.83 0)
+			(at 288.5764 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27621,7 +27730,7 @@
 	)
 	(global_label "ETH_TXD3"
 		(shape bidirectional)
-		(at 262.89 46.99 0)
+		(at 274.32 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27631,7 +27740,7 @@
 		)
 		(uuid "7a438ab0-6359-495a-b477-35b8b866c443")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0578 46.99 0)
+			(at 287.4878 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27663,7 +27772,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D3"
+	(global_label "DDR3_D1"
 		(shape bidirectional)
 		(at 135.89 73.66 0)
 		(fields_autoplaced yes)
@@ -27707,7 +27816,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D10"
+	(global_label "DDR3_D9"
 		(shape bidirectional)
 		(at 135.89 96.52 0)
 		(fields_autoplaced yes)
@@ -27807,7 +27916,7 @@
 		)
 		(uuid "87894afd-8609-4f2c-b321-8698a403fa94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4531 104.14 0)
+			(at 149.6626 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27817,7 +27926,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D4"
+	(global_label "DDR3_D7"
 		(shape bidirectional)
 		(at 135.89 78.74 0)
 		(fields_autoplaced yes)
@@ -27873,7 +27982,7 @@
 		)
 		(uuid "8e2ace96-7d9d-41da-9148-62b31f7ce8c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4531 101.6 0)
+			(at 149.6626 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27927,7 +28036,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D5"
+	(global_label "DDR3_D4"
 		(shape bidirectional)
 		(at 135.89 71.12 0)
 		(fields_autoplaced yes)
@@ -28191,28 +28300,6 @@
 			)
 		)
 	)
-	(global_label "ETH_CLK"
-		(shape bidirectional)
-		(at 86.36 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9020f4c-a9e7-4664-b3a4-efce925374d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4393 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DDR3_A7"
 		(shape bidirectional)
 		(at 39.37 60.96 180)
@@ -28323,7 +28410,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D6"
+	(global_label "DDR3_D3"
 		(shape bidirectional)
 		(at 135.89 83.82 0)
 		(fields_autoplaced yes)
@@ -28345,7 +28432,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D14"
+	(global_label "DDR3_D11"
 		(shape bidirectional)
 		(at 135.89 93.98 0)
 		(fields_autoplaced yes)
@@ -28357,7 +28444,7 @@
 		)
 		(uuid "c54bd292-3107-4378-851b-89d51432959d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4531 93.98 0)
+			(at 149.6626 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28411,7 +28498,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D11"
+	(global_label "DDR3_D14"
 		(shape bidirectional)
 		(at 135.89 109.22 0)
 		(fields_autoplaced yes)
@@ -28423,7 +28510,7 @@
 		)
 		(uuid "c949ae41-5681-4970-a277-13ed07e160ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4531 109.22 0)
+			(at 149.6626 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28455,7 +28542,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_CK0"
+	(global_label "DDR3_CKE0"
 		(shape bidirectional)
 		(at 39.37 120.65 180)
 		(fields_autoplaced yes)
@@ -28467,7 +28554,7 @@
 		)
 		(uuid "cc7a51bc-dc43-4945-9dd8-50f5f93762f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.5369 120.65 0)
+			(at 24.3879 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28479,7 +28566,7 @@
 	)
 	(global_label "ETH_TXD1"
 		(shape bidirectional)
-		(at 262.89 41.91 0)
+		(at 274.32 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28489,7 +28576,7 @@
 		)
 		(uuid "d107850f-1879-459f-a6d1-f1f730e13b77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0578 41.91 0)
+			(at 287.4878 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28523,7 +28610,7 @@
 	)
 	(global_label "ETH_TXD2"
 		(shape bidirectional)
-		(at 262.89 44.45 0)
+		(at 274.32 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28533,7 +28620,7 @@
 		)
 		(uuid "d6368c13-5063-460b-b424-27485f7a19b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0578 44.45 0)
+			(at 287.4878 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28741,7 +28828,7 @@
 			)
 		)
 	)
-	(global_label "SPIDQ1{slash}MODE1"
+	(global_label "SPI_DQ1{slash}MODE1"
 		(shape bidirectional)
 		(at 191.77 52.07 0)
 		(fields_autoplaced yes)
@@ -28753,7 +28840,7 @@
 		)
 		(uuid "e3938427-ad57-47ef-b0ab-0b4f3a8a3dbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5017 52.07 0)
+			(at 211.4693 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28851,7 +28938,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D1"
+	(global_label "DDR3_D5"
 		(shape bidirectional)
 		(at 135.89 81.28 0)
 		(fields_autoplaced yes)
@@ -28939,7 +29026,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D0"
+	(global_label "DDR3_D8"
 		(shape bidirectional)
 		(at 135.89 86.36 0)
 		(fields_autoplaced yes)
@@ -29084,7 +29171,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C1519081"
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -30361,7 +30448,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C106235"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -30438,7 +30525,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -30514,7 +30601,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C106235"
 			(at 172.72 154.94 0)
 			(effects
 				(font
@@ -30533,6 +30620,82 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 267.97 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f6c2343-38af-48fd-94f8-3a4d7aa19a60")
+		(property "Reference" "R234"
+			(at 265.938 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40.2"
+			(at 270.256 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 268.224 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C274892"
+			(at 267.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7fc223d-4af7-4598-a694-cabb760d5283")
+		)
+		(pin "1"
+			(uuid "96e7782f-908e-490b-9496-867d1b18a005")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "R234")
 					(unit 1)
 				)
 			)
@@ -30607,24 +30770,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 78.74 177.8 270)
+		(at 268.1534 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1848c464-766d-4fc2-9fe0-9a12c9f13616")
-		(property "Reference" "R50"
-			(at 78.74 171.45 90)
+		(uuid "13ae01be-57b9-4e93-8230-60fb1d620f48")
+		(property "Reference" "R239"
+			(at 266.446 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "49.9"
-			(at 78.74 173.99 90)
+		(property "Value" "40.2"
+			(at 270.256 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30632,7 +30794,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 78.486 178.816 90)
+			(at 268.4074 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30641,7 +30803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 177.8 0)
+			(at 268.1534 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30650,7 +30812,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 78.74 177.8 0)
+			(at 268.1534 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30658,8 +30820,85 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
-			(at 78.74 177.8 0)
+		(property "LCSC PN" "C274892"
+			(at 268.1534 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53b86986-f6b7-4248-b05b-be9bdcd27325")
+		)
+		(pin "1"
+			(uuid "35f7af56-955c-4adc-b11e-2e9a2cdbc9bd")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "R239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 78.74 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1848c464-766d-4fc2-9fe0-9a12c9f13616")
+		(property "Reference" "R50"
+			(at 78.74 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9"
+			(at 78.74 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 78.486 180.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C87044"
+			(at 78.74 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30677,6 +30916,82 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 267.97 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c48e271-5be2-48f4-b7ee-31fe6e833a5a")
+		(property "Reference" "R235"
+			(at 265.176 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40.2"
+			(at 270.764 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 268.224 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C274892"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17fc2878-989a-4cb8-8f52-27ff7529a4c0")
+		)
+		(pin "1"
+			(uuid "f0303e98-74f1-4399-9790-d37ec7a34b3a")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "R235")
 					(unit 1)
 				)
 			)
@@ -30802,7 +31117,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C843839"
 			(at 33.02 128.27 0)
 			(effects
 				(font
@@ -30880,7 +31195,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 208.28 106.68 0)
 			(effects
 				(font
@@ -31142,7 +31457,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C95342"
 			(at 271.78 148.59 0)
 			(effects
 				(font
@@ -31233,7 +31548,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 172.72 106.68 0)
 			(effects
 				(font
@@ -31319,6 +31634,82 @@
 			(project ""
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 267.97 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4090f115-bc3c-43db-ad70-3d1a0f933dbb")
+		(property "Reference" "R238"
+			(at 265.938 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40.2"
+			(at 270.256 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 268.224 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C274892"
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f073d8e1-f4da-4101-9ff4-a21a95d05c02")
+		)
+		(pin "1"
+			(uuid "dbb47737-d71b-4a94-ae58-f64f53fd8a09")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "R238")
 					(unit 1)
 				)
 			)
@@ -31459,6 +31850,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 267.97 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ded10f7-8871-441b-919c-f817e24d6b79")
+		(property "Reference" "R237"
+			(at 265.938 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40.2"
+			(at 270.002 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 268.224 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C274892"
+			(at 267.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d77ec2d8-aaf8-4843-9085-4d804f2a9077")
+		)
+		(pin "1"
+			(uuid "1c84696f-c394-4a0f-a393-f7f6825f0cd2")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "R237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 199.39 106.68 0)
 		(unit 1)
@@ -31513,7 +31980,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c15195"
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -31592,7 +32059,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C843839"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -31669,7 +32136,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -31881,7 +32348,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c15195"
 			(at 166.37 107.95 0)
 			(effects
 				(font
@@ -32025,7 +32492,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 139.7 176.53 0)
 			(effects
 				(font
@@ -32168,7 +32635,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 139.7 181.61 0)
 			(effects
 				(font
@@ -32314,7 +32781,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -32497,7 +32964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_PZ254V-11-04P_XFC"
+		(property "Footprint" "footprints:PinHeader_1x04_P2.54mm_Vertical"
 			(at 105.41 179.07 0)
 			(effects
 				(font
@@ -32524,7 +32991,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "digi/mouser"
 			(at 105.41 179.07 0)
 			(effects
 				(font
@@ -32647,7 +33114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_PZ254V-11-02P_02P_XFC"
+		(property "Footprint" "footprints:PinHeader_1x02_P2.54mm_Vertical"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -32674,7 +33141,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "digi/mouser"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -32820,7 +33287,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 254 140.97 0)
 			(effects
 				(font
@@ -32897,7 +33364,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C274892"
 			(at 195.58 59.69 0)
 			(effects
 				(font
@@ -32973,7 +33440,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C106235"
 			(at 171.45 144.78 0)
 			(effects
 				(font
@@ -32992,97 +33459,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2025-04-06_19-32-54:DSC1122CI5-050.0000T")
-		(at 40.64 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d4482b5-c9a1-4676-af78-36a93bb217db")
-		(property "Reference" "U2"
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "DSC1122CI5-050.0000T"
-			(at 59.69 173.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:VDFN6_3P2X2P5_MCH"
-			(at 60.706 173.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DSC1122CI5-050.0000T"
-			(at 63.5 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc#" ""
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3cfb952e-18a7-4efb-96dd-ea543f5bbbac")
-		)
-		(pin "4"
-			(uuid "58a73fc5-7cc2-4a7d-8e03-09013f78b9e8")
-		)
-		(pin "1"
-			(uuid "85cf8fd8-b3a0-4e4c-bb81-eded55e02aee")
-		)
-		(pin "2"
-			(uuid "b3d22634-e98a-4f60-82eb-bb6904dcdd00")
-		)
-		(pin "5"
-			(uuid "1371c325-748a-48e9-92e0-3c246061e89a")
-		)
-		(pin "6"
-			(uuid "3ec0d9b3-b4b9-48b8-a406-d7b9af60e0c8")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -33209,7 +33585,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -33309,7 +33685,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "mouser"
 			(at 231.14 160.02 0)
 			(effects
 				(font
@@ -33393,7 +33769,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c15195"
 			(at 46.99 186.69 0)
 			(effects
 				(font
@@ -33471,7 +33847,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 260.35 156.21 0)
 			(effects
 				(font
@@ -33550,7 +33926,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C106235"
 			(at 125.73 172.72 0)
 			(effects
 				(font
@@ -33678,7 +34054,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C95342"
 			(at 246.38 146.05 0)
 			(effects
 				(font
@@ -33769,7 +34145,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C60490"
 			(at 231.14 140.97 0)
 			(effects
 				(font
@@ -33916,7 +34292,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C1519081"
 			(at 114.3 26.67 0)
 			(effects
 				(font
@@ -35139,6 +35515,150 @@
 		)
 	)
 	(symbol
+		(lib_id "SG-8018CE_50.0000M-TJHPA:SG-8018CE_50.0000M-TJHPA")
+		(at 60.96 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca3e0e6c-ad74-4b97-9b37-0e46ded50819")
+		(property "Reference" "Y2"
+			(at 60.96 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SG-8018CE_50.0000M-TJHPA"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:OSC_SG-8018CE_50.0000M-TJHPA"
+			(at 65.786 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+			(at 69.596 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "RODRIGO"
+			(at 64.262 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 65.532 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "5/22/24"
+			(at 67.056 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 66.294 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Epson"
+			(at 65.786 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C390511"
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a6b8fc-4a55-4318-87f7-dbce55af42a4")
+		)
+		(pin "3"
+			(uuid "6f051315-6a0e-40f5-9897-aa4ce31a5ad2")
+		)
+		(pin "2"
+			(uuid "5f091fc7-c6a0-401d-8600-9bd62ad73445")
+		)
+		(pin "4"
+			(uuid "49b20200-625d-4e71-8d8f-ea5b12ad6dc9")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 30.48 29.21 0)
 		(unit 1)
@@ -35193,7 +35713,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "c1525"
 			(at 30.48 29.21 0)
 			(effects
 				(font
@@ -35337,7 +35857,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C274892"
 			(at 267.97 97.79 0)
 			(effects
 				(font
@@ -35416,7 +35936,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C843839"
 			(at 21.59 153.67 0)
 			(effects
 				(font
@@ -35495,7 +36015,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C1519081"
 			(at 39.37 31.75 0)
 			(effects
 				(font
@@ -36718,6 +37238,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 267.97 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df074287-34ed-41fc-b1ff-f8f27f48651d")
+		(property "Reference" "R236"
+			(at 265.938 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40.2"
+			(at 270.256 42.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 268.224 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C274892"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "175245ed-1a0d-47d4-ab38-600ab65e5e50")
+		)
+		(pin "1"
+			(uuid "82854ebe-fdef-4b0f-b057-1ab01ad2a134")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "R236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 165.1 154.94 270)
 		(unit 1)
@@ -36811,7 +37407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_PZ254V-11-02P_02P_XFC"
+		(property "Footprint" "footprints:PinHeader_1x02_P2.54mm_Vertical"
 			(at 171.45 138.43 0)
 			(effects
 				(font
@@ -36838,7 +37434,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "digi/mouser"
 			(at 171.45 138.43 0)
 			(effects
 				(font
@@ -36915,7 +37511,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 186.69 144.78 0)
 			(effects
 				(font
@@ -36992,7 +37588,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 186.69 154.94 0)
 			(effects
 				(font
@@ -37138,7 +37734,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C114764"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -37215,7 +37811,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" ""
+		(property "LCSC PN" "C93942"
 			(at 177.8 124.46 0)
 			(effects
 				(font
@@ -37234,82 +37830,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 78.74 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9a9d771-6bbe-4bd0-ba8b-f3dbd54317f6")
-		(property "Reference" "R51"
-			(at 78.994 179.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "49.9"
-			(at 78.994 183.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0402"
-			(at 78.486 182.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 78.74 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc#" ""
-			(at 78.74 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "159e6114-f98c-4b7c-bc74-3d333a6fa7ff")
-		)
-		(pin "1"
-			(uuid "1737c1a6-b254-4905-971b-b0256b189a2f")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
-					(reference "R51")
 					(unit 1)
 				)
 			)
