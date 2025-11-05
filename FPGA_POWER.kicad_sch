@@ -22346,7 +22346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 103.8352 92.71 0)
 			(effects
 				(font
@@ -22742,7 +22742,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 102.87 88.9 0)
 			(effects
 				(font
@@ -23242,7 +23242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 103.8352 62.23 0)
 			(effects
 				(font
@@ -23638,7 +23638,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -23664,7 +23664,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 53.34 0)
+		(at 179.07 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23673,7 +23673,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e485615-2900-4da7-9ee3-e51dfce36a1e")
 		(property "Reference" "C103"
-			(at 210.82 52.0699 0)
+			(at 182.88 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23682,7 +23682,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 210.82 54.6099 0)
+			(at 182.88 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23690,8 +23690,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
-			(at 207.9752 57.15 0)
+		(property "Footprint" "footprints:C_0201_0603Metric"
+			(at 180.0352 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23700,7 +23700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23709,7 +23709,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23718,7 +23718,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23727,7 +23727,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23736,7 +23736,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23745,7 +23745,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23754,7 +23754,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23763,7 +23763,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23772,7 +23772,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23781,7 +23781,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23790,7 +23790,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23799,7 +23799,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23808,7 +23808,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23817,7 +23817,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23826,7 +23826,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23835,7 +23835,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23844,7 +23844,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23853,7 +23853,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23862,7 +23862,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23871,7 +23871,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23880,7 +23880,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23889,7 +23889,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23898,7 +23898,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23907,7 +23907,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23916,7 +23916,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23925,7 +23925,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23934,7 +23934,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23943,7 +23943,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23952,7 +23952,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23961,7 +23961,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23970,7 +23970,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23979,7 +23979,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23988,7 +23988,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23997,7 +23997,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24006,7 +24006,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24015,7 +24015,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24024,7 +24024,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24033,7 +24033,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24042,7 +24042,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24051,7 +24051,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24060,7 +24060,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24069,7 +24069,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24078,7 +24078,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 207.01 53.34 0)
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24086,8 +24086,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
-			(at 207.01 53.34 0)
+		(property "LCSC PN" "C88915"
+			(at 179.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25487,7 +25487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 199.0852 114.3 0)
 			(effects
 				(font
@@ -25883,7 +25883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 198.12 110.49 0)
 			(effects
 				(font
@@ -27346,7 +27346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 188.9252 114.3 0)
 			(effects
 				(font
@@ -27742,7 +27742,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -27794,7 +27794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 190.1952 41.91 0)
 			(effects
 				(font
@@ -28190,7 +28190,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 189.23 38.1 0)
 			(effects
 				(font
@@ -29112,7 +29112,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 53.34 0)
+		(at 207.01 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29121,7 +29121,7 @@
 		(fields_autoplaced yes)
 		(uuid "36676226-b091-473c-8964-497ae06fab17")
 		(property "Reference" "C101"
-			(at 193.04 52.0699 0)
+			(at 210.82 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29130,7 +29130,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 193.04 54.6099 0)
+			(at 210.82 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29138,8 +29138,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
-			(at 190.1952 57.15 0)
+		(property "Footprint" "footprints:C_0201_0603Metric"
+			(at 207.9752 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29148,7 +29148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29157,7 +29157,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29166,7 +29166,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29175,7 +29175,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29184,7 +29184,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29193,7 +29193,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29202,7 +29202,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29211,7 +29211,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29220,7 +29220,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29229,7 +29229,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29238,7 +29238,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29247,7 +29247,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29256,7 +29256,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29265,7 +29265,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29274,7 +29274,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29283,7 +29283,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29292,7 +29292,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29301,7 +29301,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29310,7 +29310,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29319,7 +29319,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29328,7 +29328,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29337,7 +29337,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29346,7 +29346,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29355,7 +29355,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29364,7 +29364,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29373,7 +29373,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29382,7 +29382,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29391,7 +29391,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29400,7 +29400,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29409,7 +29409,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29418,7 +29418,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29427,7 +29427,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29436,7 +29436,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29445,7 +29445,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29454,7 +29454,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29463,7 +29463,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29472,7 +29472,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29481,7 +29481,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29490,7 +29490,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29499,7 +29499,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29508,7 +29508,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29517,7 +29517,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29526,7 +29526,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 189.23 53.34 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29534,8 +29534,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
-			(at 189.23 53.34 0)
+		(property "LCSC PN" "C88915"
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30034,7 +30034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 94.9452 36.83 0)
 			(effects
 				(font
@@ -30430,7 +30430,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -35680,7 +35680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 199.0852 74.93 0)
 			(effects
 				(font
@@ -36076,7 +36076,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 198.12 71.12 0)
 			(effects
 				(font
@@ -36128,7 +36128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 180.0352 114.3 0)
 			(effects
 				(font
@@ -36524,7 +36524,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -36576,7 +36576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 207.9752 114.3 0)
 			(effects
 				(font
@@ -36972,7 +36972,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 207.01 110.49 0)
 			(effects
 				(font
@@ -37024,7 +37024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 180.0352 41.91 0)
 			(effects
 				(font
@@ -37420,7 +37420,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 179.07 38.1 0)
 			(effects
 				(font
@@ -38054,7 +38054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 180.0352 74.93 0)
 			(effects
 				(font
@@ -38450,7 +38450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 179.07 71.12 0)
 			(effects
 				(font
@@ -38502,7 +38502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 75.8952 36.83 0)
 			(effects
 				(font
@@ -38898,7 +38898,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -39084,7 +39084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 103.8352 36.83 0)
 			(effects
 				(font
@@ -39480,7 +39480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -39532,7 +39532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 190.1952 74.93 0)
 			(effects
 				(font
@@ -39928,7 +39928,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -40402,7 +40402,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 198.12 53.34 0)
+		(at 189.23 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40411,7 +40411,7 @@
 		(fields_autoplaced yes)
 		(uuid "9139958f-9820-472c-b7c4-942c91dc3044")
 		(property "Reference" "C102"
-			(at 201.93 52.0699 0)
+			(at 193.04 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40420,7 +40420,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 201.93 54.6099 0)
+			(at 193.04 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40428,8 +40428,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
-			(at 199.0852 57.15 0)
+		(property "Footprint" "footprints:C_0201_0603Metric"
+			(at 190.1952 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40438,7 +40438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40447,7 +40447,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40456,7 +40456,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40465,7 +40465,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40474,7 +40474,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40483,7 +40483,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40492,7 +40492,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40501,7 +40501,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40510,7 +40510,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40519,7 +40519,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40528,7 +40528,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40537,7 +40537,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40546,7 +40546,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40555,7 +40555,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40564,7 +40564,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40573,7 +40573,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40582,7 +40582,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40591,7 +40591,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40600,7 +40600,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40609,7 +40609,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40618,7 +40618,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40627,7 +40627,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40636,7 +40636,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40645,7 +40645,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40654,7 +40654,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40663,7 +40663,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40672,7 +40672,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40681,7 +40681,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40690,7 +40690,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40699,7 +40699,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40708,7 +40708,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40717,7 +40717,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40726,7 +40726,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40735,7 +40735,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40744,7 +40744,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40753,7 +40753,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40762,7 +40762,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40771,7 +40771,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40780,7 +40780,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40789,7 +40789,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40798,7 +40798,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40807,7 +40807,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40816,7 +40816,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 198.12 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40824,8 +40824,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
-			(at 198.12 53.34 0)
+		(property "LCSC PN" "C88915"
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41391,7 +41391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 86.0552 36.83 0)
 			(effects
 				(font
@@ -41787,7 +41787,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 85.09 33.02 0)
 			(effects
 				(font
@@ -42487,7 +42487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 87.3252 109.22 0)
 			(effects
 				(font
@@ -42883,7 +42883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 86.36 105.41 0)
 			(effects
 				(font
@@ -43499,7 +43499,7 @@
 		(dnp no)
 		(uuid "aa28fd39-322a-4dde-a853-07d6c2108c8a")
 		(property "Reference" "C108"
-			(at 181.2083 95.5737 0)
+			(at 179.832 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43508,7 +43508,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 181.2083 98.1137 0)
+			(at 179.832 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43516,7 +43516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 180.0352 97.79 0)
 			(effects
 				(font
@@ -43912,7 +43912,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -44994,7 +44994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 94.9452 109.22 0)
 			(effects
 				(font
@@ -45390,7 +45390,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -46065,7 +46065,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 53.34 0)
+		(at 198.12 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46074,7 +46074,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3081fdf-9995-457d-af0b-cf9ac9a661f4")
 		(property "Reference" "C100"
-			(at 182.88 52.0699 0)
+			(at 201.93 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46083,7 +46083,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 182.88 54.6099 0)
+			(at 201.93 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46091,8 +46091,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
-			(at 180.0352 57.15 0)
+		(property "Footprint" "footprints:C_0201_0603Metric"
+			(at 199.0852 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46101,7 +46101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46110,7 +46110,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46119,7 +46119,7 @@
 			)
 		)
 		(property "01 IPN" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46128,7 +46128,7 @@
 			)
 		)
 		(property "02 DESC" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46137,7 +46137,7 @@
 			)
 		)
 		(property "03 MAN" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46146,7 +46146,7 @@
 			)
 		)
 		(property "04 MPN" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46155,7 +46155,7 @@
 			)
 		)
 		(property "ADD INTO BOM" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46164,7 +46164,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46173,7 +46173,7 @@
 			)
 		)
 		(property "AP" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46182,7 +46182,7 @@
 			)
 		)
 		(property "CODE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46191,7 +46191,7 @@
 			)
 		)
 		(property "COMPTYPE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46200,7 +46200,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46209,7 +46209,7 @@
 			)
 		)
 		(property "DEVICE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46218,7 +46218,7 @@
 			)
 		)
 		(property "DFM" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46227,7 +46227,7 @@
 			)
 		)
 		(property "FULL_LEAD_TIME" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46236,7 +46236,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46245,7 +46245,7 @@
 			)
 		)
 		(property "IMPLEMENTATION TYPE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46254,7 +46254,7 @@
 			)
 		)
 		(property "ITEM_PRIORITY" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46263,7 +46263,7 @@
 			)
 		)
 		(property "LIFE_CYCLE_FLAG" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46272,7 +46272,7 @@
 			)
 		)
 		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46281,7 +46281,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46290,7 +46290,7 @@
 			)
 		)
 		(property "MFG PN" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46299,7 +46299,7 @@
 			)
 		)
 		(property "ORDERING P/N" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46308,7 +46308,7 @@
 			)
 		)
 		(property "ORDER_SEQ" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46317,7 +46317,7 @@
 			)
 		)
 		(property "ORIGIN FOOTPRINT" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46326,7 +46326,7 @@
 			)
 		)
 		(property "PACKAGE TYPE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46335,7 +46335,7 @@
 			)
 		)
 		(property "PANGO PART NUMBER" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46344,7 +46344,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46353,7 +46353,7 @@
 			)
 		)
 		(property "PART TYPE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46362,7 +46362,7 @@
 			)
 		)
 		(property "PCB FOOTPRINT" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46371,7 +46371,7 @@
 			)
 		)
 		(property "PEGATRON_PART_NUMBER" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46380,7 +46380,7 @@
 			)
 		)
 		(property "PITCH" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46389,7 +46389,7 @@
 			)
 		)
 		(property "POWER PINS VISIBLE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46398,7 +46398,7 @@
 			)
 		)
 		(property "PPL_FLAG" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46407,7 +46407,7 @@
 			)
 		)
 		(property "PRIMITIVE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46416,7 +46416,7 @@
 			)
 		)
 		(property "SOURCE PACKAGE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46425,7 +46425,7 @@
 			)
 		)
 		(property "SYMBOL" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46434,7 +46434,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46443,7 +46443,7 @@
 			)
 		)
 		(property "VA" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46452,7 +46452,7 @@
 			)
 		)
 		(property "VALUE1" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46461,7 +46461,7 @@
 			)
 		)
 		(property "VALUE2" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46470,7 +46470,7 @@
 			)
 		)
 		(property "VENDOR" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46479,7 +46479,7 @@
 			)
 		)
 		(property "VENDOR P/N" ""
-			(at 179.07 53.34 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46487,8 +46487,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
-			(at 179.07 53.34 0)
+		(property "LCSC PN" "C88915"
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46606,7 +46606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 103.8352 109.22 0)
 			(effects
 				(font
@@ -47002,7 +47002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -48084,7 +48084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 103.8352 77.47 0)
 			(effects
 				(font
@@ -48480,7 +48480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 102.87 73.66 0)
 			(effects
 				(font
@@ -48599,7 +48599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 103.8352 124.46 0)
 			(effects
 				(font
@@ -48995,7 +48995,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -49943,7 +49943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 207.9752 74.93 0)
 			(effects
 				(font
@@ -50339,7 +50339,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -50391,7 +50391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 207.9752 147.32 0)
 			(effects
 				(font
@@ -50787,7 +50787,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c92361"
+		(property "LCSC PN" "C88915"
 			(at 207.01 143.51 0)
 			(effects
 				(font

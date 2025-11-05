@@ -33619,7 +33619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab61b961-1904-4ca0-ab7f-216cdd6a33a0")
-		(property "Reference" "S2"
+		(property "Reference" "BTNR1"
 			(at 232.41 158.7499 0)
 			(effects
 				(font
@@ -33709,7 +33709,7 @@
 		(instances
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
-					(reference "S2")
+					(reference "BTNR1")
 					(unit 1)
 				)
 			)
@@ -33733,7 +33733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 39.624 187.96 0)
 			(effects
 				(font

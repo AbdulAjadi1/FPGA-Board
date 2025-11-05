@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "12")
 				)
@@ -74,7 +74,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "7")
 				)
@@ -112,7 +112,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "3")
 				)
@@ -150,7 +150,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "9")
 				)
@@ -188,7 +188,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "11")
 				)
@@ -226,7 +226,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "10")
 				)
@@ -264,7 +264,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "4")
 				)
@@ -302,7 +302,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "15")
 				)
@@ -340,7 +340,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "1")
 				)
@@ -378,7 +378,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "2")
 				)
@@ -416,7 +416,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "14")
 				)
@@ -454,7 +454,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "8")
 				)
@@ -492,7 +492,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "6")
 				)
@@ -530,7 +530,7 @@
 			)
 		)
 		(instances
-			(project "FPGA-BOARDver3"
+			(project "FPGA-BOARD"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64"
 					(page "5")
 				)

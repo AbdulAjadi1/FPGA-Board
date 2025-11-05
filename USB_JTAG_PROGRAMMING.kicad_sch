@@ -3937,126 +3937,6 @@
 				)
 			)
 		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers hide)
@@ -4658,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 118.11) (xy 242.57 119.38)
+			(xy 242.57 116.84) (xy 242.57 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4848,6 +4728,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 27.94) (xy 245.11 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106d37a9-fe9e-4598-bb27-a9075b15ba88")
+	)
+	(wire
+		(pts
 			(xy 186.69 163.83) (xy 186.69 161.29)
 		)
 		(stroke
@@ -4938,6 +4828,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 144.78) (xy 257.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd94f64-8287-4a90-a38b-1e53dfb8360b")
+	)
+	(wire
+		(pts
 			(xy 72.39 151.13) (xy 72.39 154.94)
 		)
 		(stroke
@@ -5005,16 +4905,6 @@
 			(type default)
 		)
 		(uuid "241692ca-fa90-45bd-895f-bd07364af506")
-	)
-	(wire
-		(pts
-			(xy 243.84 72.39) (xy 243.84 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243c8364-1c1f-463a-857c-2e76922221ce")
 	)
 	(wire
 		(pts
@@ -5088,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 151.13) (xy 234.95 146.05)
+			(xy 234.95 144.78) (xy 234.95 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5268,7 +5158,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 57.15) (xy 234.95 52.07)
+			(xy 234.95 50.8) (xy 234.95 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5348,6 +5238,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 143.51) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492f4493-aa6c-45cb-99de-a1339601d5c8")
+	)
+	(wire
+		(pts
 			(xy 100.33 101.6) (xy 96.52 101.6)
 		)
 		(stroke
@@ -5358,7 +5258,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 35.56) (xy 238.76 29.21)
+			(xy 238.76 27.94) (xy 238.76 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5385,6 +5285,16 @@
 			(type default)
 		)
 		(uuid "49c3dd18-a8c3-4819-b5a8-ded40f31ac02")
+	)
+	(wire
+		(pts
+			(xy 184.15 16.51) (xy 184.15 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e2745e-9a30-4656-ae64-174d61443a30")
 	)
 	(wire
 		(pts
@@ -5425,16 +5335,6 @@
 			(type default)
 		)
 		(uuid "4e44b3e0-131d-4ecc-8f6e-208ec528b6d1")
-	)
-	(wire
-		(pts
-			(xy 237.49 125.73) (xy 237.49 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e6f5a36-2824-4cbe-a785-f812cdf20dea")
 	)
 	(wire
 		(pts
@@ -5568,7 +5468,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 101.6) (xy 236.22 95.25)
+			(xy 236.22 93.98) (xy 236.22 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5688,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 48.26) (xy 241.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605493fa-ba7a-4499-835f-232bc33b2670")
+	)
+	(wire
+		(pts
 			(xy 210.82 151.13) (xy 209.55 151.13)
 		)
 		(stroke
@@ -5725,6 +5635,16 @@
 			(type default)
 		)
 		(uuid "62f679f4-a7c0-4bd5-8feb-99e659647875")
+	)
+	(wire
+		(pts
+			(xy 257.81 95.25) (xy 257.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f8ecc2-f140-4daa-8051-ba4ccb391ee9")
 	)
 	(wire
 		(pts
@@ -5918,6 +5838,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 93.98) (xy 242.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787e8647-7f45-40ed-9067-a236412fadcc")
+	)
+	(wire
+		(pts
 			(xy 66.04 123.19) (xy 66.04 127)
 		)
 		(stroke
@@ -5945,16 +5875,6 @@
 			(type default)
 		)
 		(uuid "7af14abe-a0fc-4317-ad00-cf5a613affb1")
-	)
-	(wire
-		(pts
-			(xy 240.03 80.01) (xy 240.03 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca5ba4f-c8a7-4b96-ad4b-3aed36d75dad")
 	)
 	(wire
 		(pts
@@ -6025,6 +5945,16 @@
 			(type default)
 		)
 		(uuid "83fc1f63-ccab-41df-964b-c77597931104")
+	)
+	(wire
+		(pts
+			(xy 252.73 27.94) (xy 252.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846afe81-8b05-45c9-8e6e-d8dc3093c503")
 	)
 	(wire
 		(pts
@@ -6105,6 +6035,16 @@
 			(type default)
 		)
 		(uuid "8afa7e8f-f666-4385-bf7e-9c39f417b076")
+	)
+	(wire
+		(pts
+			(xy 240.03 71.12) (xy 240.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b34d3ea-add7-4126-806f-b4b368d10fe7")
 	)
 	(wire
 		(pts
@@ -6358,6 +6298,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 116.84) (xy 237.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54c5efe-91cc-43e4-ba22-b50b7c1ed0f5")
+	)
+	(wire
+		(pts
 			(xy 199.39 82.55) (xy 213.36 82.55)
 		)
 		(stroke
@@ -6455,16 +6405,6 @@
 			(type default)
 		)
 		(uuid "b070eef3-2d6f-48ca-8a5b-159411c07461")
-	)
-	(wire
-		(pts
-			(xy 238.76 19.05) (xy 238.76 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d6b104-19c8-4401-94e3-29189b3a277b")
 	)
 	(wire
 		(pts
@@ -6618,6 +6558,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 50.8) (xy 252.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba619a78-4934-4fc3-ad77-4add78a96404")
+	)
+	(wire
+		(pts
 			(xy 72.39 123.19) (xy 72.39 129.54)
 		)
 		(stroke
@@ -6648,6 +6598,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 73.66) (xy 259.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be71acde-bc29-40d2-b792-5e14d311254a")
+	)
+	(wire
+		(pts
 			(xy 100.33 105.41) (xy 96.52 105.41)
 		)
 		(stroke
@@ -6655,6 +6615,16 @@
 			(type default)
 		)
 		(uuid "c13caffc-b9b4-4c50-b64b-f4a2daafb3a4")
+	)
+	(wire
+		(pts
+			(xy 238.76 11.43) (xy 238.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c54144-465d-4c44-b296-eda2e0ac2edd")
 	)
 	(wire
 		(pts
@@ -6695,6 +6665,16 @@
 			(type default)
 		)
 		(uuid "c69f477c-7bfd-4123-9834-aa9532ebe897")
+	)
+	(wire
+		(pts
+			(xy 184.15 35.56) (xy 184.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94b6545-60cc-4ebd-81c6-f719953a2cfa")
 	)
 	(wire
 		(pts
@@ -6755,6 +6735,16 @@
 			(type default)
 		)
 		(uuid "cd15b200-373e-47ba-83c9-326f7160377f")
+	)
+	(wire
+		(pts
+			(xy 243.84 71.12) (xy 243.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf11ce21-e701-4604-94a9-53057d9c93cc")
 	)
 	(wire
 		(pts
@@ -6848,6 +6838,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 11.43) (xy 243.84 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db206e5c-d4ae-4c99-aa2c-97cc0dc29b7b")
+	)
+	(wire
+		(pts
 			(xy 100.33 96.52) (xy 96.52 96.52)
 		)
 		(stroke
@@ -6895,16 +6895,6 @@
 			(type default)
 		)
 		(uuid "df2fd0fb-7800-477c-bf19-f0d9a060032a")
-	)
-	(wire
-		(pts
-			(xy 241.3 144.78) (xy 241.3 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0577424-3635-42a4-bdba-82c16771ba83")
 	)
 	(wire
 		(pts
@@ -7288,6 +7278,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 118.11) (xy 257.81 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc857eb-0551-48da-84bd-157db8670c21")
+	)
+	(wire
+		(pts
 			(xy 81.28 97.79) (xy 74.93 97.79)
 		)
 		(stroke
@@ -7366,6 +7366,16 @@
 		)
 		(uuid "108efb06-21ea-44fc-a180-8fd7206d5b3d")
 	)
+	(label "1v8"
+		(at 245.11 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12563bbd-cd08-4756-b6ad-3e4c715f73b6")
+	)
 	(label "VPLL"
 		(at 63.5 39.37 0)
 		(effects
@@ -7405,6 +7415,16 @@
 			(justify left bottom)
 		)
 		(uuid "1de06c65-5d2c-4ee2-99e3-57e4964c5f07")
+	)
+	(label "1v8"
+		(at 240.03 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f9e06bd-420b-4612-a803-db32d37094c7")
 	)
 	(label "ADBUS5"
 		(at 176.53 85.09 180)
@@ -7456,6 +7476,16 @@
 		)
 		(uuid "321bfa6c-0731-4fbf-8542-1ac7defc0c4d")
 	)
+	(label "1v8"
+		(at 237.49 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34de9568-efe7-49f7-9e37-35c18b7681fd")
+	)
 	(label "3V3"
 		(at 198.12 93.98 0)
 		(effects
@@ -7485,6 +7515,16 @@
 			(justify left bottom)
 		)
 		(uuid "3da28bb6-d647-4cfb-99ac-847484a41c7f")
+	)
+	(label "1v8"
+		(at 257.81 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41a0e9db-2566-4ea1-ac50-5ad97b70faa8")
 	)
 	(label "3V3"
 		(at 97.79 67.31 0)
@@ -7516,6 +7556,26 @@
 		)
 		(uuid "49070f38-59e8-45f2-8b76-9e3536a10d4b")
 	)
+	(label "1v8"
+		(at 259.08 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c893ee3-2d72-454a-9e5d-c10f4dff4f25")
+	)
+	(label "1v8"
+		(at 234.95 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c89ead1-480b-4b55-b3bd-95d85ac35ebc")
+	)
 	(label "3V3"
 		(at 212.09 72.39 0)
 		(effects
@@ -7545,6 +7605,16 @@
 			(justify left bottom)
 		)
 		(uuid "53d5b123-4eb5-4675-90e0-dcac38a870ea")
+	)
+	(label "1v8"
+		(at 257.81 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "544d5bb0-b2e9-453e-be7a-5d5195e4808f")
 	)
 	(label "ACBUS3"
 		(at 171.45 104.14 180)
@@ -7706,6 +7776,26 @@
 		)
 		(uuid "6fd1d400-e9b9-437f-86d7-1140e722c7a3")
 	)
+	(label "1v8"
+		(at 238.76 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72169a3c-b423-4a4b-8c21-88ec9da231f1")
+	)
+	(label "1v8"
+		(at 242.57 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "722425cb-2eb1-4504-897a-0e8cf85f2b4e")
+	)
 	(label "3V3"
 		(at 31.75 124.46 0)
 		(effects
@@ -7746,6 +7836,16 @@
 		)
 		(uuid "7d339f7a-3fc6-4214-bc15-40d1c0f32ebe")
 	)
+	(label "1v8"
+		(at 241.3 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2f75da-a325-4244-b02a-c470aa14b7d7")
+	)
 	(label "ADBUS7{slash}OE"
 		(at 190.5 21.59 0)
 		(effects
@@ -7755,6 +7855,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f9fd88a-3bed-4f6a-bd8c-9343c97f0611")
+	)
+	(label "1v8"
+		(at 241.3 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fd74beb-d0cd-46b5-93fa-133c5b737808")
 	)
 	(label "3V3"
 		(at 66.04 115.57 0)
@@ -7856,6 +7966,16 @@
 		)
 		(uuid "92baa7d8-653c-44cc-9f1b-965276253038")
 	)
+	(label "1v8"
+		(at 184.15 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93060757-2d58-4eff-a40a-004397480197")
+	)
 	(label "3V3"
 		(at 157.48 22.86 0)
 		(effects
@@ -7916,6 +8036,16 @@
 		)
 		(uuid "9e2faa34-09f4-4ad6-933d-1249cff812d4")
 	)
+	(label "1v8"
+		(at 252.73 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9edb61df-86f6-4baf-a639-74ea5328b0cf")
+	)
 	(label "ADBUS0{slash}TCK"
 		(at 190.5 26.67 0)
 		(effects
@@ -7946,7 +8076,7 @@
 		)
 		(uuid "a3dd443a-49ab-4f1b-a02a-54d162a0dff5")
 	)
-	(label "1V8"
+	(label "1v8"
 		(at 96.52 93.98 0)
 		(effects
 			(font
@@ -7955,6 +8085,16 @@
 			(justify left bottom)
 		)
 		(uuid "a5f6fe6e-929f-45f5-b4b5-445c329150a4")
+	)
+	(label "1v8"
+		(at 242.57 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a75c9d2d-e1e5-4447-af83-576a4bfbae9c")
 	)
 	(label "3V3"
 		(at 72.39 151.13 0)
@@ -7966,6 +8106,16 @@
 		)
 		(uuid "a77f2baf-2894-4d4c-adc6-07e69b3a9aa9")
 	)
+	(label "1v8"
+		(at 238.76 11.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abb47283-63c6-42dd-bf93-06ffa339c3f3")
+	)
 	(label "3V3"
 		(at 196.85 119.38 0)
 		(effects
@@ -7975,6 +8125,16 @@
 			(justify left bottom)
 		)
 		(uuid "ad5abcd8-1660-4cbd-b4e0-d4721192c8c2")
+	)
+	(label "1v8"
+		(at 184.15 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae69b161-6c36-490d-9bca-785b3745df68")
 	)
 	(label "ACBUS6"
 		(at 171.45 111.76 180)
@@ -8026,6 +8186,16 @@
 		)
 		(uuid "b26b765a-7c93-4e08-8c87-4503181caec5")
 	)
+	(label "1v8"
+		(at 236.22 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b31526cc-1dd9-4886-a344-1b81b913bfb8")
+	)
 	(label "ADBUS1{slash}TDI"
 		(at 191.77 40.64 0)
 		(effects
@@ -8055,6 +8225,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9f7e9b4-c830-41a1-81ed-864ee5667494")
+	)
+	(label "1v8"
+		(at 252.73 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be07cedf-f260-4c8d-a2db-68882369b3bd")
 	)
 	(label "BDBUS1{slash}RXD"
 		(at 198.12 104.14 0)
@@ -8206,6 +8386,16 @@
 		)
 		(uuid "e46d2769-de36-46e6-a294-eb2bd640f64d")
 	)
+	(label "1v8"
+		(at 234.95 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7d8fd5b-4e31-49b4-8fe0-3615d756d865")
+	)
 	(label "ADBUS7{slash}OE"
 		(at 176.53 90.17 180)
 		(effects
@@ -8215,6 +8405,26 @@
 			(justify right bottom)
 		)
 		(uuid "e848c2cd-f8eb-4cc4-a502-2992ab606743")
+	)
+	(label "1v8"
+		(at 257.81 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaf8a81e-5b33-4e9b-892f-4b721c812182")
+	)
+	(label "1v8"
+		(at 243.84 11.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef07dbdb-2692-4ce7-8a5a-8d4e0df3b112")
 	)
 	(label "BCBUS0"
 		(at 171.45 146.05 180)
@@ -8236,6 +8446,16 @@
 		)
 		(uuid "f0e9d62b-641a-45b7-83ad-14a740a5cc29")
 	)
+	(label "1v8"
+		(at 243.84 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4173eba-92b3-4c47-b66f-3c1f5af5dbf0")
+	)
 	(label "BCBUS4"
 		(at 171.45 156.21 180)
 		(effects
@@ -8256,7 +8476,7 @@
 		)
 		(uuid "f60838b7-f872-4427-9b6d-ddf167d7ffdb")
 	)
-	(label "1V8"
+	(label "1v8"
 		(at 62.23 96.52 0)
 		(effects
 			(font
@@ -8653,7 +8873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 185.1152 25.4 0)
 			(effects
 				(font
@@ -9078,72 +9298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 257.81 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f9221d0-df9e-4132-8438-442364dfedda")
-		(property "Reference" "#PWR0309"
-			(at 257.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 257.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 257.81 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ac74c31-4533-4874-aa26-bff5aa0e23e8")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MIC5504_3_3YM5_TR:MIC5504-3.3YM5-TR")
 		(at 21.59 38.1 0)
 		(unit 1)
@@ -9309,72 +9463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 184.15 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c9e1239-b738-4b78-9590-e361e8ef56fa")
-		(property "Reference" "#PWR0272"
-			(at 184.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 184.15 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 184.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d6b57fe-e61b-447c-812e-22ed1b5696f8")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0272")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 190.5 123.19 0)
 		(unit 1)
@@ -9401,7 +9489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 191.4652 127 0)
 			(effects
 				(font
@@ -9479,7 +9567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 185.1152 44.45 0)
 			(effects
 				(font
@@ -10029,71 +10117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 238.76 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30e39efe-3cb3-4f51-bb4a-5cd5865f495a")
-		(property "Reference" "#PWR0273"
-			(at 238.76 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 238.506 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 238.76 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89c6e0d5-d497-4a82-bc76-d312f898e8a6")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0273")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 257.81 100.33 0)
 		(unit 1)
@@ -10120,7 +10143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 258.7752 104.14 0)
 			(effects
 				(font
@@ -10475,7 +10498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 28.9052 161.29 0)
 			(effects
 				(font
@@ -10665,72 +10688,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "R209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 241.3 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45db1063-9351-4aa2-ae66-a582862000db")
-		(property "Reference" "#PWR0281"
-			(at 241.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 241.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 241.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ec0d213-a26b-4d7a-bb93-7d0629a1d545")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0281")
 					(unit 1)
 				)
 			)
@@ -10997,7 +10954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 260.0452 82.55 0)
 			(effects
 				(font
@@ -11193,72 +11150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 257.81 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f0fb1c3-b671-4710-b0c4-2692e7ee6ba1")
-		(property "Reference" "#PWR0303"
-			(at 257.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 257.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 257.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e5b2405-abea-45c9-90ec-6c53a6d38461")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 252.73 55.88 0)
 		(unit 1)
@@ -11285,7 +11176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 253.6952 59.69 0)
 			(effects
 				(font
@@ -11941,7 +11832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 258.7752 153.67 0)
 			(effects
 				(font
@@ -12215,72 +12106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 252.73 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bf003dc-bddd-43ca-8a90-24d3601a5c67")
-		(property "Reference" "#PWR0286"
-			(at 252.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 252.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 252.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac3866fb-d866-4d32-9d54-e3330d0246ac")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0286")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 25.4 119.38 0)
 		(unit 1)
@@ -12353,72 +12178,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 241.3 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5db76607-5104-4fa1-8efd-18b94a71dc7c")
-		(property "Reference" "#PWR0312"
-			(at 241.3 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 241.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e27ede1c-4ef2-472e-8af8-b2b72f9bed4e")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -12517,7 +12276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 192.7352 104.14 0)
 			(effects
 				(font
@@ -13139,7 +12898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 122.8852 52.07 0)
 			(effects
 				(font
@@ -13217,7 +12976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 258.7752 127 0)
 			(effects
 				(font
@@ -13295,7 +13054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 166.0652 52.07 0)
 			(effects
 				(font
@@ -13373,7 +13132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 130.5052 52.07 0)
 			(effects
 				(font
@@ -13805,7 +13564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 192.7352 153.67 0)
 			(effects
 				(font
@@ -14015,7 +13774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 82.2452 106.68 0)
 			(effects
 				(font
@@ -14061,72 +13820,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "C206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 243.84 12.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74afcf7e-fe78-4056-aa1b-84de9dfdf78f")
-		(property "Reference" "#PWR0269"
-			(at 243.84 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 243.84 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 243.84 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "360a9574-beaf-452d-92aa-48f84fbcab23")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0269")
 					(unit 1)
 				)
 			)
@@ -14559,71 +14252,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "#PWR0345")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 237.49 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ccc6b96-e808-4766-85e1-2eb3c0b71da0")
-		(property "Reference" "#PWR0307"
-			(at 237.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 239.268 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 237.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0aab1eb-9da3-45c8-b9b8-9c5b4aa51637")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -15109,72 +14737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 234.95 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82c0ee7a-d2a5-4327-92e6-1a237dee52b3")
-		(property "Reference" "#PWR0310"
-			(at 234.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 234.95 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 234.95 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0b03cc6-08e6-4490-aef0-842322ae7e50")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 234.95 44.45 0)
 		(unit 1)
@@ -15234,72 +14796,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "#PWR0354")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 259.08 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8512e6b8-7b48-4149-8580-cfb3bc29082d")
-		(property "Reference" "#PWR0290"
-			(at 259.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 259.08 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea3fccf3-bf86-4f70-a95d-e8bdec034626")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0290")
 					(unit 1)
 				)
 			)
@@ -15601,71 +15097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 242.57 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8aeb6c5d-8887-4f45-9b95-467599a85022")
-		(property "Reference" "#PWR0308"
-			(at 242.57 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 243.84 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 242.57 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d05e97da-2be0-42c8-bbf6-627b0ef45d36")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 54.61 46.99 0)
 		(unit 1)
@@ -15876,72 +15307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 257.81 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f8a6c51-f2f5-459a-be69-4647f0f4d128")
-		(property "Reference" "#PWR0315"
-			(at 257.81 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 257.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 257.81 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79fb7152-747d-4376-967d-2bd1a0f264d1")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0315")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 193.04 78.74 0)
 		(unit 1)
@@ -15968,7 +15333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 194.0052 82.55 0)
 			(effects
 				(font
@@ -16676,138 +16041,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 243.84 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b27e240-cabc-44ad-992e-9fb5e3240506")
-		(property "Reference" "#PWR0287"
-			(at 243.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 243.84 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 243.84 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00060ae7-2c72-4d25-9d33-002c94bff701")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0287")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 242.57 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c8e0f6e-65ef-4991-8820-d0ab783490a3")
-		(property "Reference" "#PWR0294"
-			(at 242.57 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 242.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 242.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b14a3d20-0531-4337-9670-33e7f6e7b7e7")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0294")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 68.58 102.87 0)
 		(unit 1)
@@ -16834,7 +16067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 69.5452 106.68 0)
 			(effects
 				(font
@@ -17425,7 +16658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 75.8952 106.68 0)
 			(effects
 				(font
@@ -17720,7 +16953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 69.5452 53.34 0)
 			(effects
 				(font
@@ -17910,204 +17143,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "R222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 238.76 12.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac087d1b-0b4d-4a55-a000-8f97d0f0baa5")
-		(property "Reference" "#PWR0268"
-			(at 238.76 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 238.76 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 238.76 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4db862e-ad1e-48b3-a066-9c9a0046aac3")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0268")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 184.15 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ada77b94-21e4-4e44-8761-b6267771c33f")
-		(property "Reference" "#PWR0266"
-			(at 184.15 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 184.15 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 184.15 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea0cfe2f-84a0-4b47-8434-dfa3dd1e5a6c")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0266")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 240.03 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae6a636d-979d-4207-8105-4551d0d5c33c")
-		(property "Reference" "#PWR097"
-			(at 240.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 240.03 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 240.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4dcd16e-9b74-4385-8b0a-90eed9eb512e")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -19178,7 +18213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 158.4452 30.48 0)
 			(effects
 				(font
@@ -19412,7 +18447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 87.3252 86.36 0)
 			(effects
 				(font
@@ -20430,71 +19465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 252.73 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cede4df9-16fc-4084-9d1a-5494fa7b6fda")
-		(property "Reference" "#PWR0279"
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 252.73 25.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 252.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a96f551b-9911-4c84-8140-eb094611673f")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0279")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 50.8 109.22 0)
 		(unit 1)
@@ -20743,7 +19713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 115.2652 52.07 0)
 			(effects
 				(font
@@ -20855,71 +19825,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "#PWR0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 234.95 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddbbb6bb-c771-4c92-bf76-00276a8582da")
-		(property "Reference" "#PWR0280"
-			(at 234.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 236.982 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fd4954f-75d4-4bf0-a035-c13865f2148a")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0280")
 					(unit 1)
 				)
 			)
@@ -21753,7 +20658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 58.1152 86.36 0)
 			(effects
 				(font
@@ -21963,7 +20868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 107.6452 52.07 0)
 			(effects
 				(font
@@ -22231,72 +21136,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
 					(reference "#PWR0338")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 236.22 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0215fc8-817a-476f-8900-b013498e3391")
-		(property "Reference" "#PWR0291"
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 236.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 236.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0555d29f-ad1e-47c4-a9fc-c5921af47be1")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0291")
 					(unit 1)
 				)
 			)
@@ -22579,71 +21418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 245.11 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3564106-8d86-41f8-8f71-322fe8be3f63")
-		(property "Reference" "#PWR0278"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 245.11 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b14d37c-fbd2-4151-a746-ae0a7f762bca")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/748a1c73-b565-4242-ab5f-7bfd3a84c6a4"
-					(reference "#PWR0278")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 68.58 20.32 0)
 		(unit 1)
@@ -22814,7 +21588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 191.4652 59.69 0)
 			(effects
 				(font
@@ -23068,7 +21842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 32.7152 134.62 0)
 			(effects
 				(font

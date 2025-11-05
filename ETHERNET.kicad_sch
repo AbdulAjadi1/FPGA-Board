@@ -2536,23 +2536,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "U18"
+				(at -5.08 -3.1749 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NL17SZ17XV5T2G_Modified"
-				(at 20.32 7.62 0)
+			(property "Value" "NL17SZ17XV5T2G"
+				(at -5.08 -5.7149 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOT553-5_ONS"
+			(property "Footprint" "footprints:SOT553-5_ONS"
 				(at 16.002 12.954 0)
 				(effects
 					(font
@@ -2574,6 +2576,15 @@
 			)
 			(property "Description" ""
 				(at -29.21 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C152502"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2711,7 +2722,238 @@
 				)
 			)
 			(symbol "NL17SZ17XV5T2G_Modified_2_1"
+				(pin power_in line
+					(at -6.35 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin unspecified line
+					(at -6.35 3.81 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NL17SZ17XV5T2G_Modified_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U18"
+				(at -5.08 -3.1749 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NL17SZ17XV5T2G"
+				(at -5.08 -5.7149 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "footprints:SOT553-5_ONS"
+				(at 16.002 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NL17SZ17XV5T2G"
+				(at 13.462 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -29.21 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C152502"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NL17SZ17XV5T2G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT553-5_ONS SOT553-5_ONS-M SOT553-5_ONS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NL17SZ17XV5T2G_Modified_1_1_1"
+				(rectangle
+					(start -7.62 0.635)
+					(end -6.35 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0.635) (xy -8.255 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -0.635) (xy -5.715 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 3.175) (xy 0 0) (xy -10.16 -3.175) (xy -10.16 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -12.7 0)
+					(length 7.62) hide
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 0 180)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NL17SZ17XV5T2G_Modified_1_2_1"
+				(pin power_in line
 					(at -6.35 -12.7 90)
 					(length 2.54)
 					(name "GND"
@@ -6074,6 +6316,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 60.96) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7612d9-7bca-46cd-a7b4-1be10a617391")
+	)
+	(wire
+		(pts
 			(xy 57.15 50.8) (xy 52.07 50.8)
 		)
 		(stroke
@@ -6671,16 +6923,6 @@
 			(type default)
 		)
 		(uuid "81313115-d475-494d-80a0-dfd3a99679d7")
-	)
-	(wire
-		(pts
-			(xy 146.05 60.96) (xy 147.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "816d74cc-eca5-4abb-81dc-d350278a2ab0")
 	)
 	(wire
 		(pts
@@ -8434,7 +8676,7 @@
 			)
 		)
 	)
-	(global_label "ETH_LD1"
+	(global_label "ETH_LD2"
 		(shape bidirectional)
 		(at 147.32 114.3 0)
 		(fields_autoplaced yes)
@@ -9028,7 +9270,7 @@
 			)
 		)
 	)
-	(global_label "ETH_LD2"
+	(global_label "ETH_LD1"
 		(shape bidirectional)
 		(at 147.32 118.11 0)
 		(fields_autoplaced yes)
@@ -9870,7 +10112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 157.1752 68.58 0)
 			(effects
 				(font
@@ -10182,7 +10424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 229.5652 146.05 0)
 			(effects
 				(font
@@ -10463,19 +10705,21 @@
 		(fields_autoplaced yes)
 		(uuid "0af1eee2-5796-4100-aa49-03124e22a34a")
 		(property "Reference" "U18"
-			(at 214.63 26.67 0)
+			(at 214.63 37.4649 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "NL17SZ17XV5T2G"
-			(at 214.63 29.21 0)
+			(at 214.63 40.0049 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:SOT553-5_ONS"
@@ -10764,7 +11008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 240.9952 110.49 0)
 			(effects
 				(font
@@ -10843,7 +11087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 240.9952 123.19 0)
 			(effects
 				(font
@@ -10990,7 +11234,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "4.7k"
 			(at 144.018 101.092 90)
 			(effects
 				(font
@@ -11075,7 +11319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 30.226 53.086 90)
 			(effects
 				(font
@@ -11232,7 +11476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 53.086 57.404 90)
 			(effects
 				(font
@@ -11310,7 +11554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 48.006 56.134 90)
 			(effects
 				(font
@@ -11647,73 +11891,6 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/198f551b-0495-4dfe-9b6f-a7260738d114"
 					(reference "#PWR0189")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 68.58 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d62ed7e-2c7d-486c-9c3c-7482684acbd3")
-		(property "Reference" "#PWR0178"
-			(at 62.23 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 64.77 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "873cb23d-0bc0-4031-bcf5-1fdd874341b0")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/198f551b-0495-4dfe-9b6f-a7260738d114"
-					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -12191,7 +12368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 30.226 75.946 90)
 			(effects
 				(font
@@ -12401,7 +12578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 63.246 57.404 90)
 			(effects
 				(font
@@ -12455,15 +12632,15 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 232.41 106.68 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36b4b22d-33c1-4429-a165-43768115dcb1")
 		(property "Reference" "C69"
-			(at 236.22 105.4099 0)
+			(at 228.6 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +12649,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 236.22 107.9499 0)
+			(at 228.6 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +12658,7 @@
 			)
 		)
 		(property "Footprint" "footprints:C_0402"
-			(at 233.3752 110.49 0)
+			(at 231.4448 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +13179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 54.356 84.074 90)
 			(effects
 				(font
@@ -13148,7 +13325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 202.8952 123.19 0)
 			(effects
 				(font
@@ -13373,7 +13550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 119.0752 29.21 0)
 			(effects
 				(font
@@ -13519,7 +13696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 141.9352 29.21 0)
 			(effects
 				(font
@@ -13677,7 +13854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 49.276 84.074 90)
 			(effects
 				(font
@@ -14557,7 +14734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 30.226 70.866 90)
 			(effects
 				(font
@@ -14792,7 +14969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 83.5152 26.67 0)
 			(effects
 				(font
@@ -16223,7 +16400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 130.5052 29.21 0)
 			(effects
 				(font
@@ -16299,7 +16476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 30.226 58.166 90)
 			(effects
 				(font
@@ -16378,7 +16555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 248.6152 110.49 0)
 			(effects
 				(font
@@ -16599,7 +16776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 68.326 20.066 90)
 			(effects
 				(font
@@ -16678,7 +16855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 202.8952 110.49 0)
 			(effects
 				(font
@@ -17326,7 +17503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 44.196 84.074 90)
 			(effects
 				(font
@@ -17378,6 +17555,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NL17SZ17XV5T2G_Modified_1")
 		(lib_id "NL17SZ17XV5T2G:NL17SZ17XV5T2G_Modified")
 		(at 243.84 137.16 0)
 		(unit 2)
@@ -17626,7 +17804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 30.226 82.296 90)
 			(effects
 				(font
@@ -17969,15 +18147,15 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 191.77 119.38 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc86e566-0937-42e4-9b3c-c3d176121688")
 		(property "Reference" "C72"
-			(at 195.58 118.1099 0)
+			(at 187.96 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17986,7 +18164,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 195.58 120.6499 0)
+			(at 187.96 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17995,7 +18173,7 @@
 			)
 		)
 		(property "Footprint" "footprints:C_0402"
-			(at 192.7352 123.19 0)
+			(at 190.8048 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18520,7 +18698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 58.166 57.404 90)
 			(effects
 				(font
@@ -19037,7 +19215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "4.7k"
 			(at 139.192 108.712 90)
 			(effects
 				(font
@@ -19635,7 +19813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 30.226 63.246 90)
 			(effects
 				(font
@@ -19713,7 +19891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 39.0652 92.71 0)
 			(effects
 				(font
@@ -20420,7 +20598,7 @@
 	)
 	(symbol
 		(lib_id "SRN4018-3R3M:SRN4018-3R3M")
-		(at 125.73 60.96 0)
+		(at 127 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20429,7 +20607,7 @@
 		(fields_autoplaced yes)
 		(uuid "f733ee22-031c-464c-8774-8aa49dcd607f")
 		(property "Reference" "L2"
-			(at 135.89 54.61 0)
+			(at 137.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20437,7 +20615,7 @@
 			)
 		)
 		(property "Value" "SRN4018-3R3M"
-			(at 135.89 57.15 0)
+			(at 137.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20445,7 +20623,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SRN4018"
-			(at 142.24 157.15 0)
+			(at 143.51 157.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20455,7 +20633,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srn4018.pdf?sfvrsn=528a0331_17"
-			(at 142.24 257.15 0)
+			(at 143.51 257.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20465,7 +20643,7 @@
 			)
 		)
 		(property "Description" "Inductor SMD 4x4 semi-shielded 3,3uH Bourns SRN4018 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 3.3 uH +/-20% Wire-Wound 2.2A rms Idc"
-			(at 125.73 60.96 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20474,7 +20652,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 142.24 457.15 0)
+			(at 143.51 457.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20484,7 +20662,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-SRN4018-3R3M"
-			(at 142.24 557.15 0)
+			(at 143.51 557.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20494,7 +20672,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRN4018-3R3M?qs=UvjENeDOEecJUn4TJeWI1g%3D%3D"
-			(at 142.24 657.15 0)
+			(at 143.51 657.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20504,7 +20682,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 142.24 757.15 0)
+			(at 143.51 757.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20514,7 +20692,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SRN4018-3R3M"
-			(at 142.24 857.15 0)
+			(at 143.51 857.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20524,7 +20702,7 @@
 			)
 		)
 		(property "LCSC PN" "C2044390"
-			(at 125.73 60.96 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

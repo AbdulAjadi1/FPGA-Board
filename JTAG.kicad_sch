@@ -9143,6 +9143,12 @@
 		(uuid "5d9974cf-0287-45f4-b7f7-426c58d37656")
 	)
 	(junction
+		(at 50.8 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95a84e4e-c8fc-45b6-bdaf-e1d6818c5a27")
+	)
+	(junction
 		(at 175.26 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9167,22 +9173,16 @@
 		(uuid "c23bfbf5-fb4b-40fa-b3c3-78abebacfe85")
 	)
 	(junction
-		(at 49.53 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2da1922-bd4d-4a25-9f5e-9f9dca5bb186")
-	)
-	(junction
-		(at 49.53 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb91a887-34a3-43dc-95a8-519b664cdfed")
-	)
-	(junction
 		(at 267.97 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d13a78d9-6ecf-4f8a-a734-6c041d3e2b3d")
+	)
+	(junction
+		(at 50.8 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6aae059-e4e4-4a63-96d1-6c77617eff46")
 	)
 	(junction
 		(at 175.26 107.95)
@@ -9229,6 +9229,16 @@
 			(type default)
 		)
 		(uuid "07f948cd-befb-41c5-8487-c6643122be19")
+	)
+	(wire
+		(pts
+			(xy 50.8 144.78) (xy 60.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe4990e-9a7e-4caa-85f6-2a096ef10921")
 	)
 	(wire
 		(pts
@@ -9462,7 +9472,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 135.89) (xy 49.53 135.89)
+			(xy 45.72 135.89) (xy 50.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9622,7 +9632,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 135.89) (xy 49.53 135.89)
+			(xy 60.96 135.89) (xy 50.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9649,6 +9659,16 @@
 			(type default)
 		)
 		(uuid "8ea578de-ebd9-4ee8-b346-91c13e4225d5")
+	)
+	(wire
+		(pts
+			(xy 50.8 137.16) (xy 50.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f739d81-abf1-4576-a78b-443f5986574c")
 	)
 	(wire
 		(pts
@@ -9709,16 +9729,6 @@
 			(type default)
 		)
 		(uuid "9f23b355-372c-4be3-b331-12c4292c2499")
-	)
-	(wire
-		(pts
-			(xy 49.53 144.78) (xy 49.53 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a06322ef-42d2-440d-9a68-155fba4610fd")
 	)
 	(wire
 		(pts
@@ -9852,7 +9862,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 144.78) (xy 49.53 144.78)
+			(xy 45.72 144.78) (xy 50.8 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9869,16 +9879,6 @@
 			(type default)
 		)
 		(uuid "cce1ab87-0f34-4e83-832a-bf784bbb953e")
-	)
-	(wire
-		(pts
-			(xy 49.53 144.78) (xy 60.96 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c843da-55b9-4cd0-940b-3cd6dd89cc1c")
 	)
 	(wire
 		(pts
@@ -10772,7 +10772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 197.8152 77.47 0)
 			(effects
 				(font
@@ -11486,7 +11486,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 139.7 0)
+		(at 50.8 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11495,7 +11495,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c5c1179-5571-42fd-8d41-a5a64992ec6a")
 		(property "Reference" "C13"
-			(at 53.34 138.4299 0)
+			(at 54.61 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +11504,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 53.34 140.9699 0)
+			(at 54.61 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,8 +11512,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
-			(at 50.4952 143.51 0)
+		(property "Footprint" "footprints:C_0201_0603Metric"
+			(at 51.7652 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,7 +11522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 139.7 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +11531,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 139.7 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11540,7 +11540,7 @@
 			)
 		)
 		(property "LCSC PN" "c1525"
-			(at 49.53 139.7 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 35.2552 129.54 0)
 			(effects
 				(font
@@ -14208,7 +14208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 49.2252 116.84 0)
 			(effects
 				(font
@@ -14341,15 +14341,15 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 175.26 124.46 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb240061-05e6-4bf0-bd06-e2c71add7561")
 		(property "Reference" "R115"
-			(at 177.8 123.1899 0)
+			(at 172.72 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +14358,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 177.8 125.7299 0)
+			(at 172.72 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,7 +14367,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 176.276 124.714 90)
+			(at 174.244 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)

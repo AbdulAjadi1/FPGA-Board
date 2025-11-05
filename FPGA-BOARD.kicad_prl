@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcf5ff_ffffffff",
+    "visible_layers": "ffcf5ff_ffffff81",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "FPGA-BOARDver3.kicad_prl",
+    "filename": "FPGA-BOARD.kicad_prl",
     "version": 3
   },
   "project": {

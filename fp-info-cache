@@ -1,4 +1,4 @@
-25294639358640379
+25299872665728044
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100562,6 +100562,13 @@ CUI_SJ1-3525NG
 5
 5
 footprints
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+footprints
 C_0402
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
@@ -100638,6 +100645,13 @@ SN74LVC1T45DBVR
 0
 6
 6
+footprints
+DCU8
+
+PCA9306TDCURQ1 
+0
+8
+8
 footprints
 DFN1006-3L_L1.0-W0.6-LS1.0-BR
 DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint
@@ -101358,6 +101372,13 @@ RES-TH_L8.0-W5.4-P5.00-D0.6 footprint
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint C2919238
 0
 2
+2
+footprints
+R_0201_0603Metric
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
 2
 footprints
 R_0402

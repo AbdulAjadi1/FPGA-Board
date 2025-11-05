@@ -17380,7 +17380,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "mouser"
+		(property "LCSC PN" "C221872"
 			(at 151.13 175.26 0)
 			(effects
 				(font
@@ -32161,7 +32161,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "digi"
+		(property "LCSC PN" ""
 			(at 201.93 38.1 0)
 			(effects
 				(font
@@ -33884,7 +33884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "mouser"
+		(property "LCSC PN" ""
 			(at 24.13 125.73 0)
 			(effects
 				(font
