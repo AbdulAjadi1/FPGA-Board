@@ -1652,7 +1652,7 @@
 					(hide yes)
 				)
 			)
-			(property "lcsc#" "C1519081"
+			(property "LCSC PN" "C1519081"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6333,7 +6333,7 @@
 					)
 				)
 				(pin output line
-					(at 60.96 -3.81 180)
+					(at 60.96 3.81 180)
 					(length 7.62)
 					(name "TDO_0"
 						(effects
@@ -6369,7 +6369,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 -1.27 180)
+					(at 60.96 6.35 180)
 					(length 7.62)
 					(name "TDI_0"
 						(effects
@@ -6405,7 +6405,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 3.81 180)
+					(at 60.96 -1.27 180)
 					(length 7.62)
 					(name "TMS_0"
 						(effects
@@ -9398,7 +9398,7 @@
 					(hide yes)
 				)
 			)
-			(property "lcsc#" "C1519081"
+			(property "LCSC PN" "C1519081"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14079,7 +14079,7 @@
 					)
 				)
 				(pin output line
-					(at 60.96 -3.81 180)
+					(at 60.96 3.81 180)
 					(length 7.62)
 					(name "TDO_0"
 						(effects
@@ -14115,7 +14115,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 -1.27 180)
+					(at 60.96 6.35 180)
 					(length 7.62)
 					(name "TDI_0"
 						(effects
@@ -14151,7 +14151,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 3.81 180)
+					(at 60.96 -1.27 180)
 					(length 7.62)
 					(name "TMS_0"
 						(effects
@@ -17516,7 +17516,7 @@
 					(hide yes)
 				)
 			)
-			(property "lcsc#" "C1519081"
+			(property "LCSC PN" "C1519081"
 				(at 0 0 0)
 				(effects
 					(font
@@ -22197,7 +22197,7 @@
 					)
 				)
 				(pin output line
-					(at 60.96 -3.81 180)
+					(at 60.96 3.81 180)
 					(length 7.62)
 					(name "TDO_0"
 						(effects
@@ -22233,7 +22233,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 -1.27 180)
+					(at 60.96 6.35 180)
 					(length 7.62)
 					(name "TDI_0"
 						(effects
@@ -22269,7 +22269,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 3.81 180)
+					(at 60.96 -1.27 180)
 					(length 7.62)
 					(name "TMS_0"
 						(effects
@@ -27134,7 +27134,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D2"
+	(global_label "DDR3_D8"
 		(shape bidirectional)
 		(at 135.89 91.44 0)
 		(fields_autoplaced yes)
@@ -29026,7 +29026,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D8"
+	(global_label "DDR3_D2"
 		(shape bidirectional)
 		(at 135.89 86.36 0)
 		(fields_autoplaced yes)
@@ -31082,7 +31082,7 @@
 				)
 			)
 		)
-		(property "Value" "80.6 1%"
+		(property "Value" "100 1%"
 			(at 33.02 124.46 90)
 			(effects
 				(font
@@ -31953,7 +31953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 200.3552 110.49 0)
 			(effects
 				(font

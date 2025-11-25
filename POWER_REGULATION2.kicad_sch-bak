@@ -3440,7 +3440,7 @@
 					)
 				)
 			)
-			(property "Footprint" "tps65400rgzt:RGZ0048B"
+			(property "Footprint" "footprints:RGZ0048B"
 				(at 0.508 35.56 0)
 				(effects
 					(font
@@ -3505,6 +3505,384 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "01 IPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "02 DESC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "03 MAN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "04 MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ADD INTO BOM" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ALTIUM_VALUE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "AP" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CODE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "COMPTYPE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CONVERT TO PCB" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DEVICE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DFM" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FULL_LEAD_TIME" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ID" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IMPLEMENTATION TYPE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ITEM_PRIORITY" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LIFE_CYCLE_FLAG" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER'S PART NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ORDERING P/N" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ORDER_SEQ" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ORIGIN FOOTPRINT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE TYPE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PANGO PART NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PART NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PART TYPE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PCB FOOTPRINT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PEGATRON_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PITCH" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "POWER PINS VISIBLE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PPL_FLAG" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PRIMITIVE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SOURCE PACKAGE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SYMBOL" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TOLERANCE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VA" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VALUE1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VALUE2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VENDOR" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VENDOR P/N" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC PN" "C201658"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -4079,7 +4457,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 2.54 0)
+					(at -22.86 0 0)
 					(length 5.08)
 					(name "I2CADDR"
 						(effects
@@ -4151,7 +4529,7 @@
 					)
 				)
 				(pin output line
-					(at -22.86 0 0)
+					(at -22.86 2.54 0)
 					(length 5.08)
 					(name "I2CALERT"
 						(effects
@@ -5426,6 +5804,12 @@
 		(uuid "b94a0542-af45-4cc1-81dd-36453fc3fba3")
 	)
 	(junction
+		(at 21.59 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcd64cb8-9439-4104-8562-53a558ffcebf")
+	)
+	(junction
 		(at 120.65 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5731,7 +6115,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 170.18) (xy 24.13 170.18)
+			(xy 20.32 170.18) (xy 21.59 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5808,6 +6192,16 @@
 			(type default)
 		)
 		(uuid "156d32c3-7124-495e-a98b-8fe0d174934e")
+	)
+	(wire
+		(pts
+			(xy 21.59 176.53) (xy 21.59 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158deada-c40f-496c-8e2c-b56288740f16")
 	)
 	(wire
 		(pts
@@ -6061,6 +6455,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 170.18) (xy 24.13 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f44a891-47c3-4391-a3e5-181109811297")
+	)
+	(wire
+		(pts
 			(xy 133.35 46.99) (xy 140.97 46.99)
 		)
 		(stroke
@@ -6298,6 +6702,16 @@
 			(type default)
 		)
 		(uuid "4b6b438a-140a-4acb-bc92-93a31aa42fbf")
+	)
+	(wire
+		(pts
+			(xy 24.13 176.53) (xy 21.59 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7484b3-e22f-4b72-89c3-99be9fa75238")
 	)
 	(wire
 		(pts
@@ -7078,16 +7492,6 @@
 			(type default)
 		)
 		(uuid "8ea46f89-458d-43a0-a7c8-dbaf0299ee19")
-	)
-	(wire
-		(pts
-			(xy 24.13 170.18) (xy 24.13 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fdd16ff-b387-4230-8d74-b50f046811cf")
 	)
 	(wire
 		(pts
@@ -10562,7 +10966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 240.9952 77.47 0)
 			(effects
 				(font
@@ -11635,7 +12039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 100.33 38.4048 0)
 			(effects
 				(font
@@ -12593,7 +12997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 133.35 46.0248 0)
 			(effects
 				(font
@@ -13032,7 +13436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 220.98 20.3199 0)
 			(effects
 				(font
@@ -13041,7 +13445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 218.1352 22.86 0)
 			(effects
 				(font
@@ -13553,7 +13957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 133.35 58.7248 0)
 			(effects
 				(font
@@ -14001,7 +14405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 240.9952 50.8 0)
 			(effects
 				(font
@@ -14439,7 +14843,7 @@
 				)
 			)
 		)
-		(property "Value" "SRP6540-1R5M"
+		(property "Value" "SRP6540-1R5M 1.5uH"
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -15903,10 +16307,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36fe784d-27db-422b-b5cc-7a634f4c80b6")
 		(property "Reference" "C139"
-			(at 194.31 17.7799 0)
+			(at 184.658 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,8 +16317,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 194.31 20.3199 0)
+		(property "Value" "22uF/10V"
+			(at 179.832 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15923,7 +16326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 191.4652 22.86 0)
 			(effects
 				(font
@@ -16369,7 +16772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 107.95 104.4448 0)
 			(effects
 				(font
@@ -17312,7 +17715,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "478c9054-2ff0-48e2-8836-ba833119555a")
 		(property "Reference" "S1"
 			(at 152.4 173.9899 0)
@@ -18154,7 +18556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 240.9952 123.19 0)
 			(effects
 				(font
@@ -20313,7 +20715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0402"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 115.316 167.894 90)
 			(effects
 				(font
@@ -20895,7 +21297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 249.8852 77.47 0)
 			(effects
 				(font
@@ -21341,7 +21743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 100.33 84.1248 0)
 			(effects
 				(font
@@ -21786,7 +22188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 133.35 106.9848 0)
 			(effects
 				(font
@@ -23195,7 +23597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 229.5652 118.11 0)
 			(effects
 				(font
@@ -24224,7 +24626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 41.6052 38.1 0)
 			(effects
 				(font
@@ -24737,7 +25139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 100.33 99.3648 0)
 			(effects
 				(font
@@ -25182,7 +25584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 132.08 91.7448 0)
 			(effects
 				(font
@@ -26713,10 +27115,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "977a8a98-979e-474b-abca-da7d347dd811")
 		(property "Reference" "C140"
-			(at 203.2 17.7799 0)
+			(at 194.818 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26724,8 +27125,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 203.2 20.3199 0)
+		(property "Value" "22uF/10V"
+			(at 193.294 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26733,7 +27134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 200.3552 22.86 0)
 			(effects
 				(font
@@ -27181,7 +27582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 229.5652 45.72 0)
 			(effects
 				(font
@@ -28124,10 +28525,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a153c8f6-77ce-4e1d-9696-f48d084df608")
 		(property "Reference" "C141"
-			(at 212.09 17.7799 0)
+			(at 203.708 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28135,8 +28535,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 212.09 20.3199 0)
+		(property "Value" "22uF/10V"
+			(at 203.708 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28144,7 +28544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 209.2452 22.86 0)
 			(effects
 				(font
@@ -29318,7 +29718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 107.95 89.2048 0)
 			(effects
 				(font
@@ -30278,7 +30678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 107.95 43.4848 0)
 			(effects
 				(font
@@ -30708,7 +31108,7 @@
 		(dnp no)
 		(uuid "ad70f744-eb46-4080-aee4-dcf299689fe0")
 		(property "Reference" "C165"
-			(at 195.58 59.6899 0)
+			(at 192.024 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30717,7 +31117,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 195.58 62.2299 0)
+			(at 193.04 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32291,7 +32691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 229.5652 72.39 0)
 			(effects
 				(font
@@ -32873,7 +33273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 229.5652 95.25 0)
 			(effects
 				(font
@@ -34847,7 +35247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 240.9952 100.33 0)
 			(effects
 				(font
@@ -36968,7 +37368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 100.33 51.1048 0)
 			(effects
 				(font
@@ -37413,7 +37813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 107.95 56.1848 0)
 			(effects
 				(font

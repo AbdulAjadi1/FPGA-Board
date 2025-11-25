@@ -1,4 +1,4 @@
-25299872665728044
+25308692796131598
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100653,6 +100653,13 @@ PCA9306TDCURQ1
 8
 8
 footprints
+DCY4_TEX
+
+TL1963A-33DCYR 
+0
+4
+4
+footprints
 DFN1006-3L_L1.0-W0.6-LS1.0-BR
 DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint
 DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint C20615795
@@ -101150,6 +101157,13 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 4
 4
 footprints
+OSCCC250X200X90N
+
+
+0
+4
+4
+footprints
 OSC_SG-8018CE_50.0000M-TJHPA
 
 
@@ -101500,6 +101514,13 @@ BZT52C5V1-7-F
 2
 2
 footprints
+SOD323F_NXP
+
+PMEG1030EJ 
+0
+2
+2
+footprints
 SODFL1608X70N
 
 
@@ -101562,6 +101583,13 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 0
 20
 20
+footprints
+SOIC8-N_MC_MCH
+
+93LC56B-I/SN 
+0
+8
+8
 footprints
 SOIC8_4P9X3P9MC_MCH
 
@@ -101944,6 +101972,13 @@ footprints
 USC_TOS
 
 1SS352 
+0
+2
+2
+footprints
+VARC1005X41N
+CG0402MLU-3.3G
+Varistor
 0
 2
 2
