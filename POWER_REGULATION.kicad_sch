@@ -7946,7 +7946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 55.5752 129.54 0)
 			(effects
 				(font
@@ -16148,7 +16148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 84.7852 135.89 0)
 			(effects
 				(font

@@ -15259,7 +15259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 61.9252 138.43 0)
 			(effects
 				(font

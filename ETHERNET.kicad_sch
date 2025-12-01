@@ -5444,15 +5444,6 @@
 		(color 0 0 0 0)
 		(uuid "fee0549d-4ac2-4e68-a497-0c0a33b34a24")
 	)
-	(bus_entry
-		(at 157.48 165.1)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0963292-8599-4811-8ccb-2f462a2b408f")
-	)
 	(wire
 		(pts
 			(xy 33.02 184.15) (xy 33.02 186.69)
@@ -10330,8 +10321,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 158.75 34.29 90)
-		(mirror x)
+		(at 158.75 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10339,7 +10329,7 @@
 		(dnp no)
 		(uuid "064e536b-e57a-47fa-81b1-ebf1cef6f366")
 		(property "Reference" "R183"
-			(at 160.6173 36.4309 90)
+			(at 156.8827 36.4309 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +10338,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 159.3473 32.3669 90)
+			(at 158.1527 32.3669 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10347,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 159.004 35.306 90)
+			(at 158.496 35.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11314,7 +11304,7 @@
 		(dnp no)
 		(uuid "16c42208-292f-453f-b21e-90672059fe77")
 		(property "Reference" "R166"
-			(at 29.972 49.53 90)
+			(at 27.432 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13918,7 +13908,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 106.68 143.51 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13926,7 +13915,7 @@
 		(dnp no)
 		(uuid "63c7faa2-639c-45c0-95f5-ca49cea2c97d")
 		(property "Reference" "C80"
-			(at 103.378 142.748 0)
+			(at 109.982 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13935,7 +13924,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 104.394 145.288 0)
+			(at 108.966 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,8 +13932,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
-			(at 105.7148 147.32 0)
+		(property "Footprint" "footprints:C_0402"
+			(at 107.6452 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14876,8 +14865,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 33.02 176.53 0)
-		(mirror x)
+		(at 33.02 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14885,7 +14873,7 @@
 		(dnp no)
 		(uuid "751a68e4-2464-4d10-a3d3-5a45222d1cb6")
 		(property "Reference" "R179"
-			(at 35.1609 174.6627 90)
+			(at 30.8791 174.6627 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14894,7 +14882,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 31.0969 175.9327 90)
+			(at 34.9431 175.9327 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +14891,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 34.036 176.276 90)
+			(at 32.004 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15126,7 +15114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 94.9452 147.32 0)
 			(effects
 				(font
@@ -19604,7 +19592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 26.3652 151.13 0)
 			(effects
 				(font

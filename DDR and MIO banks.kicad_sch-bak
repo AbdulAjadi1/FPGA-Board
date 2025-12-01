@@ -5,6 +5,207 @@
 	(uuid "99d563f3-a26b-4050-bf65-49b1e87ed572")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2025-04-06_19-32-54:DSC1122CI5-050.0000T"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DSC1122CI5-050.0000T"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "VDFN6_3P2X2P5_MCH"
+				(at 20.066 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "DSC1122CI5-050.0000T"
+				(at 22.86 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DSC1122CI5-050.0000T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VDFN6_3P2X2P5_MCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DSC1122CI5-050.0000T_1_1"
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 -8.89) (xy 25.4 -8.89) (xy 25.4 2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -6.35 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 19.05 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 1.27 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 -2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 0 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Conn_01x02_Pin_1"
 			(pin_names
 				(offset 1.016) hide)
@@ -1397,205 +1598,6 @@
 								(size 1.016 1.016)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "SG-8018CE_50.0000M-TJHPA:SG-8018CE_50.0000M-TJHPA"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y2"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SG-8018CE_50.0000M-TJHPA"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SG-8018CE_50.0000M-TJHPA:OSC_SG-8018CE_50.0000M-TJHPA"
-				(at 4.826 16.764 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 3.81 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-				(at 8.636 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "CREATOR" "RODRIGO"
-				(at 3.302 12.446 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 4.572 17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "5/22/24"
-				(at 6.096 20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VERIFIER" "RODRIGO"
-				(at 5.334 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Epson"
-				(at 4.826 18.796 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SG-8018CE_50.0000M-TJHPA_0_0"
-				(pin input line
-					(at -10.16 -1.27 0)
-					(length 5.08)
-					(name "OE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 1.27 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 1.27 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SG-8018CE_50.0000M-TJHPA_0_1"
-				(rectangle
-					(start -5.08 3.175)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -25218,12 +25220,6 @@
 		(uuid "0362ee5d-6ebc-412d-afcc-db0642cf542e")
 	)
 	(junction
-		(at 46.99 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "119d6bc2-0421-4cf3-9982-fa2cbd022c82")
-	)
-	(junction
 		(at 172.72 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25284,6 +25280,12 @@
 		(uuid "78096c06-79b3-490c-85ea-276d3b3cb52c")
 	)
 	(junction
+		(at 46.99 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ebbde67-454f-4492-ae1b-47bb57fa2557")
+	)
+	(junction
 		(at 179.07 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25336,16 +25338,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eabc0cc9-242a-4389-910b-7e72dd90ac49")
-	)
-	(wire
-		(pts
-			(xy 71.12 179.07) (xy 74.93 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003be6a8-9d04-494e-b863-e0f37e309737")
 	)
 	(wire
 		(pts
@@ -25499,6 +25491,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 177.8) (xy 74.93 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dbc24d-8584-4f82-b087-654521fe34a5")
+	)
+	(wire
+		(pts
 			(xy 176.53 154.94) (xy 179.07 154.94)
 		)
 		(stroke
@@ -25526,16 +25528,6 @@
 			(type default)
 		)
 		(uuid "279d384c-ab7a-431a-a9b7-04536a475529")
-	)
-	(wire
-		(pts
-			(xy 46.99 181.61) (xy 50.8 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a28dc4-e728-4acd-8c9b-226883d01cd5")
 	)
 	(wire
 		(pts
@@ -25729,7 +25721,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 194.31) (xy 60.96 194.31)
+			(xy 46.99 194.31) (xy 59.69 194.31)
 		)
 		(stroke
 			(width 0)
@@ -25786,16 +25778,6 @@
 			(type default)
 		)
 		(uuid "6ab03883-846e-4776-bcb9-4246ac3d6f94")
-	)
-	(wire
-		(pts
-			(xy 60.96 189.23) (xy 60.96 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c1b27b1-dc25-481f-b680-20601bea36db")
 	)
 	(wire
 		(pts
@@ -25919,7 +25901,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 179.07) (xy 46.99 181.61)
+			(xy 46.99 179.07) (xy 46.99 182.88)
 		)
 		(stroke
 			(width 0)
@@ -25949,7 +25931,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 179.07) (xy 86.36 179.07)
+			(xy 82.55 177.8) (xy 86.36 177.8)
 		)
 		(stroke
 			(width 0)
@@ -26279,16 +26261,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 181.61) (xy 46.99 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b0413f-751d-41f7-8a36-6487d2843061")
-	)
-	(wire
-		(pts
 			(xy 120.65 189.23) (xy 125.73 189.23)
 		)
 		(stroke
@@ -26316,6 +26288,16 @@
 			(type default)
 		)
 		(uuid "e6a06fef-1a61-429f-bb57-7221a9c05272")
+	)
+	(wire
+		(pts
+			(xy 59.69 194.31) (xy 59.69 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70e8bd8-5f8e-448c-a25f-0761e1df907a")
 	)
 	(wire
 		(pts
@@ -26376,6 +26358,16 @@
 			(type default)
 		)
 		(uuid "eda94b84-bda6-49a8-b482-a79371d8a9aa")
+	)
+	(wire
+		(pts
+			(xy 46.99 182.88) (xy 50.8 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34dc68f-d26a-4674-91e1-6f9264539c74")
 	)
 	(wire
 		(pts
@@ -26542,7 +26534,7 @@
 	)
 	(global_label "PS_CLK"
 		(shape bidirectional)
-		(at 86.36 179.07 0)
+		(at 86.36 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26552,7 +26544,7 @@
 		)
 		(uuid "01f0cc61-2ee5-46d6-918a-cf5da1f43325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.4717 179.07 0)
+			(at 97.4717 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26584,7 +26576,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D0"
+	(global_label "DDR3_D2"
 		(shape bidirectional)
 		(at 135.89 88.9 0)
 		(fields_autoplaced yes)
@@ -27090,7 +27082,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D6"
+	(global_label "DDR3_D7"
 		(shape bidirectional)
 		(at 135.89 76.2 0)
 		(fields_autoplaced yes)
@@ -27134,7 +27126,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D2"
+	(global_label "DDR3_D8"
 		(shape bidirectional)
 		(at 135.89 91.44 0)
 		(fields_autoplaced yes)
@@ -27464,7 +27456,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D10"
+	(global_label "DDR3_D9"
 		(shape bidirectional)
 		(at 135.89 99.06 0)
 		(fields_autoplaced yes)
@@ -27476,7 +27468,7 @@
 		)
 		(uuid "65e14233-d046-4503-814d-b1b2ced88fa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6626 99.06 0)
+			(at 148.4531 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27772,7 +27764,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D1"
+	(global_label "DDR3_D3"
 		(shape bidirectional)
 		(at 135.89 73.66 0)
 		(fields_autoplaced yes)
@@ -27816,7 +27808,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D9"
+	(global_label "DDR3_D10"
 		(shape bidirectional)
 		(at 135.89 96.52 0)
 		(fields_autoplaced yes)
@@ -27916,7 +27908,7 @@
 		)
 		(uuid "87894afd-8609-4f2c-b321-8698a403fa94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6626 104.14 0)
+			(at 148.4531 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27926,7 +27918,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D7"
+	(global_label "DDR3_D4"
 		(shape bidirectional)
 		(at 135.89 78.74 0)
 		(fields_autoplaced yes)
@@ -27982,7 +27974,7 @@
 		)
 		(uuid "8e2ace96-7d9d-41da-9148-62b31f7ce8c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6626 101.6 0)
+			(at 148.4531 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28036,7 +28028,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D4"
+	(global_label "DDR3_D5"
 		(shape bidirectional)
 		(at 135.89 71.12 0)
 		(fields_autoplaced yes)
@@ -28410,7 +28402,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D3"
+	(global_label "DDR3_D6"
 		(shape bidirectional)
 		(at 135.89 83.82 0)
 		(fields_autoplaced yes)
@@ -28432,7 +28424,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D11"
+	(global_label "DDR3_D14"
 		(shape bidirectional)
 		(at 135.89 93.98 0)
 		(fields_autoplaced yes)
@@ -28444,7 +28436,7 @@
 		)
 		(uuid "c54bd292-3107-4378-851b-89d51432959d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6626 93.98 0)
+			(at 148.4531 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28498,7 +28490,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D14"
+	(global_label "DDR3_D11"
 		(shape bidirectional)
 		(at 135.89 109.22 0)
 		(fields_autoplaced yes)
@@ -28510,7 +28502,7 @@
 		)
 		(uuid "c949ae41-5681-4970-a277-13ed07e160ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6626 109.22 0)
+			(at 148.4531 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28828,7 +28820,7 @@
 			)
 		)
 	)
-	(global_label "SPI_DQ1{slash}MODE1"
+	(global_label "SPIDQ1{slash}MODE1"
 		(shape bidirectional)
 		(at 191.77 52.07 0)
 		(fields_autoplaced yes)
@@ -28840,7 +28832,7 @@
 		)
 		(uuid "e3938427-ad57-47ef-b0ab-0b4f3a8a3dbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4693 52.07 0)
+			(at 210.5017 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28938,7 +28930,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D5"
+	(global_label "DDR3_D1"
 		(shape bidirectional)
 		(at 135.89 81.28 0)
 		(fields_autoplaced yes)
@@ -29026,7 +29018,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D8"
+	(global_label "DDR3_D0"
 		(shape bidirectional)
 		(at 135.89 86.36 0)
 		(fields_autoplaced yes)
@@ -29171,7 +29163,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C1519081"
+		(property "lcsc#" "C1519081"
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -30448,7 +30440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C106235"
+		(property "lcsc#" ""
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -30525,7 +30517,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C93942"
+		(property "lcsc#" ""
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -30601,7 +30593,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C106235"
+		(property "lcsc#" ""
 			(at 172.72 154.94 0)
 			(effects
 				(font
@@ -30677,7 +30669,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 267.97 39.37 0)
 			(effects
 				(font
@@ -30820,7 +30812,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 268.1534 36.83 0)
 			(effects
 				(font
@@ -30846,7 +30838,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 78.74 179.07 270)
+		(at 78.74 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30855,7 +30847,7 @@
 		(fields_autoplaced yes)
 		(uuid "1848c464-766d-4fc2-9fe0-9a12c9f13616")
 		(property "Reference" "R50"
-			(at 78.74 172.72 90)
+			(at 78.74 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30863,7 +30855,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 78.74 175.26 90)
+			(at 78.74 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30871,7 +30863,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 78.486 180.086 90)
+			(at 78.486 178.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30880,7 +30872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 179.07 0)
+			(at 78.74 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30889,7 +30881,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 78.74 179.07 0)
+			(at 78.74 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30897,8 +30889,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C87044"
-			(at 78.74 179.07 0)
+		(property "lcsc#" ""
+			(at 78.74 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30973,7 +30965,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 267.97 49.53 0)
 			(effects
 				(font
@@ -31117,7 +31109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C843839"
+		(property "lcsc#" ""
 			(at 33.02 128.27 0)
 			(effects
 				(font
@@ -31195,7 +31187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C60490"
+		(property "lcsc#" ""
 			(at 208.28 106.68 0)
 			(effects
 				(font
@@ -31457,7 +31449,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C95342"
+		(property "lcsc#" "C19829570"
 			(at 271.78 148.59 0)
 			(effects
 				(font
@@ -31548,7 +31540,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C60490"
+		(property "lcsc#" ""
 			(at 172.72 106.68 0)
 			(effects
 				(font
@@ -31691,7 +31683,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 267.97 46.99 0)
 			(effects
 				(font
@@ -31901,7 +31893,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 267.97 44.45 0)
 			(effects
 				(font
@@ -31980,7 +31972,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c15195"
+		(property "lcsc#" ""
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -32059,7 +32051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C843839"
+		(property "lcsc#" ""
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -32136,7 +32128,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C93942"
+		(property "lcsc#" ""
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -32348,7 +32340,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c15195"
+		(property "lcsc#" ""
 			(at 166.37 107.95 0)
 			(effects
 				(font
@@ -32492,7 +32484,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C93942"
+		(property "lcsc#" ""
 			(at 139.7 176.53 0)
 			(effects
 				(font
@@ -32635,7 +32627,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C93942"
+		(property "lcsc#" ""
 			(at 139.7 181.61 0)
 			(effects
 				(font
@@ -32781,7 +32773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C60490"
+		(property "lcsc#" ""
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -32991,7 +32983,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "digi/mouser"
+		(property "lcsc#" ""
 			(at 105.41 179.07 0)
 			(effects
 				(font
@@ -33141,7 +33133,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "digi/mouser"
+		(property "lcsc#" ""
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -33287,7 +33279,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C60490"
+		(property "lcsc#" ""
 			(at 254 140.97 0)
 			(effects
 				(font
@@ -33364,7 +33356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 195.58 59.69 0)
 			(effects
 				(font
@@ -33440,7 +33432,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C106235"
+		(property "lcsc#" ""
 			(at 171.45 144.78 0)
 			(effects
 				(font
@@ -33459,6 +33451,97 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-04-06_19-32-54:DSC1122CI5-050.0000T")
+		(at 40.64 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d4482b5-c9a1-4676-af78-36a93bb217db")
+		(property "Reference" "U2"
+			(at 59.69 171.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DSC1122CI5-050.0000T"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:VDFN6_3P2X2P5_MCH"
+			(at 60.706 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DSC1122CI5-050.0000T"
+			(at 63.5 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" ""
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3cfb952e-18a7-4efb-96dd-ea543f5bbbac")
+		)
+		(pin "4"
+			(uuid "58a73fc5-7cc2-4a7d-8e03-09013f78b9e8")
+		)
+		(pin "1"
+			(uuid "85cf8fd8-b3a0-4e4c-bb81-eded55e02aee")
+		)
+		(pin "2"
+			(uuid "b3d22634-e98a-4f60-82eb-bb6904dcdd00")
+		)
+		(pin "5"
+			(uuid "1371c325-748a-48e9-92e0-3c246061e89a")
+		)
+		(pin "6"
+			(uuid "3ec0d9b3-b4b9-48b8-a406-d7b9af60e0c8")
+		)
+		(instances
+			(project ""
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -33585,7 +33668,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C60490"
+		(property "lcsc#" ""
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -33619,7 +33702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab61b961-1904-4ca0-ab7f-216cdd6a33a0")
-		(property "Reference" "BTNR1"
+		(property "Reference" "S2"
 			(at 232.41 158.7499 0)
 			(effects
 				(font
@@ -33685,7 +33768,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "mouser"
+		(property "lcsc#" "digi"
 			(at 231.14 160.02 0)
 			(effects
 				(font
@@ -33709,7 +33792,7 @@
 		(instances
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
-					(reference "BTNR1")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -33733,7 +33816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 39.624 187.96 0)
 			(effects
 				(font
@@ -33769,7 +33852,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c15195"
+		(property "lcsc#" ""
 			(at 46.99 186.69 0)
 			(effects
 				(font
@@ -33847,7 +33930,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "lcsc#" ""
 			(at 260.35 156.21 0)
 			(effects
 				(font
@@ -33926,7 +34009,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C106235"
+		(property "lcsc#" ""
 			(at 125.73 172.72 0)
 			(effects
 				(font
@@ -34054,7 +34137,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C95342"
+		(property "lcsc#" "C19829570"
 			(at 246.38 146.05 0)
 			(effects
 				(font
@@ -34145,7 +34228,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C60490"
+		(property "lcsc#" ""
 			(at 231.14 140.97 0)
 			(effects
 				(font
@@ -34292,7 +34375,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C1519081"
+		(property "lcsc#" "C1519081"
 			(at 114.3 26.67 0)
 			(effects
 				(font
@@ -35515,150 +35598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SG-8018CE_50.0000M-TJHPA:SG-8018CE_50.0000M-TJHPA")
-		(at 60.96 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca3e0e6c-ad74-4b97-9b37-0e46ded50819")
-		(property "Reference" "Y2"
-			(at 60.96 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SG-8018CE_50.0000M-TJHPA"
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:OSC_SG-8018CE_50.0000M-TJHPA"
-			(at 65.786 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 69.596 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" "RODRIGO"
-			(at 64.262 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 65.532 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5/22/24"
-			(at 67.056 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" "RODRIGO"
-			(at 66.294 168.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Epson"
-			(at 65.786 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C390511"
-			(at 60.96 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34a6b8fc-4a55-4318-87f7-dbce55af42a4")
-		)
-		(pin "3"
-			(uuid "6f051315-6a0e-40f5-9897-aa4ce31a5ad2")
-		)
-		(pin "2"
-			(uuid "5f091fc7-c6a0-401d-8600-9bd62ad73445")
-		)
-		(pin "4"
-			(uuid "49b20200-625d-4e71-8d8f-ea5b12ad6dc9")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/e1600e09-3fb3-4dd3-93e7-93ab60a9447f"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 30.48 29.21 0)
 		(unit 1)
@@ -35713,7 +35652,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "lcsc#" ""
 			(at 30.48 29.21 0)
 			(effects
 				(font
@@ -35857,7 +35796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 267.97 97.79 0)
 			(effects
 				(font
@@ -35936,7 +35875,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C843839"
+		(property "lcsc#" ""
 			(at 21.59 153.67 0)
 			(effects
 				(font
@@ -36015,7 +35954,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C1519081"
+		(property "lcsc#" "C1519081"
 			(at 39.37 31.75 0)
 			(effects
 				(font
@@ -37289,7 +37228,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C274892"
+		(property "lcsc#" ""
 			(at 267.97 41.91 0)
 			(effects
 				(font
@@ -37434,7 +37373,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "digi/mouser"
+		(property "lcsc#" ""
 			(at 171.45 138.43 0)
 			(effects
 				(font
@@ -37511,7 +37450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C93942"
+		(property "lcsc#" ""
 			(at 186.69 144.78 0)
 			(effects
 				(font
@@ -37588,7 +37527,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C93942"
+		(property "lcsc#" ""
 			(at 186.69 154.94 0)
 			(effects
 				(font
@@ -37734,7 +37673,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C114764"
+		(property "lcsc#" ""
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -37811,7 +37750,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C93942"
+		(property "lcsc#" ""
 			(at 177.8 124.46 0)
 			(effects
 				(font

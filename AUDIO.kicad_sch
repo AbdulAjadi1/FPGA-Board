@@ -5652,6 +5652,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 20.32) (xy 184.15 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6f3215-1340-49b2-a668-93d66b78d70b")
+	)
+	(wire
+		(pts
 			(xy 160.02 95.25) (xy 171.45 95.25)
 		)
 		(stroke
@@ -6592,7 +6602,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 20.32) (xy 184.15 20.32)
+			(xy 168.91 20.32) (xy 172.72 20.32)
 		)
 		(stroke
 			(width 0)
@@ -9000,8 +9010,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 90.17 0)
-		(mirror x)
+		(at 83.82 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9009,7 +9018,7 @@
 		(dnp no)
 		(uuid "16564c49-2cd7-46cd-94c3-fdb03846ac5d")
 		(property "Reference" "C182"
-			(at 83.566 90.424 0)
+			(at 84.074 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,7 +9027,7 @@
 			)
 		)
 		(property "Value" "1uF 10V"
-			(at 86.106 92.456 0)
+			(at 81.534 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9036,7 @@
 			)
 		)
 		(property "Footprint" "footprints:C_0402"
-			(at 84.7852 86.36 0)
+			(at 82.8548 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,6 +11179,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 176.53 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e0807e-294f-4f92-9073-8dadf3c4538e")
+		(property "Reference" "R204"
+			(at 178.308 14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 175.768 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:R_0402"
+			(at 176.276 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 176.53 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C106231"
+			(at 176.53 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3061ed12-e7a8-4302-ab21-4a1709845382")
+		)
+		(pin "2"
+			(uuid "d5493a84-d5f2-47ce-9663-f6fb2b4f3bbb")
+		)
+		(instances
+			(project "FPGA-BOARDver3"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/cd0c3344-baf7-4bb5-a300-e73c15154941"
+					(reference "R204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 234.95 48.26 90)
 		(unit 1)
@@ -11540,7 +11627,6 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 76.2 90.17 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11548,7 +11634,7 @@
 		(dnp no)
 		(uuid "8396c668-bd42-42a5-8174-74a39446023b")
 		(property "Reference" "R200"
-			(at 75.184 88.646 0)
+			(at 77.216 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11557,7 +11643,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 74.676 91.186 0)
+			(at 77.724 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11566,7 +11652,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0402"
-			(at 75.184 90.424 90)
+			(at 77.216 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)

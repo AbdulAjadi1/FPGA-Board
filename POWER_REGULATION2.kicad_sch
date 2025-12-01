@@ -26687,7 +26687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 110.49 0)
 			(effects
 				(font
@@ -31125,7 +31125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 62.23 0)
 			(effects
 				(font
@@ -31718,7 +31718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 87.63 0)
 			(effects
 				(font
@@ -33248,15 +33248,15 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 228.6 91.44 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c4b4f687-3d35-463f-923c-816b9ec81a82")
 		(property "Reference" "C163"
-			(at 224.79 90.1699 0)
+			(at 232.41 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33265,7 +33265,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at 224.79 92.7099 0)
+			(at 232.41 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33274,7 +33274,7 @@
 			)
 		)
 		(property "Footprint" "footprints:C_0201_0603Metric"
-			(at 227.6348 95.25 0)
+			(at 229.5652 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38975,7 +38975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0201_0603Metric"
+		(property "Footprint" "footprints:C_0402"
 			(at 192.7352 35.56 0)
 			(effects
 				(font
