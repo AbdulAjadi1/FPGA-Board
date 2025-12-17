@@ -699,377 +699,6 @@
 				)
 			)
 		)
-		(symbol "2025-03-18_07-11-26:TYS60282R2N-10"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 6.985 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TYS60282R2N-10"
-				(at 6.985 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_TYS60282_LRD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "TYS60282R2N-10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TYS60282R2N-10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "IND_TYS60282_LRD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TYS60282R2N-10_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 1.27)
-					(mid 3.81 2.5344)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 1.27)
-					(mid 6.35 2.5344)
-					(end 5.08 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 1.27)
-					(mid 8.89 2.5344)
-					(end 7.62 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 1.27)
-					(mid 11.43 2.5344)
-					(end 10.16 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TYS60282R2N-10_1_2"
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 3.81)
-					(end -1.27 2.54)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 6.35)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 8.89)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 12.7)
-					(mid -2.5344 11.43)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Aquiot:LED"
 			(pin_names
 				(offset 0.254) hide)
@@ -1952,226 +1581,6 @@
 								(size 1.016 1.016)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "FPF1018:FPF1018"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U20"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "FPF1018"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "MLP6_2X2_ONS"
-				(at 20.574 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "FPF1018"
-				(at 20.828 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 8.89 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "FPF1018"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MLP6_2X2_ONS MLP6_2X2_ONS-M MLP6_2X2_ONS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FPF1018_0_1"
-				(pin unspecified line
-					(at 8.89 -8.89 0)
-					(length 7.62)
-					(name "ON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -2.54 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -5.08 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 -1.905 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 -4.445 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 21.59 -17.78 90)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 24.13 -17.78 90)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "FPF1018_1_1"
-				(rectangle
-					(start 16.51 0)
-					(end 30.48 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -3413,6 +2822,208 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "TPS22918DBVR:TPS22918DBVR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U40"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPS22918DBVR"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DBV6_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tps22918"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TPS22918DBVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DBV6_TEX DBV6_TEX-M DBV6_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS22918DBVR_0_1"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 13.97 -13.97 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 -5.08 180)
+					(length 7.62)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 -2.54 180)
+					(length 7.62)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 0 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS22918DBVR_1_1"
+				(rectangle
+					(start 7.62 1.905)
+					(end 20.32 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -5534,12 +5145,6 @@
 		(uuid "17391aae-420e-43df-ae26-f11e793f8e5c")
 	)
 	(junction
-		(at 66.04 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d7c6dec-a744-458a-8954-429d84eb893d")
-	)
-	(junction
 		(at 90.17 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5612,6 +5217,12 @@
 		(uuid "4ccf84c0-6edb-45f3-9359-1c75c9ed017a")
 	)
 	(junction
+		(at 78.74 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573172ac-0d97-4e7e-b2b6-0dcab3ac38b0")
+	)
+	(junction
 		(at 120.65 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5622,12 +5233,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67bc4437-bf08-42c1-a8e5-89bd3f37eadc")
-	)
-	(junction
-		(at 45.72 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67f4d591-85ab-4767-8015-8f715608b8ec")
 	)
 	(junction
 		(at 191.77 64.77)
@@ -5666,6 +5271,12 @@
 		(uuid "70df6b98-d642-4c63-a43e-bda267f05a6b")
 	)
 	(junction
+		(at 66.04 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ef92f9-9324-4b27-abfa-b83a797edb03")
+	)
+	(junction
 		(at 240.03 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5682,12 +5293,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76af4a80-792e-4c6c-941d-b3e9466b5230")
-	)
-	(junction
-		(at 66.04 130.175)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "810381a0-bd36-4f01-9a00-acde283726de")
 	)
 	(junction
 		(at 228.6 110.49)
@@ -5798,12 +5403,6 @@
 		(uuid "b5034880-bf9a-48fe-9811-2131cfc47b81")
 	)
 	(junction
-		(at 29.21 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b94a0542-af45-4cc1-81dd-36453fc3fba3")
-	)
-	(junction
 		(at 21.59 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5820,6 +5419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bee9e329-4f1f-4a46-90e4-fe56cab10dd9")
+	)
+	(junction
+		(at 66.04 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0e6d4ba-e665-45e7-b772-6928a0e7d77d")
 	)
 	(junction
 		(at 240.03 81.28)
@@ -5894,6 +5499,12 @@
 		(uuid "e95b27e5-f6e7-49da-9b73-ecafc265b13d")
 	)
 	(junction
+		(at 29.21 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9acde52-dfee-4349-85c6-160885d90fd6")
+	)
+	(junction
 		(at 218.44 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5910,6 +5521,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edbb8bb0-40a8-4efa-b652-ff1f698651cd")
+	)
+	(junction
+		(at 62.23 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efad0387-fc92-49ee-bf94-04ade88fd91f")
 	)
 	(junction
 		(at 218.44 72.39)
@@ -5942,12 +5559,6 @@
 		(uuid "f9035e0d-d5cc-40db-aa13-91ef5cd32823")
 	)
 	(junction
-		(at 30.48 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fda8e853-c4a3-4622-a2f8-a3d6a6e08e6b")
-	)
-	(junction
 		(at 191.77 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5962,16 +5573,6 @@
 			(type default)
 		)
 		(uuid "002b8226-3703-4d83-9587-e908863e7d99")
-	)
-	(wire
-		(pts
-			(xy 30.48 128.27) (xy 33.02 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "031b35a1-65f8-470d-9cbc-c7838916c579")
 	)
 	(wire
 		(pts
@@ -6285,16 +5886,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 130.81) (xy 30.48 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce4f431-49a8-489c-82e3-4618624531b4")
-	)
-	(wire
-		(pts
 			(xy 104.14 20.32) (xy 104.14 25.4)
 		)
 		(stroke
@@ -6312,6 +5903,16 @@
 			(type default)
 		)
 		(uuid "1d829b1f-2d05-407d-8cfd-d4ffbea38edf")
+	)
+	(wire
+		(pts
+			(xy 78.74 128.27) (xy 81.28 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2b7c85-2b1c-405b-9064-4a13840d8ce2")
 	)
 	(wire
 		(pts
@@ -6365,6 +5966,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 133.35) (xy 62.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2587decb-86c0-4929-8528-84efe9e14443")
+	)
+	(wire
+		(pts
 			(xy 186.69 36.83) (xy 191.77 36.83)
 		)
 		(stroke
@@ -6405,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 146.05) (xy 48.26 146.05)
+			(xy 44.45 146.05) (xy 48.26 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6475,16 +6086,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 134.62) (xy 29.21 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325a8b61-1b05-4c0a-ba61-0c3d22d1108c")
-	)
-	(wire
-		(pts
 			(xy 168.91 21.59) (xy 171.45 21.59)
 		)
 		(stroke
@@ -6502,6 +6103,16 @@
 			(type default)
 		)
 		(uuid "35341b3d-9097-44ae-9110-26838b1454e2")
+	)
+	(wire
+		(pts
+			(xy 34.29 133.35) (xy 29.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3709662d-9e80-4fad-83ba-7b72833899c1")
 	)
 	(wire
 		(pts
@@ -6535,7 +6146,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 143.51) (xy 48.26 146.05)
+			(xy 48.26 142.24) (xy 48.26 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6665,16 +6276,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 146.05) (xy 45.72 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4abe37ad-42a5-441d-83c4-d22b9f6124a6")
-	)
-	(wire
-		(pts
 			(xy 100.33 74.93) (xy 105.41 74.93)
 		)
 		(stroke
@@ -6692,16 +6293,6 @@
 			(type default)
 		)
 		(uuid "4b1b83a1-02d0-4bd5-911b-5d975acc415b")
-	)
-	(wire
-		(pts
-			(xy 45.72 146.05) (xy 45.72 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b6b438a-140a-4acb-bc92-93a31aa42fbf")
 	)
 	(wire
 		(pts
@@ -6785,6 +6376,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 130.81) (xy 62.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54925ec6-98dc-4ca7-8047-24a8d9544d36")
+	)
+	(wire
+		(pts
 			(xy 120.65 52.07) (xy 140.97 52.07)
 		)
 		(stroke
@@ -6802,6 +6403,16 @@
 			(type default)
 		)
 		(uuid "554ba26b-1dac-48cb-ba31-62913d8dd579")
+	)
+	(wire
+		(pts
+			(xy 29.21 133.35) (xy 29.21 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568426bf-ddad-4833-888b-d1f7ec3b9d8f")
 	)
 	(wire
 		(pts
@@ -6925,7 +6536,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 69.85 128.27)
+			(xy 66.04 128.27) (xy 78.74 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6935,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 66.04 130.175)
+			(xy 66.04 128.27) (xy 66.04 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7125,16 +6736,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 127.635) (xy 66.04 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7052a04c-69d3-42fc-b5ab-cfe0cde103c3")
-	)
-	(wire
-		(pts
 			(xy 186.69 38.1) (xy 191.77 38.1)
 		)
 		(stroke
@@ -7222,6 +6823,16 @@
 			(type default)
 		)
 		(uuid "772328a9-8b30-4caa-b85c-fb1bf73cf63b")
+	)
+	(wire
+		(pts
+			(xy 62.23 128.27) (xy 66.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774fe740-9f5f-4917-a771-bb0f78a7b51b")
 	)
 	(wire
 		(pts
@@ -7335,16 +6946,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 127.635) (xy 66.04 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f7ffc5e-1b71-4b19-a10f-e0775dbd22a0")
-	)
-	(wire
-		(pts
 			(xy 83.82 85.09) (xy 90.17 85.09)
 		)
 		(stroke
@@ -7392,16 +6993,6 @@
 			(type default)
 		)
 		(uuid "83869ebc-e220-4b67-bbe8-baf3b5b4486d")
-	)
-	(wire
-		(pts
-			(xy 29.21 134.62) (xy 29.21 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839609b4-929d-4b6d-a0c8-c78fb19f4f85")
 	)
 	(wire
 		(pts
@@ -7595,7 +7186,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 128.27) (xy 30.48 128.27)
+			(xy 25.4 128.27) (xy 34.29 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7765,16 +7356,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 130.175) (xy 66.04 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1ba5667-37b8-43f4-be32-1fca2ba673e9")
-	)
-	(wire
-		(pts
 			(xy 38.1 185.42) (xy 38.1 184.15)
 		)
 		(stroke
@@ -7935,16 +7516,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 130.175) (xy 66.04 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b0634a-a9c7-484e-b209-3948b85f3945")
-	)
-	(wire
-		(pts
 			(xy 67.31 170.18) (xy 69.85 170.18)
 		)
 		(stroke
@@ -8095,6 +7666,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 146.05) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55f9beb-9a5f-4a49-9c78-656f6b7f210f")
+	)
+	(wire
+		(pts
 			(xy 125.73 27.94) (xy 125.73 26.67)
 		)
 		(stroke
@@ -8112,16 +7693,6 @@
 			(type default)
 		)
 		(uuid "d71cb757-6a42-4402-8f44-04c5d8c1ad1f")
-	)
-	(wire
-		(pts
-			(xy 30.48 130.81) (xy 30.48 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7da07f9-d029-44d3-9c10-4fbdcd8e24c5")
 	)
 	(wire
 		(pts
@@ -8175,6 +7746,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 133.35) (xy 78.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc905182-ffdd-4d31-bfb6-bca1f12b9b21")
+	)
+	(wire
+		(pts
 			(xy 240.03 64.77) (xy 248.92 64.77)
 		)
 		(stroke
@@ -8222,6 +7803,16 @@
 			(type default)
 		)
 		(uuid "e3878b44-a1df-4427-81d7-b3fa81fda9bf")
+	)
+	(wire
+		(pts
+			(xy 78.74 140.97) (xy 78.74 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bf3352-b672-47f5-92c6-6e281d8a43c0")
 	)
 	(wire
 		(pts
@@ -8819,7 +8410,7 @@
 	)
 	(global_label "VCC1V8_IO"
 		(shape input)
-		(at 69.85 128.27 0)
+		(at 81.28 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8829,7 +8420,7 @@
 		)
 		(uuid "ac02138f-13c2-4943-8179-184726079b85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.8743 128.27 0)
+			(at 94.3043 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "10uF 10V"
 			(at 146.05 11.43 90)
 			(effects
 				(font
@@ -9042,7 +8633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0805"
 			(at 149.86 15.5448 0)
 			(effects
 				(font
@@ -9438,7 +9029,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c315248"
+		(property "LCSC PN" "C15850"
+			(at 146.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 146.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 146.05 16.51 0)
 			(effects
 				(font
@@ -9893,6 +9502,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e73b4e9a-0229-461a-a2e1-b63e43c6c70a")
 		)
@@ -9927,7 +9554,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 1%"
 			(at 102.87 72.3899 0)
 			(effects
 				(font
@@ -10341,6 +9968,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "364f1fe9-d087-4652-b420-635aec933a2e")
 		)
@@ -10375,7 +10020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20K/1%"
+		(property "Value" "20K 1%"
 			(at 220.98 92.7099 0)
 			(effects
 				(font
@@ -10789,6 +10434,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fe0629e-074d-4a5f-86c9-922b993ad96b")
 		)
@@ -10957,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 243.84 74.9299 0)
 			(effects
 				(font
@@ -11362,7 +11025,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 240.03 73.66 0)
 			(effects
 				(font
@@ -11850,6 +11531,24 @@
 			)
 		)
 		(property "LCSC PN" "C201658"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 163.83 72.39 0)
 			(effects
 				(font
@@ -12435,7 +12134,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c23967"
+		(property "LCSC PN" "C2184288"
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 96.52 39.37 0)
 			(effects
 				(font
@@ -12957,6 +12674,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "533acd8c-ba09-40e3-b047-a9f1005c25ce")
 		)
@@ -13393,7 +13128,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c472437"
+		(property "LCSC PN" "C161475"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -13841,7 +13594,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 217.17 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 217.17 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 217.17 19.05 0)
 			(effects
 				(font
@@ -14353,7 +14124,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c472437"
+		(property "LCSC PN" "C161475"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -14396,7 +14185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 243.84 48.2599 0)
 			(effects
 				(font
@@ -14801,7 +14590,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 240.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 240.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 240.03 46.99 0)
 			(effects
 				(font
@@ -14881,6 +14688,24 @@
 			)
 		)
 		(property "LCSC PN" "C3223801"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 201.93 64.77 0)
 			(effects
 				(font
@@ -15334,6 +15159,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc96ef20-5d67-44d9-93db-ea5339973f3e")
 		)
@@ -15672,7 +15515,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c23733"
+		(property "LCSC PN" "C2858031"
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 38.1 180.34 0)
 			(effects
 				(font
@@ -15752,6 +15613,24 @@
 			)
 		)
 		(property "LCSC PN" "C152502"
+			(at 81.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 81.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 81.28 170.18 0)
 			(effects
 				(font
@@ -15870,7 +15749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/10V"
+		(property "Value" "1uF 10V"
 			(at 129.54 24.1299 0)
 			(effects
 				(font
@@ -16275,7 +16154,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c14445"
+		(property "LCSC PN" "C52923"
+			(at 125.73 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 125.73 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 125.73 22.86 0)
 			(effects
 				(font
@@ -16722,7 +16619,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 190.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 190.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 190.5 19.05 0)
 			(effects
 				(font
@@ -17168,7 +17083,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -17692,6 +17625,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 218.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 218.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5237d223-1760-46d3-be5a-ba6bb123b7bd")
 		)
@@ -17783,6 +17734,24 @@
 			)
 		)
 		(property "LCSC PN" "C221872"
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 151.13 175.26 0)
 			(effects
 				(font
@@ -18513,6 +18482,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d765bf44-3b9c-4fa8-8a7b-fdc30a03fea6")
 		)
@@ -18547,7 +18534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 243.84 120.6499 0)
 			(effects
 				(font
@@ -18952,7 +18939,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 240.03 119.38 0)
 			(effects
 				(font
@@ -19172,6 +19177,102 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
 					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59da4e32-5713-471a-a7ca-2132ca00f4b5")
+		(property "Reference" "C203"
+			(at 61.722 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 10V"
+			(at 62.484 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0402"
+			(at 67.0052 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C52923"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7167cb6-bdd7-48de-892e-47bbac1244b9")
+		)
+		(pin "1"
+			(uuid "38176ef1-5792-4822-8436-562b07e595c8")
+		)
+		(instances
+			(project "FPGA-BOARD"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -19602,6 +19703,24 @@
 			)
 		)
 		(property "LCSC PN" "C114761"
+			(at 24.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 24.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 24.13 163.83 0)
 			(effects
 				(font
@@ -20048,6 +20167,24 @@
 			)
 		)
 		(property "LCSC PN" "C137935"
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -20504,6 +20641,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5312b309-f418-4a6a-a919-a9eaa0b3d740")
 		)
@@ -20514,6 +20669,102 @@
 			(project "FPGA-BOARDver3"
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
 					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63efe1e4-de3f-4017-af9b-733df34570ce")
+		(property "Reference" "C171"
+			(at 73.406 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.374 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0201_0603Metric"
+			(at 79.7052 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "c307380"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ba31399-c446-4407-a948-584637d48b7f")
+		)
+		(pin "1"
+			(uuid "01d0273c-b4cc-4f3a-b8a8-593a13bfa9a0")
+		)
+		(instances
+			(project "FPGA-BOARD"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
+					(reference "C171")
 					(unit 1)
 				)
 			)
@@ -20574,6 +20825,24 @@
 			)
 		)
 		(property "LCSC PN" "C114761"
+			(at 29.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 29.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 29.21 170.18 0)
 			(effects
 				(font
@@ -20655,6 +20924,24 @@
 			)
 		)
 		(property "LCSC PN" "C152502"
+			(at 55.88 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 55.88 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 55.88 30.48 0)
 			(effects
 				(font
@@ -21111,7 +21398,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C137948"
+		(property "LCSC PN" "C307010"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 114.3 167.64 0)
 			(effects
 				(font
@@ -21288,7 +21593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 252.73 74.9299 0)
 			(effects
 				(font
@@ -21693,7 +21998,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 248.92 73.66 0)
 			(effects
 				(font
@@ -22139,7 +22462,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c13533"
+		(property "LCSC PN" "C2184280"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -22584,7 +22925,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c472437"
+		(property "LCSC PN" "C161475"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 129.54 107.95 0)
 			(effects
 				(font
@@ -22693,7 +23052,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 1%"
 			(at 134.62 68.58 90)
 			(effects
 				(font
@@ -23098,6 +23457,24 @@
 			)
 		)
 		(property "LCSC PN" "C60490"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 134.62 72.39 0)
 			(effects
 				(font
@@ -23554,6 +23931,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc624f90-5079-4f2a-bdf8-0f81fcc69f69")
 		)
@@ -23993,7 +24388,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 228.6 114.3 0)
 			(effects
 				(font
@@ -24178,7 +24591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0603"
 			(at 105.1052 33.02 0)
 			(effects
 				(font
@@ -24574,7 +24987,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c51412"
+		(property "LCSC PN" "C528975"
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 104.14 29.21 0)
 			(effects
 				(font
@@ -25022,7 +25453,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 40.64 34.29 0)
 			(effects
 				(font
@@ -25535,7 +25984,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c393671"
+		(property "LCSC PN" "C18213195"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -25980,7 +26447,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c472437"
+		(property "LCSC PN" "C161475"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 128.27 92.71 0)
 			(effects
 				(font
@@ -26176,6 +26661,24 @@
 			)
 		)
 		(property "LCSC PN" "C95342"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 147.32 170.18 0)
 			(effects
 				(font
@@ -26635,7 +27138,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C434449"
+		(property "LCSC PN" "C21260817"
+			(at 114.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 114.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 114.3 160.02 0)
 			(effects
 				(font
@@ -27083,7 +27604,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -27530,7 +28069,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 199.39 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 199.39 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 199.39 19.05 0)
 			(effects
 				(font
@@ -27978,7 +28535,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -28502,6 +29077,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 151.13 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 151.13 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53976fe7-6921-4ebb-a3ef-0b7131828c09")
 		)
@@ -28940,7 +29533,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 208.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 208.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 208.28 19.05 0)
 			(effects
 				(font
@@ -28959,85 +29570,6 @@
 			(project ""
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
 					(reference "C141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a47d70ca-53d2-4e70-932b-2bfc990f9da4")
-		(property "Reference" "C171"
-			(at 69.85 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 69.85 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0402"
-			(at 67.0052 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "c1525"
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b165c69-f3fd-4860-958d-6c55e8d4305d")
-		)
-		(pin "1"
-			(uuid "5d28f63a-b512-4478-821a-717f7b803be2")
-		)
-		(instances
-			(project "FPGA-BOARDver3"
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
-					(reference "C171")
 					(unit 1)
 				)
 			)
@@ -29535,6 +30067,24 @@
 			)
 		)
 		(property "LCSC PN" "C163453"
+			(at 66.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 66.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 66.04 113.03 0)
 			(effects
 				(font
@@ -30114,7 +30664,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 104.14 90.17 0)
 			(effects
 				(font
@@ -30638,6 +31206,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 218.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 218.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a571003-c97f-4ed2-b77c-0fb3496c4216")
 		)
@@ -31074,7 +31660,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -31521,7 +32125,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -31600,6 +32222,24 @@
 			)
 		)
 		(property "LCSC PN" "C15885"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 34.29 176.53 0)
 			(effects
 				(font
@@ -32114,7 +32754,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 191.77 83.82 0)
 			(effects
 				(font
@@ -32139,32 +32797,33 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-03-18_07-11-26:TYS60282R2N-10")
-		(at 201.93 38.1 0)
+		(lib_id "TPS22918DBVR:TPS22918DBVR")
+		(at 34.29 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bc372e0f-a1d0-4f4b-a2f0-efd715d82468")
-		(property "Reference" "L10"
-			(at 209.55 30.48 0)
+		(fields_autoplaced yes)
+		(uuid "ba8456af-c485-438e-b2eb-37b1dcc37f77")
+		(property "Reference" "U40"
+			(at 54.61 118.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "TYS60282R2N-10/2.2uH"
-			(at 215.646 33.528 0)
+		(property "Value" "TPS22918DBVR"
+			(at 54.61 120.65 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "footprints:IND_TYS60282_LRD"
-			(at 201.93 38.1 0)
+		(property "Footprint" "footprints:DBV6_TEX"
+			(at 34.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32173,8 +32832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TYS60282R2N-10"
-			(at 201.93 38.1 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps22918"
+			(at 34.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32184,7 +32843,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 38.1 0)
+			(at 34.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32192,394 +32851,37 @@
 				(hide yes)
 			)
 		)
-		(property "01 IPN" ""
-			(at 201.93 38.1 0)
+		(property "LCSC PN" "C131941"
+			(at 34.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "02 DESC" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "03 MAN" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "04 MPN" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AP" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DFM" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_LEAD_TIME" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IMPLEMENTATION TYPE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ITEM_PRIORITY" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LIFE_CYCLE_FLAG" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER'S PART NUMBER" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDERING P/N" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_SEQ" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORIGIN FOOTPRINT" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE TYPE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PANGO PART NUMBER" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART TYPE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PCB FOOTPRINT" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PEGATRON_PART_NUMBER" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PITCH" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER PINS VISIBLE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PPL_FLAG" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRIMITIVE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCE PACKAGE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VA" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR P/N" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 201.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a142d59-e4a2-46b4-a15c-69bcaaede435")
 		)
 		(pin "1"
-			(uuid "af211659-53f9-4176-812b-a7fd68eb244a")
+			(uuid "d61bac0f-ad02-43ee-80a1-153c1f038204")
+		)
+		(pin "2"
+			(uuid "7c86fd46-8547-4f06-91fa-29a960c61722")
+		)
+		(pin "3"
+			(uuid "7b78dd35-8f7b-4e38-9c0d-488c8b556747")
+		)
+		(pin "5"
+			(uuid "f30e27ed-d61c-4dae-9813-7bd1a57b26a9")
+		)
+		(pin "6"
+			(uuid "34dfa34e-3c7d-4790-95e2-af677b588e9c")
+		)
+		(pin "4"
+			(uuid "a4f711e7-4f1c-461d-939a-219b27f01555")
 		)
 		(instances
 			(project ""
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
-					(reference "L10")
+					(reference "U40")
 					(unit 1)
 				)
 			)
@@ -32612,7 +32914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 60.6552 115.57 0)
 			(effects
 				(font
@@ -32639,7 +32941,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 59.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 59.69 111.76 0)
 			(effects
 				(font
@@ -33087,7 +33407,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 228.6 68.58 0)
 			(effects
 				(font
@@ -33669,7 +34007,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 228.6 91.44 0)
 			(effects
 				(font
@@ -33747,7 +34103,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C145264"
+		(property "LCSC PN" ""
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 27.94 101.6 0)
 			(effects
 				(font
@@ -33784,6 +34158,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 62.23 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfc5d1b8-2bd8-4b3c-b553-6608078eae87")
+		(property "Reference" "#PWR0279"
+			(at 62.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 54.356 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2920950-e709-4b70-95d9-af3b6800b5ad")
+		)
+		(instances
+			(project "FPGA-BOARD"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 93.98 29.21 0)
 		(unit 1)
@@ -33801,7 +34240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/10V"
+		(property "Value" "4.7uF"
 			(at 81.026 27.432 0)
 			(effects
 				(font
@@ -34206,7 +34645,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c23733"
+		(property "LCSC PN" "C2858031"
+			(at 93.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 93.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -34225,99 +34682,6 @@
 			(project ""
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
 					(reference "C146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FPF1018:FPF1018")
-		(at 24.13 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d37a3383-98ce-40f9-afc4-9614ba6d3979")
-		(property "Reference" "U20"
-			(at 51.816 122.174 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "FPF1018"
-			(at 53.086 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MLP6_2X2_ONS"
-			(at 44.704 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "FPF1018"
-			(at 44.958 122.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 24.13 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bb04261-9d07-4727-9d33-520c11f14e7f")
-		)
-		(pin "5"
-			(uuid "70fc1820-fb33-448b-acad-ef777f5f749c")
-		)
-		(pin "4"
-			(uuid "20bca588-69dc-43d2-a0e2-ed4d7af54e3c")
-		)
-		(pin "6"
-			(uuid "b7808ff5-60b0-4e8e-ae1b-50864d6411bc")
-		)
-		(pin "7"
-			(uuid "3657b9d6-a870-4f47-b94c-11942678d8f1")
-		)
-		(pin "3"
-			(uuid "fc5f4fb6-52f5-4364-bf55-1074193e2f24")
-		)
-		(pin "2"
-			(uuid "dd8cd03e-46fa-4fdd-88f6-2edde1ea29a4")
-		)
-		(instances
-			(project ""
-				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
-					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -34748,6 +35112,24 @@
 			)
 		)
 		(property "LCSC PN" "C138069"
+			(at 218.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 218.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 218.44 77.47 0)
 			(effects
 				(font
@@ -35204,6 +35586,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 218.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 218.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "462dcbe5-3c0e-4181-8eab-303ee33bfce1")
 		)
@@ -35238,7 +35638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF/10V"
 			(at 243.84 97.7899 0)
 			(effects
 				(font
@@ -35643,7 +36043,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c415703"
+		(property "LCSC PN" "C602037"
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 240.03 96.52 0)
 			(effects
 				(font
@@ -36141,6 +36559,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15b84732-e167-4db5-bba5-0530d50363a5")
 		)
@@ -36348,7 +36784,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c23733"
+		(property "LCSC PN" "C2858031"
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 25.4 107.95 0)
 			(effects
 				(font
@@ -36380,10 +36834,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e61886d6-1774-4685-81ae-8c56152288ba")
 		(property "Reference" "C173"
-			(at 29.21 130.8099 0)
+			(at 18.034 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36391,8 +36844,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 29.21 133.3499 0)
+		(property "Value" "1uF 10V"
+			(at 16.51 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36427,7 +36880,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c14445"
+		(property "LCSC PN" "C52923"
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 25.4 132.08 0)
 			(effects
 				(font
@@ -36874,7 +37345,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C223063"
+		(property "LCSC PN" "C223064"
+			(at 201.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 201.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 201.93 87.63 0)
 			(effects
 				(font
@@ -37328,6 +37817,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 113.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 113.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d8ef527-6a74-4e80-b73a-0db851c7770e")
 		)
@@ -37764,7 +38271,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1527"
+		(property "LCSC PN" "C3843470"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 96.52 52.07 0)
 			(effects
 				(font
@@ -38209,7 +38734,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c307440"
+		(property "LCSC PN" "C76921"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -38295,6 +38838,103 @@
 			(project ""
 				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-03-04_21-33-04:NR5040T2R2N")
+		(at 201.93 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7daa86e-98a1-44c8-b737-db05f32d4491")
+		(property "Reference" "L3"
+			(at 209.55 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NR5040T2R2N/2.2uH"
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:IND_TAIYO_NR5040_TAY"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NR5040T2R2N"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C223063"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a275222-6e51-41cf-9cc9-6b8ae2b6f26f")
+		)
+		(pin "2"
+			(uuid "96632dd8-dbed-4e89-89f4-799e1866ecad")
+		)
+		(instances
+			(project "FPGA-BOARD"
+				(path "/4a327bdf-04e5-4836-9c0a-5fb801c23f64/96f87610-c13d-493b-977a-68dc2191f3d9"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -38924,7 +39564,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C223063"
+		(property "LCSC PN" "C223064"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 201.93 110.49 0)
 			(effects
 				(font
@@ -39371,7 +40029,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 191.77 31.75 0)
 			(effects
 				(font

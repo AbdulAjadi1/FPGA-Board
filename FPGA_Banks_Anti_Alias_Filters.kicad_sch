@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "lcsc#" "C1519081"
+			(property "LCSC PN" "C1519081"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4738,7 +4738,7 @@
 					)
 				)
 				(pin output line
-					(at 60.96 -3.81 180)
+					(at 60.96 3.81 180)
 					(length 7.62)
 					(name "TDO_0"
 						(effects
@@ -4774,7 +4774,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 -1.27 180)
+					(at 60.96 6.35 180)
 					(length 7.62)
 					(name "TDI_0"
 						(effects
@@ -4810,7 +4810,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 3.81 180)
+					(at 60.96 -1.27 180)
 					(length 7.62)
 					(name "TMS_0"
 						(effects
@@ -9856,6 +9856,24 @@
 			)
 		)
 		(property "LCSC PN" "C1519081"
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 207.01 72.39 0)
 			(effects
 				(font

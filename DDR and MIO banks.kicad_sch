@@ -1652,7 +1652,7 @@
 					(hide yes)
 				)
 			)
-			(property "lcsc#" "C1519081"
+			(property "LCSC PN" "C1519081"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6333,7 +6333,7 @@
 					)
 				)
 				(pin output line
-					(at 60.96 -3.81 180)
+					(at 60.96 3.81 180)
 					(length 7.62)
 					(name "TDO_0"
 						(effects
@@ -6369,7 +6369,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 -1.27 180)
+					(at 60.96 6.35 180)
 					(length 7.62)
 					(name "TDI_0"
 						(effects
@@ -6405,7 +6405,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 3.81 180)
+					(at 60.96 -1.27 180)
 					(length 7.62)
 					(name "TMS_0"
 						(effects
@@ -9398,7 +9398,7 @@
 					(hide yes)
 				)
 			)
-			(property "lcsc#" "C1519081"
+			(property "LCSC PN" "C1519081"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14079,7 +14079,7 @@
 					)
 				)
 				(pin output line
-					(at 60.96 -3.81 180)
+					(at 60.96 3.81 180)
 					(length 7.62)
 					(name "TDO_0"
 						(effects
@@ -14115,7 +14115,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 -1.27 180)
+					(at 60.96 6.35 180)
 					(length 7.62)
 					(name "TDI_0"
 						(effects
@@ -14151,7 +14151,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 3.81 180)
+					(at 60.96 -1.27 180)
 					(length 7.62)
 					(name "TMS_0"
 						(effects
@@ -17516,7 +17516,7 @@
 					(hide yes)
 				)
 			)
-			(property "lcsc#" "C1519081"
+			(property "LCSC PN" "C1519081"
 				(at 0 0 0)
 				(effects
 					(font
@@ -22197,7 +22197,7 @@
 					)
 				)
 				(pin output line
-					(at 60.96 -3.81 180)
+					(at 60.96 3.81 180)
 					(length 7.62)
 					(name "TDO_0"
 						(effects
@@ -22233,7 +22233,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 -1.27 180)
+					(at 60.96 6.35 180)
 					(length 7.62)
 					(name "TDI_0"
 						(effects
@@ -22269,7 +22269,7 @@
 					)
 				)
 				(pin input line
-					(at 60.96 3.81 180)
+					(at 60.96 -1.27 180)
 					(length 7.62)
 					(name "TMS_0"
 						(effects
@@ -27772,7 +27772,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D1"
+	(global_label "DDR3_D3"
 		(shape bidirectional)
 		(at 135.89 73.66 0)
 		(fields_autoplaced yes)
@@ -27816,7 +27816,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D9"
+	(global_label "DDR3_D14"
 		(shape bidirectional)
 		(at 135.89 96.52 0)
 		(fields_autoplaced yes)
@@ -27828,7 +27828,7 @@
 		)
 		(uuid "7da44d03-6876-436e-a461-0c9ad4db8b73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4531 96.52 0)
+			(at 149.6626 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27838,7 +27838,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D12"
+	(global_label "DDR3_D15"
 		(shape bidirectional)
 		(at 135.89 106.68 0)
 		(fields_autoplaced yes)
@@ -27850,7 +27850,7 @@
 		)
 		(uuid "7ead2a36-0e76-4198-92ae-57152dcd449e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4531 106.68 0)
+			(at 149.6626 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27904,7 +27904,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D15"
+	(global_label "DDR3_D11"
 		(shape bidirectional)
 		(at 135.89 104.14 0)
 		(fields_autoplaced yes)
@@ -28036,7 +28036,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D4"
+	(global_label "DDR3_D5"
 		(shape bidirectional)
 		(at 135.89 71.12 0)
 		(fields_autoplaced yes)
@@ -28410,7 +28410,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D3"
+	(global_label "DDR3_D1"
 		(shape bidirectional)
 		(at 135.89 83.82 0)
 		(fields_autoplaced yes)
@@ -28432,7 +28432,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D11"
+	(global_label "DDR3_D12"
 		(shape bidirectional)
 		(at 135.89 93.98 0)
 		(fields_autoplaced yes)
@@ -28498,7 +28498,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D14"
+	(global_label "DDR3_D9"
 		(shape bidirectional)
 		(at 135.89 109.22 0)
 		(fields_autoplaced yes)
@@ -28510,7 +28510,7 @@
 		)
 		(uuid "c949ae41-5681-4970-a277-13ed07e160ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6626 109.22 0)
+			(at 148.4531 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28938,7 +28938,7 @@
 			)
 		)
 	)
-	(global_label "DDR3_D5"
+	(global_label "DDR3_D4"
 		(shape bidirectional)
 		(at 135.89 81.28 0)
 		(fields_autoplaced yes)
@@ -29172,6 +29172,24 @@
 			)
 		)
 		(property "LCSC PN" "C1519081"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -30457,6 +30475,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 125.73 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 125.73 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "980b3ed5-9fe0-4506-85b8-9725d9535c83")
 		)
@@ -30490,7 +30526,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K 1%"
 			(at 177.8 115.57 90)
 			(effects
 				(font
@@ -30526,6 +30562,24 @@
 			)
 		)
 		(property "LCSC PN" "C93942"
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -30610,6 +30664,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 172.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 172.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f987d3e9-3c56-4d1b-b031-e8583cd3626b")
 		)
@@ -30642,7 +30714,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2"
+		(property "Value" "40.2 1%"
 			(at 270.256 40.386 90)
 			(effects
 				(font
@@ -30678,6 +30750,24 @@
 			)
 		)
 		(property "LCSC PN" "C274892"
+			(at 267.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 267.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 267.97 39.37 0)
 			(effects
 				(font
@@ -30785,7 +30875,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2"
+		(property "Value" "40.2 1%"
 			(at 270.256 38.1 90)
 			(effects
 				(font
@@ -30821,6 +30911,24 @@
 			)
 		)
 		(property "LCSC PN" "C274892"
+			(at 268.1534 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 268.1534 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 268.1534 36.83 0)
 			(effects
 				(font
@@ -30906,6 +31014,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c715e8d-76e2-4719-ae34-dfaecbc42212")
 		)
@@ -30938,7 +31064,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2"
+		(property "Value" "40.2 1%"
 			(at 270.764 50.8 90)
 			(effects
 				(font
@@ -30974,6 +31100,24 @@
 			)
 		)
 		(property "LCSC PN" "C274892"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 267.97 49.53 0)
 			(effects
 				(font
@@ -31117,7 +31261,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C843839"
+		(property "LCSC PN" "C106232"
+			(at 33.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 33.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 33.02 128.27 0)
 			(effects
 				(font
@@ -31196,6 +31358,24 @@
 			)
 		)
 		(property "LCSC PN" "C60490"
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 208.28 106.68 0)
 			(effects
 				(font
@@ -31466,6 +31646,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b8a5c1b3-f584-4691-8ed3-13a3d05cdc41")
 		)
@@ -31549,6 +31747,24 @@
 			)
 		)
 		(property "LCSC PN" "C60490"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 172.72 106.68 0)
 			(effects
 				(font
@@ -31656,7 +31872,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2"
+		(property "Value" "40.2 1%"
 			(at 270.256 48.006 90)
 			(effects
 				(font
@@ -31692,6 +31908,24 @@
 			)
 		)
 		(property "LCSC PN" "C274892"
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 267.97 46.99 0)
 			(effects
 				(font
@@ -31866,7 +32100,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2"
+		(property "Value" "40.2 1%"
 			(at 270.002 45.466 90)
 			(effects
 				(font
@@ -31902,6 +32136,24 @@
 			)
 		)
 		(property "LCSC PN" "C274892"
+			(at 267.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 267.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 267.97 44.45 0)
 			(effects
 				(font
@@ -31980,7 +32232,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c15195"
+		(property "LCSC PN" "c85930"
+			(at 199.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 199.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -32068,6 +32338,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef0f1677-a9f1-4980-9b2d-d9a0dc1dfaff")
 		)
@@ -32101,7 +32389,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K 1%"
 			(at 177.8 125.73 90)
 			(effects
 				(font
@@ -32137,6 +32425,24 @@
 			)
 		)
 		(property "LCSC PN" "C93942"
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -32321,7 +32627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 167.3352 111.76 0)
 			(effects
 				(font
@@ -32348,7 +32654,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c15195"
+		(property "LCSC PN" "c85930"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 166.37 107.95 0)
 			(effects
 				(font
@@ -32457,7 +32781,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K 1%"
 			(at 139.7 172.72 90)
 			(effects
 				(font
@@ -32493,6 +32817,24 @@
 			)
 		)
 		(property "LCSC PN" "C93942"
+			(at 139.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 139.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 139.7 176.53 0)
 			(effects
 				(font
@@ -32600,7 +32942,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K 1%"
 			(at 140.716 185.42 90)
 			(effects
 				(font
@@ -32636,6 +32978,24 @@
 			)
 		)
 		(property "LCSC PN" "C93942"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 139.7 181.61 0)
 			(effects
 				(font
@@ -32782,6 +33142,24 @@
 			)
 		)
 		(property "LCSC PN" "C60490"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -32991,7 +33369,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "digi/mouser"
+		(property "LCSC PN" ""
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 105.41 179.07 0)
 			(effects
 				(font
@@ -33141,7 +33537,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "digi/mouser"
+		(property "LCSC PN" ""
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -33251,7 +33665,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 1%"
 			(at 256.54 142.2399 0)
 			(effects
 				(font
@@ -33296,6 +33710,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 254 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 254 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bed4934f-de85-400f-816c-45a1fe44f023")
 		)
@@ -33329,7 +33761,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2"
+		(property "Value" "40.2 1%"
 			(at 195.58 55.88 90)
 			(effects
 				(font
@@ -33365,6 +33797,24 @@
 			)
 		)
 		(property "LCSC PN" "C274892"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 195.58 59.69 0)
 			(effects
 				(font
@@ -33441,6 +33891,24 @@
 			)
 		)
 		(property "LCSC PN" "C106235"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 171.45 144.78 0)
 			(effects
 				(font
@@ -33594,6 +34062,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21dc7187-f3da-4cc4-ad08-a01613077da6")
 		)
@@ -33685,7 +34171,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "mouser"
+		(property "LCSC PN" "C221872"
+			(at 231.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 231.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 231.14 160.02 0)
 			(effects
 				(font
@@ -33742,7 +34246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 47.9552 190.5 0)
 			(effects
 				(font
@@ -33769,7 +34273,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c15195"
+		(property "LCSC PN" "c307380"
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 46.99 186.69 0)
 			(effects
 				(font
@@ -33820,7 +34342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 261.3152 160.02 0)
 			(effects
 				(font
@@ -33847,7 +34369,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 260.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 260.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 260.35 156.21 0)
 			(effects
 				(font
@@ -33927,6 +34467,24 @@
 			)
 		)
 		(property "LCSC PN" "C106235"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 125.73 172.72 0)
 			(effects
 				(font
@@ -34063,6 +34621,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 246.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 246.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b8a5c1b3-f584-4691-8ed3-13a3d05cdc42")
 		)
@@ -34109,7 +34685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 1%"
 			(at 233.68 142.2399 0)
 			(effects
 				(font
@@ -34146,6 +34722,24 @@
 			)
 		)
 		(property "LCSC PN" "C60490"
+			(at 231.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 231.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 231.14 140.97 0)
 			(effects
 				(font
@@ -34293,6 +34887,24 @@
 			)
 		)
 		(property "LCSC PN" "C1519081"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 114.3 26.67 0)
 			(effects
 				(font
@@ -35637,6 +36249,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34a6b8fc-4a55-4318-87f7-dbce55af42a4")
 		)
@@ -35686,7 +36316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:C_0402"
+		(property "Footprint" "footprints:C_0201_0603Metric"
 			(at 31.4452 33.02 0)
 			(effects
 				(font
@@ -35713,7 +36343,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "c1525"
+		(property "LCSC PN" "c307380"
+			(at 30.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 30.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 30.48 29.21 0)
 			(effects
 				(font
@@ -35866,6 +36514,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e6938e3-b115-4153-9919-277532a90ca4")
 		)
@@ -35945,6 +36611,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 21.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 21.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a92e34a8-670c-4b01-8fd6-37b7e65ce884")
 		)
@@ -36016,6 +36700,24 @@
 			)
 		)
 		(property "LCSC PN" "C1519081"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 39.37 31.75 0)
 			(effects
 				(font
@@ -37254,7 +37956,7 @@
 				)
 			)
 		)
-		(property "Value" "40.2"
+		(property "Value" "40.2 1%"
 			(at 270.256 42.926 90)
 			(effects
 				(font
@@ -37290,6 +37992,24 @@
 			)
 		)
 		(property "LCSC PN" "C274892"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 267.97 41.91 0)
 			(effects
 				(font
@@ -37434,7 +38154,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "digi/mouser"
+		(property "LCSC PN" ""
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 171.45 138.43 0)
 			(effects
 				(font
@@ -37476,7 +38214,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K 1%"
 			(at 186.69 140.97 90)
 			(effects
 				(font
@@ -37520,6 +38258,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 186.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 186.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0754780-0cdd-4325-831d-cdf5ad151e45")
 		)
@@ -37553,7 +38309,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K 1%"
 			(at 186.69 151.13 90)
 			(effects
 				(font
@@ -37589,6 +38345,24 @@
 			)
 		)
 		(property "LCSC PN" "C93942"
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 186.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 186.69 154.94 0)
 			(effects
 				(font
@@ -37743,6 +38517,24 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 231.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 231.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12f30583-5332-4571-b411-701282179f48")
 		)
@@ -37776,7 +38568,7 @@
 				)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20K 1%"
 			(at 177.8 120.65 90)
 			(effects
 				(font
@@ -37812,6 +38604,24 @@
 			)
 		)
 		(property "LCSC PN" "C93942"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
 			(at 177.8 124.46 0)
 			(effects
 				(font

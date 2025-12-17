@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.45,
-          "width": 2.45
+          "drill": 0.254,
+          "height": 0.508,
+          "width": 0.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.1029
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.0,
+          "width": 0.1044
         }
       ],
       "drc_exclusions": [],
@@ -129,7 +139,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.075,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -178,7 +188,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1184
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -570,6 +581,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.5,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HIGH SPEED",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
@@ -606,7 +634,58 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "DDR3_A0": "rgb(0, 0, 255)",
+      "DDR3_A1": "rgb(0, 0, 255)",
+      "DDR3_A10": "rgb(0, 0, 255)",
+      "DDR3_A11": "rgb(0, 0, 255)",
+      "DDR3_A12": "rgb(0, 0, 255)",
+      "DDR3_A13": "rgb(0, 0, 255)",
+      "DDR3_A14": "rgb(0, 0, 255)",
+      "DDR3_A2": "rgb(0, 0, 255)",
+      "DDR3_A3": "rgb(0, 0, 255)",
+      "DDR3_A4": "rgb(0, 0, 255)",
+      "DDR3_A5": "rgb(0, 0, 255)",
+      "DDR3_A6": "rgb(0, 0, 255)",
+      "DDR3_A7": "rgb(0, 0, 255)",
+      "DDR3_A8": "rgb(0, 0, 255)",
+      "DDR3_A9": "rgb(0, 0, 255)",
+      "DDR3_BA0": "rgb(0, 0, 255)",
+      "DDR3_BA1": "rgb(0, 0, 255)",
+      "DDR3_BA2": "rgb(0, 0, 255)",
+      "DDR3_CAS": "rgb(0, 0, 255)",
+      "DDR3_CKE0": "rgb(0, 0, 255)",
+      "DDR3_CK_N": "rgb(0, 0, 255)",
+      "DDR3_CK_P": "rgb(0, 0, 255)",
+      "DDR3_CS": "rgb(0, 0, 255)",
+      "DDR3_D0": "rgb(255, 0, 0)",
+      "DDR3_D1": "rgb(255, 0, 0)",
+      "DDR3_D10": "rgb(255, 255, 0)",
+      "DDR3_D11": "rgb(255, 255, 0)",
+      "DDR3_D12": "rgb(255, 255, 0)",
+      "DDR3_D13": "rgb(255, 255, 0)",
+      "DDR3_D14": "rgb(255, 255, 0)",
+      "DDR3_D15": "rgb(255, 255, 0)",
+      "DDR3_D2": "rgb(255, 0, 0)",
+      "DDR3_D3": "rgb(255, 0, 0)",
+      "DDR3_D4": "rgb(255, 0, 0)",
+      "DDR3_D5": "rgb(255, 0, 0)",
+      "DDR3_D6": "rgb(255, 0, 0)",
+      "DDR3_D7": "rgb(255, 0, 0)",
+      "DDR3_D8": "rgb(255, 255, 0)",
+      "DDR3_D9": "rgb(255, 255, 0)",
+      "DDR3_DM0": "rgb(255, 0, 0)",
+      "DDR3_DM1": "rgb(255, 255, 0)",
+      "DDR3_DQS0_N": "rgb(255, 0, 0)",
+      "DDR3_DQS0_P": "rgb(255, 0, 0)",
+      "DDR3_DQS1_N": "rgb(255, 255, 0)",
+      "DDR3_DQS1_P": "rgb(255, 255, 0)",
+      "DDR3_ODT0": "rgb(0, 0, 255)",
+      "DDR3_RAS": "rgb(0, 0, 255)",
+      "DDR3_RESET": "rgb(255, 153, 0)",
+      "DDR3_VREF": "rgb(0, 255, 0)",
+      "DDR3_WE": "rgb(0, 0, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -640,6 +719,10 @@
       {
         "netclass": "VCC1V8_IO",
         "pattern": "VCC1V8_IO"
+      },
+      {
+        "netclass": "HIGH SPEED",
+        "pattern": ""
       }
     ]
   },
@@ -648,7 +731,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab_output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -1254,6 +1337,18 @@
           "group_by": false,
           "label": "CREATOR",
           "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
           "show": false
         }
       ],

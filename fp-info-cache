@@ -1,4 +1,4 @@
-25299872665728044
+25329834652206293
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100534,6 +100534,13 @@ CRYSTAL-SMD_L11.5-W4.8-LS12.7 footprint C12674
 2
 2
 footprints
+CRYSTAL_ABM8G_ABR
+
+ABM8G-26.000MHZ-18-D2Y-T 
+0
+4
+4
+footprints
 CRYSTAL_TXC_7M
 
 7M-26.000MAAJ-T 
@@ -100646,12 +100653,26 @@ SN74LVC1T45DBVR
 6
 6
 footprints
+DBV6_TEX
+
+TPS22918DBVR 
+0
+6
+6
+footprints
 DCU8
 
 PCA9306TDCURQ1 
 0
 8
 8
+footprints
+DCY4_TEX
+
+TL1963A-33DCYR 
+0
+4
+4
 footprints
 DFN1006-3L_L1.0-W0.6-LS1.0-BR
 DFN1006-3L_L1.0-W0.6-LS1.0-BR footprint
@@ -100684,6 +100705,20 @@ footprints
 DIOM5436X244N
 SMB (DO-214AA)
 TVS Diode (Bi-directional)
+0
+2
+2
+footprints
+DIOM7959X261N
+
+
+0
+2
+2
+footprints
+DIO_TPD1E05U06DPYR
+
+
 0
 2
 2
@@ -100905,6 +100940,13 @@ IC_TPD4E05U06DQAR
 10
 10
 footprints
+IND_BLM18_0603_MUR
+
+BLM18AG121SN1D 
+0
+2
+2
+footprints
 IND_SMDRI_SXN
 
 SMDRI127-470MT 
@@ -101115,6 +101157,27 @@ MOLEX_503398-1892
 14
 14
 footprints
+MountingHole_2.2mm_M2_Pad
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
+1
+footprints
+MountingHole_2.2mm_M2_Pad_Via
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+9
+1
+footprints
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+footprints
 MouseBites, Cosmetic, JLCPCB, 1.6mm
 
 
@@ -101136,6 +101199,13 @@ NC7WZ07P6X
 6
 6
 footprints
+NR4018T3R3M
+NR4018T3R3M-1
+Inductor
+0
+2
+2
+footprints
 OSC-SMD_4P-L3.2-W2.5-BL
 OSC-SMD_4P-L3.2-W2.5-BL footprint
 OSC-SMD_4P-L3.2-W2.5-BL footprint C9006
@@ -101146,6 +101216,13 @@ footprints
 OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI
 OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint
 OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
+0
+4
+4
+footprints
+OSCCC250X200X90N
+
+
 0
 4
 4
@@ -101465,6 +101542,13 @@ SIP32510DT-T1-GE3
 6
 6
 footprints
+SIT1602AC1233E12000000G
+4-SMD, No Lead-1
+Crystal or Oscillator
+0
+4
+4
+footprints
 SJ1-3525NG_CUD
 
 SJ1-3525NG 
@@ -101496,6 +101580,13 @@ footprints
 SOD123_DIO-M
 
 BZT52C5V1-7-F 
+0
+2
+2
+footprints
+SOD323F_NXP
+
+PMEG1030EJ 
 0
 2
 2
@@ -101563,12 +101654,26 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 20
 20
 footprints
+SOIC8-N_MC_MCH
+
+93LC56B-I/SN 
+0
+8
+8
+footprints
 SOIC8_4P9X3P9MC_MCH
 
 ATSHA204A-SSHCZ-T 
 0
 8
 8
+footprints
+SON4_CS00119_SIT
+
+SIT1602AC-12-33E-12.000000G 
+0
+4
+4
 footprints
 SOP50P310X90-8N
 
@@ -101892,6 +101997,13 @@ QFP 0.8
 32
 32
 footprints
+TS-1002S-050xxC_XNP
+
+TS-1002S-05026C 
+0
+4
+4
+footprints
 TSSOP-10_3x3mm_P0.5mm
 TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
 SSOP 0.5
@@ -101944,6 +102056,13 @@ footprints
 USC_TOS
 
 1SS352 
+0
+2
+2
+footprints
+VARC1005X41N
+CG0402MLU-3.3G
+Varistor
 0
 2
 2
