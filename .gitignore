@@ -1,0 +1,40 @@
+############################
+# KiCad temporary files
+############################
+
+# Backup files
+*-bak
+*_bak
+*.bak
+
+# Autosave files
+*_autosave*
+*.autosave
+#auto_saved_files#
+
+# Lock files
+*.lck
+~*.kicad_sch
+~*.kicad_pcb
+
+############################
+# KiCad cache files
+############################
+.fp-info-cache
+
+############################
+# 3D viewer cache
+############################
+*.wrl~
+*.step~
+
+############################
+# OS junk
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Temporary outputs
+############################
+*.tmp
