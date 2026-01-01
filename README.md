@@ -4,16 +4,9 @@ Capstone Project Proposal
 Custom Zynq-7000 FPGA Development Board (Arty Z7–Compatible)
 Overview
 
-This project is a custom FPGA development board inspired by the Digilent Arty Z7 platform, designed around the Xilinx Zynq-7000 SoC.
-The board is intended as a general-purpose hardware development and learning platform with emphasis on:
+This project is a custom FPGA development board inspired by the Digilent Arty Z7 platform, designed around the Xilinx Zynq-7000 SoC. The board serves as a general-purpose hardware development and learning platform, with an emphasis on FPGA and ARM (PS/PL) co-design, sound power- and signal-integrity practices, manufacturable industry-style PCB layout, and realistic interfaces commonly used in embedded and FPGA systems. The design is intended for advanced manufacturing and assembly at JLCPCB.
 
-FPGA + ARM (PS/PL) co-design
-Proper power integrity and signal integrity practices
-Manufacturable, industry-style PCB layout
-Realistic interfaces used in embedded and FPGA systems
-intended for advanced manufacturing at JLCPCB
-
-The design targets entry-level to junior FPGA / hardware engineering roles and demonstrates practical board-level engineering rather than a minimal breakout board.
+The project targets entry-level to junior FPGA and hardware engineering roles and focuses on demonstrating practical, board-level engineering decisions rather than a minimal breakout-style design.
 
 KEY FEATURES:
 
