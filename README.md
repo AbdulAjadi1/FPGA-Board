@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="documentation/images/FPGA-BOARD.png" alt="FPGA Board 3D Render" width="900">
+</p>
+
+
 
 **Custom Zynq-7000 FPGA Development Board (Arty Z7–Compatible)**
 
