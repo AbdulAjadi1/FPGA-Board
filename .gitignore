@@ -2,6 +2,8 @@ FPGA-BOARD-backups/
 FPGA-BOARD-backups_LOCAL/
 auto_saved_files/
 fp-info-cache
+\#auto_saved_files\#
+
 
 *_autosave*
 *.autosave
