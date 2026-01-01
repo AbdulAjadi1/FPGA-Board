@@ -24,7 +24,11 @@ HDMI interface (video output)
 
 Ethernet PHY (10/100/1000 Mbps)
 
-USB interface (JTAG/UART or host/device depending on configuration)
+USB Host
+
+USB-JTAG interface
+
+SPDIF/TOSLINK interface
 
 QSPI Flash (boot storage)
 
@@ -58,16 +62,17 @@ PS-to-PL interconnect exposed for custom designs
 
 Boot modes supported via QSPI / SD Memory
 
-DDR3 SDRAM connected to the PS
+DDR3 SDRAM connected to the PS:
 Length-matched address, control, and data groups
 Proper VREF routing and decoupling
 
 Power Tree
-
 Input Sources:
 
 7-15V Barrel jack
+
 Raspberry pi 5V
+
 USB 5V
 
 Generated rails:
