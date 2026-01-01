@@ -14,19 +14,30 @@ Realistic interfaces used in embedded and FPGA systems
 
 The design targets entry-level to junior FPGA / hardware engineering roles and demonstrates practical board-level engineering rather than a minimal breakout board.
 
-Key Features
+Key Features:
 
 Xilinx Zynq-7000 SoC (Z7-20 / XC7Z020 class)
+
 DDR3 SDRAM (PS memory)
+
 HDMI interface (video output)
+
 Ethernet PHY (10/100/1000 Mbps)
+
 USB interface (JTAG/UART or host/device depending on configuration)
+
 QSPI Flash (boot storage)
+
 microSD card support
+
 PMOD / GPIO headers
+
 40pin Raspberry pi interface
+
 On-board oscillators for PS and PL
+
 User LEDs, buttons, and switches
+
 Multi-rail power tree with switching regulators and LDOs
 
 Design Goals
