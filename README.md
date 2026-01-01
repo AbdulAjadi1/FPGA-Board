@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="documentation/images/FPGA-BOARD.png" alt="FPGA Board 3D Render" width="900">
+  <img src="documentation/images/FPGA_BOARD.png" alt="FPGA Board 3D Render" width="900">
 </p>
 
 
