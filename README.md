@@ -9,6 +9,12 @@ This project is a custom FPGA development board inspired by the Digilent Arty Z7
 
 The project targets entry-level to junior FPGA and hardware engineering roles and focuses on demonstrating practical, board-level engineering decisions rather than a minimal breakout-style design.
 
+**Project Status:**
+
+🔧 Design complete – pre-fabrication
+
+🧪 Bring-up and validation will begin after PCB manufacturing
+
 **KEY FEATURES:**
 - Xilinx Zynq-7000 SoC (Z7-20 / XC7Z020 class)
 - DDR3 SDRAM (PS memory)
@@ -77,7 +83,7 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 
 - DDR3
 
-- HDMI
+- HDMI 100Ω diff ±10%
 
 - Ethernet
 
