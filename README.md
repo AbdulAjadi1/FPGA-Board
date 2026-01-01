@@ -11,10 +11,11 @@ FPGA + ARM (PS/PL) co-design
 Proper power integrity and signal integrity practices
 Manufacturable, industry-style PCB layout
 Realistic interfaces used in embedded and FPGA systems
+intended for advanced manufacturing at JLCPCB
 
 The design targets entry-level to junior FPGA / hardware engineering roles and demonstrates practical board-level engineering rather than a minimal breakout board.
 
-Key Features:
+KEY FEATURES:
 
 Xilinx Zynq-7000 SoC (Z7-20 / XC7Z020 class)
 
@@ -44,29 +45,42 @@ User LEDs, buttons, and switches
 
 Multi-rail power tree with switching regulators and LDOs
 
-Design Goals
+
+DESIGN GOALS:
 
 This board was designed with the following goals in mind:
 
 Follow Xilinx Zynq hardware design guidelines
+
 Implement correct decoupling, grounding, and plane usage
+
 Use controlled-impedance routing for high-speed interfaces
+
 Be compatible with low-cost PCB manufacturing and assembly
+
 Serve as a portfolio-quality hardware project
 
-Hardware Architecture
+
+HARDWARE ARCHITECTURE:
+
 Zynq SoC
+
 ARM Cortex-A9 Processing System (PS)
+
 Programmable Logic (PL) fabric
+
 PS-to-PL interconnect exposed for custom designs
 
 Boot modes supported via QSPI / SD Memory
 
 DDR3 SDRAM connected to the PS:
+
 Length-matched address, control, and data groups
+
 Proper VREF routing and decoupling
 
-Power Tree
+POWER TREE:
+
 Input Sources:
 
 7-15V Barrel jack
@@ -85,24 +99,45 @@ Generated rails:
 
 3.3 V (IO and peripherals)
 
-Switching regulators for high-current rails
-Bulk and local decoupling implemented per rail
-Emphasis on low loop inductance and stable PDN behavior
 
-PCB Design Details
+PCB Design Details:
 
 8-layer PCB stackup
+
 Dedicated solid ground plane
+
 Power planes for core rails
+
 Signal layers for controlled routing
 
+Thermal via stitching under FPGA ground regions
+
 Controlled impedance routing for:
+
 DDR3
+
 HDMI
+
 Ethernet
+
 USB
+
 SD
 
-Differential pair routing with symmetry and spacing control
-Thermal via stitching under FPGA ground regions
-Designed for JLCPCB advanced fabrication and assembly
+Stackup:
+
+FCU
+
+GND
+
+PWR
+
+SIGNAL
+
+GND1
+
+SIGNAL2
+
+GND2
+
+BCU
