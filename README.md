@@ -84,15 +84,15 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 
 **Controlled impedance routing for:**
 
-- DDR3
+- DDR3 100Ω diff ±10%, 50Ω single ±10%
 
 - HDMI 100Ω diff ±10%
 
-- Ethernet
+- Ethernet  100Ω diff ±10%, 50Ω single ±10%
 
-- USB
+- USB 100Ω diff ±10%, 50Ω single ±10%
 
-- SD
+- SD  50Ω single ±10%
 
 **INTENDED USE CASES:**
 
