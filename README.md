@@ -1,16 +1,92 @@
 
 Capstone Project Proposal
 
-High-Fidelity DAC Sound system with FPGA-Based Room Correction
+Custom Zynq-7000 FPGA Development Board (Arty Z7–Compatible)
+Overview
 
-Achieving high-fidelity production in a room is challenging due to various acoustic factors such as reflections, standing waves, and frequency imbalances caused by the room’s shape, furniture, and equipment. So, this project aims to design and implement a high-fidelity DAC sound system utilizing an FPGA and FIR/IIR filters for room correction. 
-Feasibility of this project based on the Engineering Method
+This project is a custom FPGA development board inspired by the Digilent Arty Z7 platform, designed around the Xilinx Zynq-7000 SoC.
+The board is intended as a general-purpose hardware development and learning platform with emphasis on:
 
-Using the format of the Engineering Method, this project has been structured in different phases:
-Problem Identification: Due to the distortion in sound waves, echoes, and the room’s internal disturbances, it leads to uneven frequency responses affecting the overall quality of sound. This project aims to develop a system which will ensure accurate and balanced audio production across different listening environments. 
-Concept: In this phase, we will conduct research on high-fidelity DAC designs, room correction algorithms and FIR/IIR filter implementations. We will also identify the suitable hardware components, including FPGA, PCB and input sources.
-Planning: This is the crucial phase of the project where we will create the timeline between two semesters for the project and allocate the work among group members. We’ll also plan the components and also will define clear milestones for the project which includes System design, PCB design, and FIR/IIR implementation.
-Design: In this phase, we will design and develop a FPGA-based audio processing system, incorporating input selection, FIR/IIR filter implementation and DAC output processing . 
-Development: Once the system design is ready, we will proceed to assemble and test the prototype to identify possible errors and troubleshoot. We’ll use test tones and different measurement tools to analyze room acoustics and compare the corrected and uncorrected audio responses to examine the system effectiveness. 
-Launch: After the development phase, we will finalize the whole system ensuring its reliability across different environments. Once the system is ready, we will launch it and will be usable for others as well. 
-The project can be accomplished in two semesters because we have a team of four so we can assign tasks evenly to ensure efficiency. We will go through the steps listed above in the engineering method of project structuring.
+FPGA + ARM (PS/PL) co-design
+Proper power integrity and signal integrity practices
+Manufacturable, industry-style PCB layout
+Realistic interfaces used in embedded and FPGA systems
+
+The design targets entry-level to junior FPGA / hardware engineering roles and demonstrates practical board-level engineering rather than a minimal breakout board.
+
+Key Features
+
+Xilinx Zynq-7000 SoC (Z7-20 / XC7Z020 class)
+DDR3 SDRAM (PS memory)
+HDMI interface (video output)
+Ethernet PHY (10/100/1000 Mbps)
+USB interface (JTAG/UART or host/device depending on configuration)
+QSPI Flash (boot storage)
+microSD card support
+PMOD / GPIO headers
+40pin Raspberry pi interface
+On-board oscillators for PS and PL
+User LEDs, buttons, and switches
+Multi-rail power tree with switching regulators and LDOs
+
+Design Goals
+
+This board was designed with the following goals in mind:
+
+Follow Xilinx Zynq hardware design guidelines
+Implement correct decoupling, grounding, and plane usage
+Use controlled-impedance routing for high-speed interfaces
+Be compatible with low-cost PCB manufacturing and assembly
+Serve as a portfolio-quality hardware project
+
+Hardware Architecture
+Zynq SoC
+ARM Cortex-A9 Processing System (PS)
+Programmable Logic (PL) fabric
+PS-to-PL interconnect exposed for custom designs
+
+Boot modes supported via QSPI / SD Memory
+
+DDR3 SDRAM connected to the PS
+Length-matched address, control, and data groups
+Proper VREF routing and decoupling
+
+Power Tree
+
+Input Sources:
+
+7-15V Barrel jack
+Raspberry pi 5V
+USB 5V
+
+Generated rails:
+
+1.0 V (FPGA core)
+
+1.5 V (DDR3)
+
+1.8 V (aux, IO)
+
+3.3 V (IO and peripherals)
+
+Switching regulators for high-current rails
+Bulk and local decoupling implemented per rail
+Emphasis on low loop inductance and stable PDN behavior
+
+PCB Design Details
+
+8-layer PCB stackup
+Dedicated solid ground plane
+Power planes for core rails
+Signal layers for controlled routing
+
+Controlled impedance routing for:
+DDR3
+HDMI
+Ethernet
+USB
+SD
+
+Differential pair routing with symmetry and spacing control
+Thermal via stitching under FPGA ground regions
+Designed for JLCPCB advanced fabrication and assembly
