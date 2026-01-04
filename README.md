@@ -8,7 +8,7 @@
 
 **Overview**
 
-This project is a custom FPGA development board inspired by the Digilent Arty Z7 platform, designed around the Xilinx Zynq-7000 SoC. The board serves as a general-purpose hardware development and learning platform, with an emphasis on FPGA and ARM (PS/PL) co-design, sound power- and signal-integrity practices, manufacturable industry-style PCB layout, and realistic interfaces commonly used in embedded and FPGA systems. The design is intended for advanced manufacturing and assembly at JLCPCB.
+This project is a custom FPGA development board inspired by the Digilent Arty Z7 platform, designed around the Xilinx Zynq-7000 SoC. The board serves as a general-purpose hardware development and learning platform, with an emphasis on FPGA and ARM (PS/PL) co-design, sound, power and signal-integrity practices, manufacturable industry-style PCB layout, and realistic interfaces commonly used in embedded and FPGA systems. The design is intended for advanced manufacturing and assembly at JLCPCB.
 
 The project targets entry-level to junior FPGA and hardware engineering roles and focuses on demonstrating practical, board-level engineering decisions rather than a minimal breakout-style design.
 
