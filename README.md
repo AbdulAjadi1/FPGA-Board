@@ -4,7 +4,7 @@
 
 
 
-**Custom Zynq-7000 FPGA Development Board (Arty Z7–Compatible)**
+**Custom Zynq-7000 FPGA Development Board**
 
 **Overview**
 
