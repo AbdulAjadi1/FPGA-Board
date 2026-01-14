@@ -14,7 +14,7 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 
 **Project Status:**
 
-🔧 Design complete – pre-fabrication
+🔧 Design complete – fabrication ongoing
 
 🧪 Bring-up and validation will begin after PCB manufacturing
 
