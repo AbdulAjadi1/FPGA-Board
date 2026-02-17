@@ -35,9 +35,16 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 
 **Project Status:**
 
-🔧 Design complete – fabrication ongoing
 
-🧪 Bring-up and validation will begin after PCB manufacturing
+## 🧪 Bring-Up & Validation
+
+- ✅ DDR3 bring-up completed with successful memory test execution  
+- ✅ QSPI flash configuration verified  
+- ✅ FTDI USB-to-UART interface operational for programming and debug  
+- ✅ Multi-rail power system validated under dynamic load  
+- ✅ AXI GPIO controlling user LEDs and RGB LEDs confirmed  
+- ✅ PS clocking and PLL configuration stable
+
 
 **KEY FEATURES:**
 - Xilinx Zynq-7000 SoC (Z7-20 / XC7Z020 class)
@@ -54,6 +61,8 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 - On-board oscillators for PS and PL
 - User LEDs, buttons, and switches
 - Multi-rail power tree with switching regulators and LDOs
+
+
 
 **DESIGN GOALS:**
 - Follow Xilinx Zynq hardware design guidelines
@@ -138,9 +147,8 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 
 - JLCPCB Impedance calculator
 
-**Bring-Up Status:**
 
-(Status will be updated as development progresses.)
+
 
 **Author**
 
