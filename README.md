@@ -1,7 +1,18 @@
+# Custom Zynq FPGA Development Board
+
+A custom-designed 8-layer FPGA development board based on the Xilinx Zynq-7000 SoC, featuring DDR3 memory, high-speed interfaces, and multi-rail power architecture. Designed from schematic through PCB layout and hardware bring-up.
+
+---
+
+
 <h2>🎥 FPGA Board Overview Demo</h2>
 <a href="https://youtu.be/t4U1Dk0gFow">
   <img src="https://img.youtube.com/vi/t4U1Dk0gFow/0.jpg" width="700">
 </a>
+
+
+
+
 
 
 <p align="center">
