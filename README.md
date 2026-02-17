@@ -1,3 +1,9 @@
+<h2>🎥 FPGA Board Overview Demo</h2>
+<a href="https://youtu.be/t4U1Dk0gFow">
+  <img src="https://img.youtube.com/vi/t4U1Dk0gFow/0.jpg" width="700">
+</a>
+
+
 <p align="center">
   <img src="documentation/images/FPGA_BOARD.png" alt="FPGA Board 3D Render" width="900">
 </p>
