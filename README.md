@@ -10,6 +10,10 @@ A custom-designed 8-layer FPGA development board based on the Xilinx Zynq-7000 S
   <img src="https://img.youtube.com/vi/t4U1Dk0gFow/0.jpg" width="700">
 </a>
 
+<h2>🔬 Full DDR3 Bring-Up Walkthrough (Vivado → Vitis)</h2>
+<a href="https://www.youtube.com/watch?v=clUkRelldes">
+  <img src="https://img.youtube.com/vi/clUkRelldes/0.jpg" width="700">
+</a>
 
 
 
