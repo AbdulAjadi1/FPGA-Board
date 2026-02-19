@@ -40,7 +40,7 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 
 - ✅ DDR3 bring-up completed with successful memory test execution  
 - ✅ QSPI flash configuration verified  
-- ✅ FTDI USB-to-UART interface operational for programming and debug  
+- ✅ FTDI USB-to-JTAG interface operational for programming and debug  
 - ✅ Multi-rail power system validated 
 - ✅ AXI GPIO controlling user LEDs and RGB LEDs confirmed  
 - ✅ PS clocking and PLL configuration stable
