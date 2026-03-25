@@ -15,6 +15,11 @@ A custom-designed 8-layer FPGA development board based on the Xilinx Zynq-7000 S
   <img src="https://img.youtube.com/vi/clUkRelldes/0.jpg" width="700">
 </a>
 
+<h2>💾 QSPI Flash Bring-Up Demo</h2>
+<a href="https://www.youtube.com/watch?v=BxZh9-KaFNE">
+  <img src="https://img.youtube.com/vi/BxZh9-KaFNE/0.jpg" width="700">
+</a>
+
 
 ---
 
