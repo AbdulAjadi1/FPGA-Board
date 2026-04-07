@@ -20,6 +20,11 @@ A custom-designed 8-layer FPGA development board based on the Xilinx Zynq-7000 S
   <img src="https://img.youtube.com/vi/BxZh9-KaFNE/0.jpg" width="700">
 </a>
 
+<h2>🔌 UART Using EMIO and DDR3 test</h2>
+<a href="https://www.youtube.com/watch?v=delrs5nIDdQ">
+  <img src="https://img.youtube.com/vi/delrs5nIDdQ/0.jpg" width="700">
+</a>
+
 
 ---
 
