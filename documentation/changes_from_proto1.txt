@@ -1,0 +1,10 @@
+1. feedback signals from PDN
+2. PS oscillator moves top layer
+3. ESD diodes for udb FTDI closer to connector
+4. pin1 marker on silscreen for fpga
+5. system reset silkscreen fixed from PROG to PORB
+6. moved pgood led closer to power section.
+7. swapped uart pins from ps to ftdi and followed vck190 schematic implementation
+8. shaved off bottom and top of pcb. reducing by about 10mm
+9. oscillators decoupling caps moved to power pin not OE pin
+10. mode boot selector switch closer to qspi flash ic

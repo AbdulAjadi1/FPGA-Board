@@ -1,0 +1,6 @@
+
+design for manufactiuring:
+https://jlcdfm.com
+
+impedance control calculator:
+https://jlcpcb.com/pcb-impedance-calculator
