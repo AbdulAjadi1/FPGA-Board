@@ -1,22 +1,60 @@
+# Custom Zynq FPGA Development Board
+
+A custom-designed 8-layer FPGA development board based on the Xilinx Zynq-7000 SoC, featuring DDR3 memory, high-speed interfaces, and multi-rail power architecture. Designed from schematic through PCB layout and hardware bring-up.
+
+---
+
+
+<h2>🎥 FPGA Board Overview Demo</h2>
+<a href="https://youtu.be/t4U1Dk0gFow">
+  <img src="https://img.youtube.com/vi/t4U1Dk0gFow/0.jpg" width="700">
+</a>
+
+<h2>🔬 Full DDR3 Bring-Up Walkthrough (Vivado → Vitis)</h2>
+<a href="https://www.youtube.com/watch?v=clUkRelldes">
+  <img src="https://img.youtube.com/vi/clUkRelldes/0.jpg" width="700">
+</a>
+
+<h2>💾 QSPI Flash Bring-Up Demo</h2>
+<a href="https://www.youtube.com/watch?v=BxZh9-KaFNE">
+  <img src="https://img.youtube.com/vi/BxZh9-KaFNE/0.jpg" width="700">
+</a>
+
+<h2>🔌 UART Using EMIO and DDR3 test</h2>
+<a href="https://www.youtube.com/watch?v=delrs5nIDdQ">
+  <img src="https://img.youtube.com/vi/delrs5nIDdQ/0.jpg" width="700">
+</a>
+
+
+---
+
+
 <p align="center">
   <img src="documentation/images/FPGA_BOARD.png" alt="FPGA Board 3D Render" width="900">
 </p>
 
 
 
-**Custom Zynq-7000 FPGA Development Board (Arty Z7–Compatible)**
+**Custom Zynq-7000 FPGA Development Board**
 
 **Overview**
 
-This project is a custom FPGA development board inspired by the Digilent Arty Z7 platform, designed around the Xilinx Zynq-7000 SoC. The board serves as a general-purpose hardware development and learning platform, with an emphasis on FPGA and ARM (PS/PL) co-design, sound power- and signal-integrity practices, manufacturable industry-style PCB layout, and realistic interfaces commonly used in embedded and FPGA systems. The design is intended for advanced manufacturing and assembly at JLCPCB.
+This project is a custom FPGA development board inspired by the Digilent Arty Z7 platform, designed around the Xilinx Zynq-7000 SoC. The board serves as a general-purpose hardware development and learning platform, with an emphasis on FPGA and ARM (PS/PL) co-design, sound, power and signal-integrity practices, manufacturable industry-style PCB layout, and realistic interfaces commonly used in embedded and FPGA systems. The design is intended for advanced manufacturing and assembly at JLCPCB.
 
 The project targets entry-level to junior FPGA and hardware engineering roles and focuses on demonstrating practical, board-level engineering decisions rather than a minimal breakout-style design.
 
 **Project Status:**
 
-🔧 Design complete – pre-fabrication
 
-🧪 Bring-up and validation will begin after PCB manufacturing
+## 🧪 Bring-Up & Validation
+
+- ✅ DDR3 bring-up completed with successful memory test execution  
+- ✅ QSPI flash configuration verified  
+- ✅ FTDI USB-to-JTAG interface operational for programming and debug  
+- ✅ Multi-rail power system validated 
+- ✅ AXI GPIO controlling user LEDs and RGB LEDs confirmed  
+- ✅ PS clocking and PLL configuration stable
+
 
 **KEY FEATURES:**
 - Xilinx Zynq-7000 SoC (Z7-20 / XC7Z020 class)
@@ -33,6 +71,8 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 - On-board oscillators for PS and PL
 - User LEDs, buttons, and switches
 - Multi-rail power tree with switching regulators and LDOs
+
+
 
 **DESIGN GOALS:**
 - Follow Xilinx Zynq hardware design guidelines
@@ -117,9 +157,8 @@ The project targets entry-level to junior FPGA and hardware engineering roles an
 
 - JLCPCB Impedance calculator
 
-**Bring-Up Status:**
 
-(Status will be updated as development progresses.)
+
 
 **Author**
 
